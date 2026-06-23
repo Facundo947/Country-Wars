@@ -1,16 +1,44 @@
 using UnityEngine;
-
 public class SpawnerBrasil : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Header("Configuración del Spawner de Brasil")]
+    [SerializeField] private GameObject prefabTropaBrasil;
+    [SerializeField] private float tiempoEntreSpawns = 5f;
+    [SerializeField] private float retrasoInicial = 2f;
+
+    private float cronometro;
+
+    private void Start()
     {
-        
+        cronometro = tiempoEntreSpawns - retrasoInicial;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        cronometro += Time.deltaTime;
+
+        if (cronometro >= tiempoEntreSpawns)
+        {
+            SpawnearTropa();
+            cronometro = 0f;
+        }
+    }
+
+    private void SpawnearTropa()
+    {
+        if (prefabTropaBrasil != null)
+        {
+            Instantiate(
+                prefabTropaBrasil,
+                transform.position,
+                Quaternion.identity
+            );
+        }
+        else
+        {
+            Debug.LogWarning(
+                "¡Falta asignar el prefab de la tropa de Brasil en el Spawner!"
+            );
+        }
     }
 }
