@@ -1263,7 +1263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
   prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
+  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
   puntosSpawn:
   - {fileID: 2017569107}
   - {fileID: 893251175}
@@ -1719,7 +1719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
   prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
+  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
   puntosSpawn:
   - {fileID: 2017569107}
   - {fileID: 893251175}
@@ -3641,7 +3641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
   prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
+  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
   puntosSpawn:
   - {fileID: 2017569107}
   - {fileID: 893251175}
