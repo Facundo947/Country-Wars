@@ -2171,6 +2171,7 @@ MonoBehaviour:
   prefabGaucho: {fileID: 0}
   prefabMessi: {fileID: 4889032490189702982, guid: eb040f02bb276554fab0f21aabbb238f, type: 3}
   prefabEspadachinArgentino: {fileID: 0}
+  prefabSenoraEmpanada: {fileID: 0}
 --- !u!1 &1132095198
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,6 +2367,7 @@ Transform:
   - {fileID: 1657524575}
   - {fileID: 1088491663}
   - {fileID: 1402144371}
+  - {fileID: 1331494043}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1298777322
@@ -2549,6 +2551,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323754271}
   m_CullTransparentMesh: 1
+--- !u!1 &1331494042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1331494043}
+  - component: {fileID: 1331494044}
+  m_Layer: 0
+  m_Name: SpawnerSupportEmpanada
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1331494043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331494042}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1209481552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1331494044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331494042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524946f492944874e984d46322d15684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TropaSpawner
+  prefabGaucho: {fileID: 0}
+  prefabMessi: {fileID: 0}
+  prefabEspadachinArgentino: {fileID: 5139951888898898538, guid: 2e457db7bd39d8c4b8ddda1102ba34d7, type: 3}
+  prefabSenoraEmpanada: {fileID: 0}
 --- !u!1 &1339955570
 GameObject:
   m_ObjectHideFlags: 0
@@ -2872,6 +2922,7 @@ MonoBehaviour:
   prefabGaucho: {fileID: 0}
   prefabMessi: {fileID: 0}
   prefabEspadachinArgentino: {fileID: 5139951888898898538, guid: 2e457db7bd39d8c4b8ddda1102ba34d7, type: 3}
+  prefabSenoraEmpanada: {fileID: 0}
 --- !u!1 &1415541261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3142,6 +3193,7 @@ MonoBehaviour:
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
   prefabMessi: {fileID: 0}
   prefabEspadachinArgentino: {fileID: 0}
+  prefabSenoraEmpanada: {fileID: 0}
 --- !u!4 &1657524575
 Transform:
   m_ObjectHideFlags: 0

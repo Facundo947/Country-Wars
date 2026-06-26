@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 54dff4a32c1dd144d8df02ad9acd52e9
+guid: 2d1088589f3599243abdbba5212f38ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6647410182249711326
-    second: Tropa Argentina_0
+      213: -4520417166741192594
+    second: boton support_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tropa Argentina_0
+      name: boton support_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 167
-        width: 330
-        height: 330
+        x: 0
+        y: 0
+        width: 752
+        height: 1408
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 229f0b2a8a7afb3a0800000000000000
-      internalID: -6647410182249711326
+      spriteID: e6040db79804441c0800000000000000
+      internalID: -4520417166741192594
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tropa Argentina_0: -6647410182249711326
+      boton support_0: -4520417166741192594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
