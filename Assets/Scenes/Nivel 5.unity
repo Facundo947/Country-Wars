@@ -2264,6 +2264,7 @@ MonoBehaviour:
   prefabGaucho: {fileID: 0}
   prefabMessi: {fileID: 4889032490189702982, guid: eb040f02bb276554fab0f21aabbb238f, type: 3}
   prefabEspadachinArgentino: {fileID: 0}
+  prefabSenoraEmpanada: {fileID: 0}
 --- !u!4 &1051766320
 Transform:
   m_ObjectHideFlags: 0
@@ -2790,6 +2791,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1342275568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1342275570}
+  - component: {fileID: 1342275569}
+  m_Layer: 0
+  m_Name: SistemaDeVictoria
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1342275569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342275568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d55383c97c14914ab3137c58eb429cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VictoriaPais
+  siguientePais: 3
+  escenaSelector: Selector De Niveles
+--- !u!4 &1342275570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342275568}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1400.6117, y: 659.0075, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1354704788
 GameObject:
   m_ObjectHideFlags: 0
@@ -3093,9 +3140,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 54034507}
-        m_TargetAssemblyTypeName: BanderaHolandesa, Assembly-CSharp
-        m_MethodName: SiguienteNivel
+      - m_Target: {fileID: 1342275569}
+        m_TargetAssemblyTypeName: VictoriaPais, Assembly-CSharp
+        m_MethodName: CompletarNivel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3829,6 +3876,7 @@ MonoBehaviour:
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
   prefabMessi: {fileID: 0}
   prefabEspadachinArgentino: {fileID: 0}
+  prefabSenoraEmpanada: {fileID: 0}
 --- !u!1 &2067739500
 GameObject:
   m_ObjectHideFlags: 0
@@ -3947,3 +3995,4 @@ SceneRoots:
   - {fileID: 1648495986}
   - {fileID: 80763636}
   - {fileID: 1245982262}
+  - {fileID: 1342275570}
