@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -8,9 +9,14 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource fuenteMusica;
     [SerializeField] private AudioSource fuenteEfectos;
 
-    [Header("Sonidos del menú")]
+    [Header("Músicas")]
     [SerializeField] private AudioClip musicaMenu;
+    [SerializeField] private AudioClip musicaGameplay;
+
+    [Header("Efectos")]
     [SerializeField] private AudioClip sonidoBoton;
+    [SerializeField] private AudioClip sonidoVictoria;
+    [SerializeField] private AudioClip sonidoDerrota;
 
     private void Awake()
     {
@@ -24,45 +30,107 @@ public class AudioManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    private void OnEnable()
+    {
+        if (Instance == this)
+        {
+            SceneManager.sceneLoaded += AlCargarEscena;
+        }
+    }
+
     private void Start()
     {
-        ReproducirMusicaMenu();
+        ConfigurarMusicaSegunEscena(
+            SceneManager.GetActiveScene().name
+        );
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= AlCargarEscena;
+    }
+
+    private void AlCargarEscena(
+        Scene escena,
+        LoadSceneMode modo
+    )
+    {
+        ConfigurarMusicaSegunEscena(escena.name);
+    }
+
+    private void ConfigurarMusicaSegunEscena(
+        string nombreEscena
+    )
+    {
+        if (nombreEscena == "Menu Principal" ||
+            nombreEscena == "Selector De Niveles")
+        {
+            ReproducirMusicaMenu();
+        }
+        else if (nombreEscena.StartsWith("Nivel "))
+        {
+            ReproducirMusicaGameplay();
+        }
     }
 
     public void ReproducirMusicaMenu()
     {
-        if (fuenteMusica == null || musicaMenu == null)
+        ReproducirMusica(musicaMenu);
+    }
+
+    public void ReproducirMusicaGameplay()
+    {
+        ReproducirMusica(musicaGameplay);
+    }
+
+    private void ReproducirMusica(AudioClip nuevaMusica)
+    {
+        if (fuenteMusica == null || nuevaMusica == null)
         {
             Debug.LogWarning(
-                "Falta asignar la fuente o la música del menú."
+                "Falta asignar una fuente o una música."
             );
 
             return;
         }
 
-        if (fuenteMusica.clip == musicaMenu &&
+        // Si la misma música ya está sonando,
+        // continúa y no empieza desde cero.
+        if (fuenteMusica.clip == nuevaMusica &&
             fuenteMusica.isPlaying)
         {
             return;
         }
 
         fuenteMusica.Stop();
-        fuenteMusica.clip = musicaMenu;
+        fuenteMusica.clip = nuevaMusica;
         fuenteMusica.loop = true;
         fuenteMusica.Play();
     }
 
     public void ReproducirSonidoBoton()
     {
-        if (fuenteEfectos == null || sonidoBoton == null)
+        if (fuenteEfectos != null &&
+            sonidoBoton != null)
         {
-            Debug.LogWarning(
-                "Falta asignar la fuente o el sonido del botón."
-            );
-
-            return;
+            fuenteEfectos.PlayOneShot(sonidoBoton);
         }
+    }
 
-        fuenteEfectos.PlayOneShot(sonidoBoton);
+    public void ReproducirSonidoVictoria()
+    {
+        if (fuenteEfectos != null &&
+            sonidoVictoria != null)
+        {
+            fuenteEfectos.PlayOneShot(sonidoVictoria);
+        }
+    }
+    public void ReproducirSonidoDerrota()
+    {
+        if (fuenteEfectos != null &&
+            sonidoDerrota != null)
+        {
+            fuenteEfectos.PlayOneShot(sonidoDerrota);
+        }
     }
 }
