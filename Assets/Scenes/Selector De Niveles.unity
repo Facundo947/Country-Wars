@@ -399,6 +399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 321669308}
   - component: {fileID: 321669311}
+  - component: {fileID: 321669313}
   - component: {fileID: 321669312}
   - component: {fileID: 321669310}
   - component: {fileID: 321669309}
@@ -527,6 +528,18 @@ MonoBehaviour:
   nombreEscena: Nivel 6
   numeroPais: 3
   candado: {fileID: 742774709}
+--- !u!114 &321669313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321669307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1001 &433901504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -644,6 +657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 626270139}
   - component: {fileID: 626270142}
+  - component: {fileID: 626270144}
   - component: {fileID: 626270143}
   - component: {fileID: 626270141}
   - component: {fileID: 626270140}
@@ -772,6 +786,18 @@ MonoBehaviour:
   nombreEscena: Nivel 9
   numeroPais: 4
   candado: {fileID: 1913562879}
+--- !u!114 &626270144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626270138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1001 &742774707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -964,6 +990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 890196778}
   - component: {fileID: 890196781}
+  - component: {fileID: 890196783}
   - component: {fileID: 890196782}
   - component: {fileID: 890196780}
   - component: {fileID: 890196779}
@@ -1092,6 +1119,18 @@ MonoBehaviour:
   nombreEscena: Nivel 3
   numeroPais: 2
   candado: {fileID: 433901506}
+--- !u!114 &890196783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890196777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1 &957925464
 GameObject:
   m_ObjectHideFlags: 0
@@ -1102,6 +1141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 957925465}
   - component: {fileID: 957925468}
+  - component: {fileID: 957925470}
   - component: {fileID: 957925469}
   - component: {fileID: 957925467}
   - component: {fileID: 957925466}
@@ -1230,6 +1270,18 @@ MonoBehaviour:
   nombreEscena: Nivel 12
   numeroPais: 5
   candado: {fileID: 2133185624}
+--- !u!114 &957925470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957925464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1 &973275601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,6 +1674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1252661293}
   - component: {fileID: 1252661296}
+  - component: {fileID: 1252661298}
   - component: {fileID: 1252661297}
   - component: {fileID: 1252661295}
   - component: {fileID: 1252661294}
@@ -1750,6 +1803,18 @@ MonoBehaviour:
   nombreEscena: Nivel 1
   numeroPais: 1
   candado: {fileID: 286927663}
+--- !u!114 &1252661298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252661292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1 &1457219842
 GameObject:
   m_ObjectHideFlags: 0
