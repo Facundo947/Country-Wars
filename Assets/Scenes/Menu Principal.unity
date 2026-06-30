@@ -1218,9 +1218,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 289091732780377029, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: sonidoDerrota
+      value: 
+      objectReference: {fileID: 8300000, guid: 10985839e4312de46a38c5addf6ee03a, type: 3}
+    - target: {fileID: 289091732780377029, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
       propertyPath: musicaGameplay
       value: 
       objectReference: {fileID: 8300000, guid: e168ce0133718ef4b8a04aafce2eb25a, type: 3}
+    - target: {fileID: 289091732780377029, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: sonidoVictoria
+      value: 
+      objectReference: {fileID: 8300000, guid: 660de5da946be224ca6de7905181d048, type: 3}
     - target: {fileID: 3530626274171851810, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1004.05444
