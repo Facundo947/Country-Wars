@@ -7,6 +7,7 @@ public class PausarJuego : MonoBehaviour
 {
     [SerializeField] private GameObject botonPausa;
     [SerializeField] private GameObject menuPausa;
+    [SerializeField] private GameObject menuOpciones;
 
     public void Pausa()
     {
@@ -39,5 +40,16 @@ public class PausarJuego : MonoBehaviour
     {
         Debug.Log("Cerrando Juego");
         Application.Quit();
+    }
+    public void AbrirOpciones()
+    {
+        menuPausa.SetActive(false);
+        menuOpciones.SetActive(true);
+    }
+
+    public void VolverAPausa()
+    {
+        menuOpciones.SetActive(false);
+        menuPausa.SetActive(true);
     }
 }
