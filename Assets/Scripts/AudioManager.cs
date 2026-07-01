@@ -133,19 +133,18 @@ public class AudioManager : MonoBehaviour
 
     public void ReproducirSonidoVictoria()
     {
-        // Detiene la música del gameplay.
         if (fuenteMusica != null)
         {
             fuenteMusica.Stop();
+            fuenteMusica.clip = null;
         }
 
-        // Detiene cualquier efecto que estuviera sonando.
         if (fuenteEfectos != null)
         {
             fuenteEfectos.Stop();
+            fuenteEfectos.clip = null;
         }
 
-        // Reproduce solamente la victoria.
         if (fuenteEfectos != null && sonidoVictoria != null)
         {
             fuenteEfectos.clip = sonidoVictoria;
@@ -156,19 +155,18 @@ public class AudioManager : MonoBehaviour
 
     public void ReproducirSonidoDerrota()
     {
-        // Detiene la música del gameplay.
         if (fuenteMusica != null)
         {
             fuenteMusica.Stop();
+            fuenteMusica.clip = null;
         }
 
-        // Detiene cualquier efecto que estuviera sonando.
         if (fuenteEfectos != null)
         {
             fuenteEfectos.Stop();
+            fuenteEfectos.clip = null;
         }
 
-        // Reproduce solamente la derrota.
         if (fuenteEfectos != null && sonidoDerrota != null)
         {
             fuenteEfectos.clip = sonidoDerrota;
