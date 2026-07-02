@@ -38,6 +38,24 @@ TextureImporter:
   - first:
       213: 3128497920826791743
     second: Barra de Vidas Paises-export_11
+  - first:
+      213: 3293709287847250327
+    second: Barra de Vidas Paises-export_12
+  - first:
+      213: 2794933743984499743
+    second: Barra de Vidas Paises-export_13
+  - first:
+      213: -5900795670276194347
+    second: Barra de Vidas Paises-export_14
+  - first:
+      213: 6790503538987845932
+    second: Barra de Vidas Paises-export_15
+  - first:
+      213: 1534623877167451672
+    second: Barra de Vidas Paises-export_16
+  - first:
+      213: 7855624339228990692
+    second: Barra de Vidas Paises-export_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -149,8 +167,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 227
+        x: 38
+        y: 536
         width: 176
         height: 35
       alignment: 0
@@ -171,8 +189,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_1
       rect:
         serializedVersion: 2
-        x: 281
-        y: 230
+        x: 269
+        y: 539
         width: 176
         height: 35
       alignment: 0
@@ -193,8 +211,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_2
       rect:
         serializedVersion: 2
-        x: 506
-        y: 233
+        x: 494
+        y: 542
         width: 176
         height: 35
       alignment: 0
@@ -215,8 +233,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 173
+        x: 38
+        y: 482
         width: 176
         height: 35
       alignment: 0
@@ -237,8 +255,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_4
       rect:
         serializedVersion: 2
-        x: 281
-        y: 170
+        x: 269
+        y: 479
         width: 176
         height: 35
       alignment: 0
@@ -259,8 +277,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_5
       rect:
         serializedVersion: 2
-        x: 509
-        y: 173
+        x: 497
+        y: 482
         width: 176
         height: 35
       alignment: 0
@@ -281,8 +299,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_6
       rect:
         serializedVersion: 2
-        x: 47
-        y: 101
+        x: 35
+        y: 410
         width: 176
         height: 35
       alignment: 0
@@ -303,8 +321,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_7
       rect:
         serializedVersion: 2
-        x: 284
-        y: 104
+        x: 272
+        y: 413
         width: 176
         height: 35
       alignment: 0
@@ -325,8 +343,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_8
       rect:
         serializedVersion: 2
-        x: 506
-        y: 107
+        x: 494
+        y: 416
         width: 176
         height: 35
       alignment: 0
@@ -347,8 +365,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_9
       rect:
         serializedVersion: 2
-        x: 50
-        y: 41
+        x: 38
+        y: 350
         width: 176
         height: 35
       alignment: 0
@@ -369,8 +387,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_10
       rect:
         serializedVersion: 2
-        x: 284
-        y: 41
+        x: 272
+        y: 350
         width: 176
         height: 35
       alignment: 0
@@ -391,8 +409,8 @@ TextureImporter:
       name: Barra de Vidas Paises-export_11
       rect:
         serializedVersion: 2
-        x: 509
-        y: 47
+        x: 497
+        y: 356
         width: 176
         height: 35
       alignment: 0
@@ -405,6 +423,138 @@ TextureImporter:
       bones: []
       spriteID: f37dd639848aa6b20800000000000000
       internalID: 3128497920826791743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barra de Vidas Paises-export_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 275
+        width: 134
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7994a8f752b95bd20800000000000000
+      internalID: 3293709287847250327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barra de Vidas Paises-export_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 275
+        width: 134
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cd2f49e6999c620800000000000000
+      internalID: 2794933743984499743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barra de Vidas Paises-export_14
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 275
+        width: 134
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df36050a992c1ea0800000000000000
+      internalID: -5900795670276194347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barra de Vidas Paises-export_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 209
+        width: 134
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c294767bdf6bc3e50800000000000000
+      internalID: 6790503538987845932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barra de Vidas Paises-export_16
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 206
+        width: 134
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e066619441c4510800000000000000
+      internalID: 1534623877167451672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barra de Vidas Paises-export_17
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 206
+        width: 134
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec18a437b8c40d60800000000000000
+      internalID: 7855624339228990692
       vertices: []
       indices: 
       edges: []
@@ -427,6 +577,12 @@ TextureImporter:
       Barra de Vidas Paises-export_1: -1154509311800854292
       Barra de Vidas Paises-export_10: 5158792602306006681
       Barra de Vidas Paises-export_11: 3128497920826791743
+      Barra de Vidas Paises-export_12: 3293709287847250327
+      Barra de Vidas Paises-export_13: 2794933743984499743
+      Barra de Vidas Paises-export_14: -5900795670276194347
+      Barra de Vidas Paises-export_15: 6790503538987845932
+      Barra de Vidas Paises-export_16: 1534623877167451672
+      Barra de Vidas Paises-export_17: 7855624339228990692
       Barra de Vidas Paises-export_2: 4831239646605998793
       Barra de Vidas Paises-export_3: 1978171669702275759
       Barra de Vidas Paises-export_4: 5428443419849451214
