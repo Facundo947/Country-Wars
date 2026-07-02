@@ -4581,7 +4581,6 @@ GameObject:
   - component: {fileID: 1819070194}
   - component: {fileID: 1819070196}
   - component: {fileID: 1819070195}
-  - component: {fileID: 1819070197}
   m_Layer: 5
   m_Name: Pantalla de derrota
   m_TagString: Untagged
@@ -4647,18 +4646,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819070193}
   m_CullTransparentMesh: 1
---- !u!114 &1819070197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1819070193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1985410489378741ba3b6373d0848d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoDerrota
 --- !u!1 &1840557446
 GameObject:
   m_ObjectHideFlags: 0

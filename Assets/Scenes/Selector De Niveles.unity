@@ -1849,8 +1849,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -178, y: 495}
-  m_SizeDelta: {x: 628.0234, y: 50}
+  m_AnchoredPosition: {x: -14, y: 497}
+  m_SizeDelta: {x: 1017.8201, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1457219844
 MonoBehaviour:
@@ -1874,8 +1874,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CHOOSE A COUNTRY TO FIGHT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 40d9f837e622f51449e37b9abdd7d45f, type: 2}
-  m_sharedMaterial: {fileID: 1938125610077157972, guid: 40d9f837e622f51449e37b9abdd7d45f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
+  m_sharedMaterial: {fileID: 1767906708764720730, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1899,8 +1899,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60.6
-  m_fontSizeBase: 60.6
+  m_fontSize: 47.16
+  m_fontSizeBase: 47.16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1938,7 +1938,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -420.86508, w: 0}
+  m_margin: {x: 0, y: 0, z: -46.91519, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
