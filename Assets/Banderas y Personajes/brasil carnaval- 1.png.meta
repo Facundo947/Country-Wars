@@ -1,0 +1,1482 @@
+fileFormatVersion: 2
+guid: c704625115c6ff04b882ee424321db1e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6747335049864681160
+    second: brasil carnaval- 1_0
+  - first:
+      213: 4261934837485345913
+    second: brasil carnaval- 1_1
+  - first:
+      213: -8467381483679188407
+    second: brasil carnaval- 1_2
+  - first:
+      213: -7795019724348818974
+    second: brasil carnaval- 1_3
+  - first:
+      213: -1011597371970116657
+    second: brasil carnaval- 1_4
+  - first:
+      213: 4530150153341601965
+    second: brasil carnaval- 1_5
+  - first:
+      213: 2367526995585954657
+    second: brasil carnaval- 1_6
+  - first:
+      213: 311834889552451201
+    second: brasil carnaval- 1_7
+  - first:
+      213: 6921186573811755807
+    second: brasil carnaval- 1_8
+  - first:
+      213: -2032367140408652644
+    second: brasil carnaval- 1_9
+  - first:
+      213: 1225542149239081484
+    second: brasil carnaval- 1_10
+  - first:
+      213: 831685282101101083
+    second: brasil carnaval- 1_11
+  - first:
+      213: -2199304362292911289
+    second: brasil carnaval- 1_12
+  - first:
+      213: 3809069495091182940
+    second: brasil carnaval- 1_13
+  - first:
+      213: 5718832000731836958
+    second: brasil carnaval- 1_14
+  - first:
+      213: -2959160697701138642
+    second: brasil carnaval- 1_15
+  - first:
+      213: 2969744669824995322
+    second: brasil carnaval- 1_16
+  - first:
+      213: 5392878398923931319
+    second: brasil carnaval- 1_17
+  - first:
+      213: 1702446507802764611
+    second: brasil carnaval- 1_18
+  - first:
+      213: -7228051855482710590
+    second: brasil carnaval- 1_19
+  - first:
+      213: -536636771205093543
+    second: brasil carnaval- 1_20
+  - first:
+      213: 2047987591653430179
+    second: brasil carnaval- 1_21
+  - first:
+      213: 2369725563975446407
+    second: brasil carnaval- 1_22
+  - first:
+      213: -1954914458424223679
+    second: brasil carnaval- 1_23
+  - first:
+      213: -7572586219852248376
+    second: brasil carnaval- 1_24
+  - first:
+      213: 5816235999387410916
+    second: brasil carnaval- 1_25
+  - first:
+      213: 2435071848001961729
+    second: brasil carnaval- 1_26
+  - first:
+      213: -1645974546192399434
+    second: brasil carnaval- 1_27
+  - first:
+      213: -5609086922083484284
+    second: brasil carnaval- 1_28
+  - first:
+      213: 4278899108475584592
+    second: brasil carnaval- 1_29
+  - first:
+      213: -4769632153111481823
+    second: brasil carnaval- 1_30
+  - first:
+      213: 3052085735508205299
+    second: brasil carnaval- 1_31
+  - first:
+      213: 1001525724547289274
+    second: brasil carnaval- 1_32
+  - first:
+      213: -4145147542328612941
+    second: brasil carnaval- 1_33
+  - first:
+      213: 8321697041093669923
+    second: brasil carnaval- 1_34
+  - first:
+      213: 700855192081199096
+    second: brasil carnaval- 1_35
+  - first:
+      213: -3876227559117034832
+    second: brasil carnaval- 1_36
+  - first:
+      213: 442972541029009795
+    second: brasil carnaval- 1_37
+  - first:
+      213: 1270700855164553646
+    second: brasil carnaval- 1_38
+  - first:
+      213: 4581220737400137210
+    second: brasil carnaval- 1_39
+  - first:
+      213: -8171757296822070031
+    second: brasil carnaval- 1_40
+  - first:
+      213: -2323874359846590269
+    second: brasil carnaval- 1_41
+  - first:
+      213: -875718035399655741
+    second: brasil carnaval- 1_42
+  - first:
+      213: -2662916806567670450
+    second: brasil carnaval- 1_43
+  - first:
+      213: -646996893692228758
+    second: brasil carnaval- 1_44
+  - first:
+      213: -1653253795805000178
+    second: brasil carnaval- 1_45
+  - first:
+      213: 3304209122751139039
+    second: brasil carnaval- 1_46
+  - first:
+      213: 2706508212540621250
+    second: brasil carnaval- 1_47
+  - first:
+      213: 4089873094923187160
+    second: brasil carnaval- 1_48
+  - first:
+      213: -4493777013237629220
+    second: brasil carnaval- 1_49
+  - first:
+      213: -4154721196224784967
+    second: brasil carnaval- 1_50
+  - first:
+      213: -5615463457659597370
+    second: brasil carnaval- 1_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brasil carnaval- 1_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 743
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839e5446586ac52a0800000000000000
+      internalID: -6747335049864681160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 597
+        width: 106
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c1d2c672f652b30800000000000000
+      internalID: 4261934837485345913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 743
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94af4971761dd7a80800000000000000
+      internalID: -8467381483679188407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 597
+        width: 92
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e976094cd682d390800000000000000
+      internalID: -7795019724348818974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_4
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 737
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3a004cc8516f1f0800000000000000
+      internalID: -1011597371970116657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_5
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 739
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da88b1d00935ede30800000000000000
+      internalID: 4530150153341601965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 597
+        width: 112
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1637c0042452bd020800000000000000
+      internalID: 2367526995585954657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_7
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 729
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186d85c0e2cd35400800000000000000
+      internalID: 311834889552451201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_8
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 743
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ba044d48efc0060800000000000000
+      internalID: 6921186573811755807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 597
+        width: 92
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c04ce8ad49bc3e0800000000000000
+      internalID: -2032367140408652644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_10
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 737
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a0aae6710020110800000000000000
+      internalID: 1225542149239081484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_11
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 739
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b128e8c8b5dba8b00800000000000000
+      internalID: 831685282101101083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_12
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 597
+        width: 112
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743609cb5508a71e0800000000000000
+      internalID: -2199304362292911289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_13
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 729
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dbfa346888cd430800000000000000
+      internalID: 3809069495091182940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 705
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12f1cda76f5d5f40800000000000000
+      internalID: 5718832000731836958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 705
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ff9341603fee6d0800000000000000
+      internalID: -2959160697701138642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 705
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff4786fa07a63920800000000000000
+      internalID: 2969744669824995322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_17
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 701
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7befcb4c45a57da40800000000000000
+      internalID: 5392878398923931319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_18
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 703
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34520b2341e40a710800000000000000
+      internalID: 1702446507802764611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_19
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 705
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c599df122dc0bb90800000000000000
+      internalID: -7228051855482710590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_20
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 705
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95768e623bb7d88f0800000000000000
+      internalID: -536636771205093543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_21
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 701
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a319e82dd9eb6c10800000000000000
+      internalID: 2047987591653430179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_22
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 703
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f2be758d4f2e020800000000000000
+      internalID: 2369725563975446407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_23
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 675
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148595b58afbed4e0800000000000000
+      internalID: -1954914458424223679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_24
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 679
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca40be44f4c8e690800000000000000
+      internalID: -7572586219852248376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_25
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 675
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1635163db67b050800000000000000
+      internalID: 5816235999387410916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_26
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 679
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ff5b6b1fc1bc120800000000000000
+      internalID: 2435071848001961729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_27
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 671
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b30ed8fed25829e0800000000000000
+      internalID: -1645974546192399434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_28
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 675
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dbcee99258822b0800000000000000
+      internalID: -5609086922083484284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_29
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 679
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0504c6e8114b16b30800000000000000
+      internalID: 4278899108475584592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_30
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 671
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122328cc3dcdecdb0800000000000000
+      internalID: -4769632153111481823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_31
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 341
+        width: 128
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fed0094ecf2b5a20800000000000000
+      internalID: 3052085735508205299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_32
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 337
+        width: 132
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab09e05175226ed00800000000000000
+      internalID: 1001525724547289274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_33
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 339
+        width: 106
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b76beda54a7976c0800000000000000
+      internalID: -4145147542328612941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_34
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 431
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324bece5e5b9c7370800000000000000
+      internalID: 8321697041093669923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_35
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 445
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffecfa7510f9b900800000000000000
+      internalID: 700855192081199096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_36
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 437
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0baef36729fd43ac0800000000000000
+      internalID: -3876227559117034832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_37
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 433
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3894949dd21c52600800000000000000
+      internalID: 442972541029009795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_38
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 425
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea94edff1bf62a110800000000000000
+      internalID: 1270700855164553646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_39
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 415
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af563620df3c39f30800000000000000
+      internalID: 4581220737400137210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_40
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 419
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4d63cc806189e80800000000000000
+      internalID: -8171757296822070031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_41
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 419
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8a4b60590ffbfd0800000000000000
+      internalID: -2323874359846590269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_42
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 403
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ceb9982613d8d3f0800000000000000
+      internalID: -875718035399655741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_43
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 407
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dcd1ee54b6b0bd0800000000000000
+      internalID: -2662916806567670450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_44
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 381
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b81bcc0c76507f0800000000000000
+      internalID: -646996893692228758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_45
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 397
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e0a799e667e09e0800000000000000
+      internalID: -1653253795805000178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_46
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 393
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdccf21d0b8eadd20800000000000000
+      internalID: 3304209122751139039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_47
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 385
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1492e21e27f8520800000000000000
+      internalID: 2706508212540621250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_48
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 381
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3f25729e522c830800000000000000
+      internalID: 4089873094923187160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_49
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 371
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdeb7229d95e2a1c0800000000000000
+      internalID: -4493777013237629220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_50
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 369
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b55c3ea5177756c0800000000000000
+      internalID: -4154721196224784967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brasil carnaval- 1_51
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 359
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd430dbcbdd112b0800000000000000
+      internalID: -5615463457659597370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      brasil carnaval- 1_0: -6747335049864681160
+      brasil carnaval- 1_1: 4261934837485345913
+      brasil carnaval- 1_10: 1225542149239081484
+      brasil carnaval- 1_11: 831685282101101083
+      brasil carnaval- 1_12: -2199304362292911289
+      brasil carnaval- 1_13: 3809069495091182940
+      brasil carnaval- 1_14: 5718832000731836958
+      brasil carnaval- 1_15: -2959160697701138642
+      brasil carnaval- 1_16: 2969744669824995322
+      brasil carnaval- 1_17: 5392878398923931319
+      brasil carnaval- 1_18: 1702446507802764611
+      brasil carnaval- 1_19: -7228051855482710590
+      brasil carnaval- 1_2: -8467381483679188407
+      brasil carnaval- 1_20: -536636771205093543
+      brasil carnaval- 1_21: 2047987591653430179
+      brasil carnaval- 1_22: 2369725563975446407
+      brasil carnaval- 1_23: -1954914458424223679
+      brasil carnaval- 1_24: -7572586219852248376
+      brasil carnaval- 1_25: 5816235999387410916
+      brasil carnaval- 1_26: 2435071848001961729
+      brasil carnaval- 1_27: -1645974546192399434
+      brasil carnaval- 1_28: -5609086922083484284
+      brasil carnaval- 1_29: 4278899108475584592
+      brasil carnaval- 1_3: -7795019724348818974
+      brasil carnaval- 1_30: -4769632153111481823
+      brasil carnaval- 1_31: 3052085735508205299
+      brasil carnaval- 1_32: 1001525724547289274
+      brasil carnaval- 1_33: -4145147542328612941
+      brasil carnaval- 1_34: 8321697041093669923
+      brasil carnaval- 1_35: 700855192081199096
+      brasil carnaval- 1_36: -3876227559117034832
+      brasil carnaval- 1_37: 442972541029009795
+      brasil carnaval- 1_38: 1270700855164553646
+      brasil carnaval- 1_39: 4581220737400137210
+      brasil carnaval- 1_4: -1011597371970116657
+      brasil carnaval- 1_40: -8171757296822070031
+      brasil carnaval- 1_41: -2323874359846590269
+      brasil carnaval- 1_42: -875718035399655741
+      brasil carnaval- 1_43: -2662916806567670450
+      brasil carnaval- 1_44: -646996893692228758
+      brasil carnaval- 1_45: -1653253795805000178
+      brasil carnaval- 1_46: 3304209122751139039
+      brasil carnaval- 1_47: 2706508212540621250
+      brasil carnaval- 1_48: 4089873094923187160
+      brasil carnaval- 1_49: -4493777013237629220
+      brasil carnaval- 1_5: 4530150153341601965
+      brasil carnaval- 1_50: -4154721196224784967
+      brasil carnaval- 1_51: -5615463457659597370
+      brasil carnaval- 1_6: 2367526995585954657
+      brasil carnaval- 1_7: 311834889552451201
+      brasil carnaval- 1_8: 6921186573811755807
+      brasil carnaval- 1_9: -2032367140408652644
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

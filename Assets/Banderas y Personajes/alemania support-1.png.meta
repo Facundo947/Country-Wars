@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 96d213e9afc133e43a8f32d80f503245
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3511732838032501307
+    second: alemania support-1_0
+  - first:
+      213: 3166977505857788980
+    second: alemania support-1_1
+  - first:
+      213: -3119609399337837210
+    second: alemania support-1_2
+  - first:
+      213: 924753002421489776
+    second: alemania support-1_3
+  - first:
+      213: -3953257042464880712
+    second: alemania support-1_4
+  - first:
+      213: 6967218784904356954
+    second: alemania support-1_5
+  - first:
+      213: 7979105975328431704
+    second: alemania support-1_6
+  - first:
+      213: 6345415351227975472
+    second: alemania support-1_7
+  - first:
+      213: 5952343309597503408
+    second: alemania support-1_8
+  - first:
+      213: -4439722595983827109
+    second: alemania support-1_9
+  - first:
+      213: 875221604708635558
+    second: alemania support-1_10
+  - first:
+      213: 6343535423740444978
+    second: alemania support-1_11
+  - first:
+      213: -4965220979364034213
+    second: alemania support-1_12
+  - first:
+      213: -8357314116688150032
+    second: alemania support-1_13
+  - first:
+      213: -3109609144700868279
+    second: alemania support-1_14
+  - first:
+      213: 8048062937866635802
+    second: alemania support-1_15
+  - first:
+      213: -7655640495585832498
+    second: alemania support-1_16
+  - first:
+      213: 8053034038830805348
+    second: alemania support-1_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: alemania support-1_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 769
+        width: 146
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a6005096e2cb030800000000000000
+      internalID: 3511732838032501307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 773
+        width: 142
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c5e40234d53fb20800000000000000
+      internalID: 3166977505857788980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_2
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 773
+        width: 146
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d9f7a97cbe4b4d0800000000000000
+      internalID: -3119609399337837210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 411
+        width: 146
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0701f46c4f165dc00800000000000000
+      internalID: 924753002421489776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_4
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 415
+        width: 152
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7c1164aa53329c0800000000000000
+      internalID: -3953257042464880712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_5
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 403
+        width: 144
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5427aa229880b060800000000000000
+      internalID: 6967218784904356954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_6
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 591
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ed5a40c9a7bbe60800000000000000
+      internalID: 7979105975328431704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_7
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 531
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037014a74a17f0850800000000000000
+      internalID: 6345415351227975472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_8
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 593
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf6bb504b8fa9250800000000000000
+      internalID: 5952343309597503408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_9
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 599
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fdb1552dfe262c0800000000000000
+      internalID: -4439722595983827109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_10
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 593
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3d7609969652c00800000000000000
+      internalID: 875221604708635558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_11
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 577
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2310820cbd3c80850800000000000000
+      internalID: 6343535423740444978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_12
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 585
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5980bd73ddf71bb0800000000000000
+      internalID: -4965220979364034213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_13
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 573
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1027ef61bd40c80800000000000000
+      internalID: -8357314116688150032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_14
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 525
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9496cc355f278d4d0800000000000000
+      internalID: -3109609144700868279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_15
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 571
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a078df99670bf60800000000000000
+      internalID: 8048062937866635802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_16
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 543
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1d284d783b1c590800000000000000
+      internalID: -7655640495585832498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alemania support-1_17
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 551
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461b3a0aacf12cf60800000000000000
+      internalID: 8053034038830805348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      alemania support-1_0: 3511732838032501307
+      alemania support-1_1: 3166977505857788980
+      alemania support-1_10: 875221604708635558
+      alemania support-1_11: 6343535423740444978
+      alemania support-1_12: -4965220979364034213
+      alemania support-1_13: -8357314116688150032
+      alemania support-1_14: -3109609144700868279
+      alemania support-1_15: 8048062937866635802
+      alemania support-1_16: -7655640495585832498
+      alemania support-1_17: 8053034038830805348
+      alemania support-1_2: -3119609399337837210
+      alemania support-1_3: 924753002421489776
+      alemania support-1_4: -3953257042464880712
+      alemania support-1_5: 6967218784904356954
+      alemania support-1_6: 7979105975328431704
+      alemania support-1_7: 6345415351227975472
+      alemania support-1_8: 5952343309597503408
+      alemania support-1_9: -4439722595983827109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
