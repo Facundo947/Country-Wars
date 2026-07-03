@@ -525,7 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TropaSpawner
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
-  prefabMessi: {fileID: 0}
+  prefabGuarani: {fileID: 0}
   prefabEspadachinArgentino: {fileID: 0}
   prefabSenoraEmpanada: {fileID: 0}
 --- !u!1 &357665295
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerConMouse
   prefabGaucho: {fileID: 0}
-  prefabMessi: {fileID: 0}
+  prefabGuarani: {fileID: 0}
   prefabEspadachinArgentino: {fileID: 5139951888898898538, guid: 2e457db7bd39d8c4b8ddda1102ba34d7, type: 3}
   prefabSenoraEmpanada: {fileID: 0}
 --- !u!4 &560548435
@@ -1882,7 +1882,7 @@ GameObject:
   - component: {fileID: 1024451839}
   - component: {fileID: 1024451838}
   m_Layer: 5
-  m_Name: Messi
+  m_Name: Guarani
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1953,7 +1953,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2050458516}
         m_TargetAssemblyTypeName: SpawnerConMouse, Assembly-CSharp
-        m_MethodName: ActivarColocacionMessi
+        m_MethodName: ActivarColocacionGuarani
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1983,9 +1983,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3456583616218845083, guid: b0343ef00c11f404fbae2f7aab280e62, type: 3}
+  m_Sprite: {fileID: 190141736002780403, guid: 3cd34695254056149900381a49a2729a, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -3799,7 +3799,7 @@ GameObject:
   - component: {fileID: 2050458517}
   - component: {fileID: 2050458516}
   m_Layer: 0
-  m_Name: SpawnerMessi
+  m_Name: SpawnerGuarani
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3818,7 +3818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerConMouse
   prefabGaucho: {fileID: 0}
-  prefabMessi: {fileID: 4889032490189702982, guid: eb040f02bb276554fab0f21aabbb238f, type: 3}
+  prefabGuarani: {fileID: 1502619074922200842, guid: ad8ce740497622a4985c045312481fc8, type: 3}
   prefabEspadachinArgentino: {fileID: 0}
   prefabSenoraEmpanada: {fileID: 0}
 --- !u!4 &2050458517

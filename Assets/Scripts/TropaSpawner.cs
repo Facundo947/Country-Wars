@@ -5,7 +5,7 @@ public class SpawnerConMouse : MonoBehaviour
     [Header("Prefabs")]
     [SerializeField] private GameObject prefabGaucho;
 
-    [SerializeField] private GameObject prefabMessi;
+    [SerializeField] private GameObject prefabGuarani;
 
     [SerializeField] private GameObject prefabEspadachinArgentino;
 
@@ -22,10 +22,10 @@ public class SpawnerConMouse : MonoBehaviour
         colocandoTropa = true;
     }
 
-    // BOTÓN MESSI
-    public void ActivarColocacionMessi()
+    // BOTÓN GUARANÍ
+    public void ActivarColocacionGuarani()
     {
-        tropaSeleccionada = prefabMessi;
+        tropaSeleccionada = prefabGuarani;
         colocandoTropa = true;
     }
 

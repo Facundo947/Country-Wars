@@ -2122,7 +2122,7 @@ GameObject:
   - component: {fileID: 1051766320}
   - component: {fileID: 1051766319}
   m_Layer: 0
-  m_Name: SpawnerMessi
+  m_Name: SpawnerGuarani
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2141,7 +2141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerConMouse
   prefabGaucho: {fileID: 0}
-  prefabMessi: {fileID: 4889032490189702982, guid: eb040f02bb276554fab0f21aabbb238f, type: 3}
+  prefabGuarani: {fileID: 1502619074922200842, guid: ad8ce740497622a4985c045312481fc8, type: 3}
   prefabEspadachinArgentino: {fileID: 0}
   prefabSenoraEmpanada: {fileID: 0}
 --- !u!4 &1051766320
@@ -3387,7 +3387,7 @@ GameObject:
   - component: {fileID: 1534449895}
   - component: {fileID: 1534449894}
   m_Layer: 5
-  m_Name: Messi
+  m_Name: Guarani
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3458,7 +3458,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1051766319}
         m_TargetAssemblyTypeName: SpawnerConMouse, Assembly-CSharp
-        m_MethodName: ActivarColocacionMessi
+        m_MethodName: ActivarColocacionGuarani
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3774,7 +3774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TropaSpawner
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
-  prefabMessi: {fileID: 0}
+  prefabGuarani: {fileID: 0}
   prefabEspadachinArgentino: {fileID: 0}
   prefabSenoraEmpanada: {fileID: 0}
 --- !u!1 &1917630276
