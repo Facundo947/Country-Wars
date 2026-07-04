@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8602903238449021016}
   - component: {fileID: 851957715961426840}
-  m_Layer: 0
+  - component: {fileID: -6043220188528460481}
+  m_Layer: 6
   m_Name: guarani_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77,9 +78,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -383823405
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7832123615262309907, guid: faa5d0ccd0ece30498ae85af4fc90f9b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -91,3 +92,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &-6043220188528460481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502619074922200842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8147f48e052a1e948806799e784a41a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArqueroGuarani
+  velocidad: 2
+  avanzarHaciaLaDerecha: 1
+  vidaMaxima: 100
+  prefabLanza: {fileID: 7740578823212565810, guid: 09294e11579087144a1762e065801b4e, type: 3}
+  puntoDisparo: {fileID: 0}
+  danioLanza: 30
+  rangoAtaque: 6
+  tiempoEntreAtaques: 1.8
+  capaObjetivo:
+    serializedVersion: 2
+    m_Bits: 128
