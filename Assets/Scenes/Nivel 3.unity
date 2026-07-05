@@ -4372,7 +4372,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 368011871}
         m_TargetAssemblyTypeName: PausarJuego, Assembly-CSharp
-        m_MethodName: Reintentan
+        m_MethodName: Reintentar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
