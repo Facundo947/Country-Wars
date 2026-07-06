@@ -679,7 +679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PausarJuego
   botonPausa: {fileID: 0}
   menuPausa: {fileID: 0}
-  menuOpciones: {fileID: 0}
+  menuOpciones: {fileID: 896923016342041389}
 --- !u!114 &2064622238081244017
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -88,18 +88,17 @@ public class PausarJuego : MonoBehaviour
 
     public void VolverAPausa()
     {
-        if (menuPausa == null || menuOpciones == null)
-        {
-            Debug.LogError(
-                "Falta asignar MenuPausa o MenuOpcionesPausa " +
-                "en el componente PausarJuego."
-            );
+        Debug.Log("BOTÓN VOLVER EJECUTADO");
 
-            return;
+        if (menuOpciones != null)
+        {
+            menuOpciones.SetActive(false);
         }
 
-        menuOpciones.SetActive(false);
-        menuPausa.SetActive(true);
+        if (menuPausa != null)
+        {
+            menuPausa.SetActive(true);
+        }
     }
 
     public void Reintentar()
