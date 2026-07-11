@@ -4193,6 +4193,10 @@ PrefabInstance:
       propertyPath: botonPausa
       value: 
       objectReference: {fileID: 629195253}
+    - target: {fileID: 8602726488305179834, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -455561438212660447, guid: 710c7fb4b65d1dc4684e20b6f8fa8c8a, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
