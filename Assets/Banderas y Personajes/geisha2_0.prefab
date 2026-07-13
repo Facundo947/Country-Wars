@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1327556662175499525}
   - component: {fileID: 9180501687134867517}
   - component: {fileID: -4583406708558274503}
-  - component: {fileID: 2444801298572367336}
   - component: {fileID: -5995914024043031179}
+  - component: {fileID: -7322040714086361936}
   m_Layer: 7
   m_Name: geisha2_0
   m_TagString: Untagged
@@ -168,26 +168,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.17, y: 4.1}
   m_EdgeRadius: 0
---- !u!114 &2444801298572367336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2706735735638473748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 087c73f84ed9e1445b96a167eb7bee9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Geisha
-  velocidad: 1.5
-  vidaMaxima: 90
-  rangoCuracion: 5
-  tiempoEntreCuraciones: 2
-  capaAliada:
-    serializedVersion: 2
-    m_Bits: 64
-  prefabFlor: {fileID: 5248361397896519478, guid: 9d94fea761e9c4041ab230d7a1801bf1, type: 3}
 --- !u!95 &-5995914024043031179
 Animator:
   serializedVersion: 7
@@ -210,3 +190,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-7322040714086361936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2706735735638473748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12aeea5c878d6f428848541f320b419, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Geisha
+  vidaMaxima: 90
+  prefabFlor: {fileID: 2219845496638640434, guid: 6e08d3597b47e6c45823979273e8f3ad, type: 3}

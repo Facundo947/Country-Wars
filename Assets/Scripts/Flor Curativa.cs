@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FlorCurativa : MonoBehaviour
+public class Florcurativa : MonoBehaviour
 {
     [Header("Movimiento")]
     [SerializeField] private float velocidad = 10f;

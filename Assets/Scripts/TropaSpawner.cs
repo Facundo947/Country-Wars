@@ -62,6 +62,12 @@ public class SpawnerConMouse : MonoBehaviour
                     Quaternion.identity
                 );
 
+                // Le avisa al GameManager que se colocó una tropa
+                if (GameManager.Instance != null)
+                {
+                    GameManager.Instance.RegistrarTropaColocada();
+                }
+
                 colocandoTropa = false;
             }
         }

@@ -34,6 +34,21 @@ public class Gaucho : MonoBehaviour
 
     private void Update()
     {
+        // ===============================
+        // FASE DE PLANEACIÓN
+        // ===============================
+        if (GameManager.Instance != null &&
+            GameManager.Instance.EnPlaneacion())
+        {
+            if (animator != null)
+            {
+                animator.SetFloat("Caminando", 0);
+                animator.SetFloat("Atacando", 0);
+            }
+
+            return;
+        }
+
         DetectarEnemigo();
 
         if (!estaAtacando)
@@ -71,7 +86,6 @@ public class Gaucho : MonoBehaviour
             if (animator != null)
             {
                 animator.SetFloat("Atacando", 1);
-
                 animator.SetFloat("Caminando", 0);
             }
         }
@@ -84,7 +98,6 @@ public class Gaucho : MonoBehaviour
             if (animator != null)
             {
                 animator.SetFloat("Atacando", 0);
-
                 animator.SetFloat("Caminando", 1);
             }
         }

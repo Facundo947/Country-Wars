@@ -21,6 +21,7 @@ public class TropaJaponesa : MonoBehaviour
     private Animator animator;
     private bool estaAtacando = false;
 
+
     private void Start()
     {
         vidaActual = vidaMaxima;
@@ -28,8 +29,25 @@ public class TropaJaponesa : MonoBehaviour
         velocidadOriginal = velocidad;
     }
 
+
     private void Update()
     {
+        // ====================================================================
+        // FASE DE PLANEACIÓN (Copiado de la lógica del Gaucho)
+        // ====================================================================
+        if (GameManager.Instance != null && GameManager.Instance.EnPlaneacion())
+        {
+            if (animator != null)
+            {
+                // Como tu japonés usa Bools, los ponemos en false para que se quede quieto en planeación
+                animator.SetBool("Caminando", false);
+                animator.SetBool("Atacando", false);
+            }
+
+            return; // Frena el script acá, impidiendo que camine o ataque antes de tiempo
+        }
+        // ====================================================================
+
         DetectarEnemigo();
 
         if (!estaAtacando)
@@ -37,6 +55,7 @@ public class TropaJaponesa : MonoBehaviour
             Caminar();
         }
     }
+
 
     private void DetectarEnemigo()
     {
@@ -47,6 +66,7 @@ public class TropaJaponesa : MonoBehaviour
             capaAliada
         );
 
+
         if (hit.collider != null)
         {
             estaAtacando = true;
@@ -55,18 +75,14 @@ public class TropaJaponesa : MonoBehaviour
             if (cronometroAtaque >= tiempoEntreAtaques)
             {
                 // DAÑO AL GAUCHO
-                Gaucho gaucho =
-                    hit.collider.GetComponent<Gaucho>();
-
+                Gaucho gaucho = hit.collider.GetComponent<Gaucho>();
                 if (gaucho != null)
                 {
                     gaucho.RecibirDanio(danio);
                 }
 
                 // DAÑO A LA BANDERA ARGENTINA
-                BanderaArgentina bandera =
-                    hit.collider.GetComponent<BanderaArgentina>();
-
+                BanderaArgentina bandera = hit.collider.GetComponent<BanderaArgentina>();
                 if (bandera != null)
                 {
                     bandera.RecibirDanio(danio);
@@ -94,6 +110,7 @@ public class TropaJaponesa : MonoBehaviour
         }
     }
 
+
     private void Caminar()
     {
         transform.Translate(
@@ -106,63 +123,37 @@ public class TropaJaponesa : MonoBehaviour
         }
     }
 
+    // El resto de tus funciones de daño y curación se quedan exactamente igual abajo...
     public void RecibirDanio(int cantidadDanio)
     {
         vidaActual -= cantidadDanio;
-
-        if (vidaActual <= 0)
-        {
-            Destroy(gameObject);
-        }
+        if (vidaActual <= 0) Destroy(gameObject);
     }
 
     public void Curar(int cantidad)
     {
         vidaActual += cantidad;
-
-        if (vidaActual > vidaMaxima)
-        {
-            vidaActual = vidaMaxima;
-        }
+        if (vidaActual > vidaMaxima) vidaActual = vidaMaxima;
     }
 
-    public bool EstaHerido()
-    {
-        return vidaActual < vidaMaxima;
-    }
+    public bool EstaHerido() => vidaActual < vidaMaxima;
 
     public void AplicarLentitud(float nuevaVelocidad, float duracion)
     {
         StopAllCoroutines();
-        StartCoroutine(
-            LentitudCoroutine(
-                nuevaVelocidad,
-                duracion
-            )
-        );
+        StartCoroutine(LentitudCoroutine(nuevaVelocidad, duracion));
     }
 
-    private IEnumerator LentitudCoroutine(
-        float nuevaVelocidad,
-        float duracion
-    )
+    private IEnumerator LentitudCoroutine(float nuevaVelocidad, float duracion)
     {
         velocidad = nuevaVelocidad;
-
-        yield return new WaitForSeconds(
-            duracion
-        );
-
+        yield return new WaitForSeconds(duracion);
         velocidad = velocidadOriginal;
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.cyan;
-
-        Gizmos.DrawRay(
-            transform.position,
-            Vector2.left * rangoAtaque
-        );
+        Gizmos.DrawRay(transform.position, Vector2.left * rangoAtaque);
     }
 }
