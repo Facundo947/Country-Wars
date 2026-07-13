@@ -54,6 +54,16 @@ public class ArqueroGuarani : MonoBehaviour
 
     private void Update()
     {
+        // ===============================
+        // FASE DE PLANEACIÓN
+        // ===============================
+        if (GameManager.Instance != null &&
+            GameManager.Instance.EnPlaneacion())
+        {
+            ActualizarAnimacion(false, false);
+            return;
+        }
+
         DetectarObjetivo();
 
         if (!estaAtacando)
