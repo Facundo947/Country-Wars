@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f8ec756cb5235ff4da4cad7bb93c1300
+guid: 55b4273f60ffefc4fa193a703dfb0fc2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5505709954986626997
-    second: Granadero ataque 2_0
+      213: 8364865046184154592
+    second: Tanque italiano ataque 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Granadero ataque 2_0
+      name: Tanque italiano ataque 1_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 18
-        width: 638
-        height: 408
+        x: 5
+        y: 37
+        width: 272
+        height: 353
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b40b0b867f9c793b0800000000000000
-      internalID: -5505709954986626997
+      spriteID: 0e553e7c078f51470800000000000000
+      internalID: 8364865046184154592
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Granadero ataque 2_0: -5505709954986626997
+      Tanque italiano ataque 1_0: 8364865046184154592
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
