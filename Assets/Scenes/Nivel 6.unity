@@ -2745,7 +2745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   estadoActual: 0
-  botonComenzar: {fileID: 0}
+  botonComenzar: {fileID: 972882547}
   cantidadTropasNecesarias: 6
 --- !u!4 &1277184780
 Transform:

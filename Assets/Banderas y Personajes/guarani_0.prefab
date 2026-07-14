@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8602903238449021016}
   - component: {fileID: 851957715961426840}
   - component: {fileID: -6043220188528460481}
+  - component: {fileID: -1924388951986709101}
   m_Layer: 6
   m_Name: guarani_0
   m_TagString: Untagged
@@ -115,3 +116,25 @@ MonoBehaviour:
   capaObjetivo:
     serializedVersion: 2
     m_Bits: 128
+--- !u!95 &-1924388951986709101
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502619074922200842}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6237734436502a64cb9e335557261250, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
