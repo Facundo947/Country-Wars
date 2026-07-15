@@ -128,8 +128,8 @@ TextureImporter:
       name: Support italiana ataque 1_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 210
+        x: 21
+        y: 222
         width: 12
         height: 16
       alignment: 0
@@ -150,7 +150,7 @@ TextureImporter:
       name: Support italiana ataque 1_1
       rect:
         serializedVersion: 2
-        x: 7
+        x: 23
         y: 6
         width: 218
         height: 288
@@ -172,8 +172,8 @@ TextureImporter:
       name: Support italiana ataque 1_2
       rect:
         serializedVersion: 2
-        x: 215
-        y: 222
+        x: 233
+        y: 210
         width: 12
         height: 16
       alignment: 0
@@ -194,7 +194,7 @@ TextureImporter:
       name: Support italiana ataque 1_3
       rect:
         serializedVersion: 2
-        x: 231
+        x: 5
         y: 194
         width: 12
         height: 16
@@ -216,7 +216,7 @@ TextureImporter:
       name: Support italiana ataque 1_4
       rect:
         serializedVersion: 2
-        x: 13
+        x: 223
         y: 166
         width: 12
         height: 16

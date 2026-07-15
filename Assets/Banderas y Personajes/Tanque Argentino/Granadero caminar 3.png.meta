@@ -116,10 +116,10 @@ TextureImporter:
       name: Granadero caminar 3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 33
-        width: 406
-        height: 492
+        x: 3
+        y: 2
+        width: 204
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

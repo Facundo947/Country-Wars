@@ -125,10 +125,10 @@ TextureImporter:
       name: Support italiana ataque 2_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 9
-        width: 156
-        height: 260
+        x: 25
+        y: 241
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: Support italiana ataque 2_1
       rect:
         serializedVersion: 2
-        x: 180
-        y: 241
-        width: 8
-        height: 8
+        x: 31
+        y: 9
+        width: 156
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,9 +169,9 @@ TextureImporter:
       name: Support italiana ataque 2_2
       rect:
         serializedVersion: 2
-        x: 184
-        y: 219
-        width: 12
+        x: 9
+        y: 203
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -191,9 +191,9 @@ TextureImporter:
       name: Support italiana ataque 2_3
       rect:
         serializedVersion: 2
-        x: 188
-        y: 203
-        width: 16
+        x: 17
+        y: 219
+        width: 12
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
