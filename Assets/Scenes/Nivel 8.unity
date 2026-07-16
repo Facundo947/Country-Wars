@@ -1087,7 +1087,7 @@ MonoBehaviour:
   - puntoSpawn: {fileID: 219353408}
     prefabEnemigo: {fileID: 2758939537859810736, guid: 4fda17530724be749b722054eb901d07, type: 3}
   - puntoSpawn: {fileID: 1314341718}
-    prefabEnemigo: {fileID: 1582810701580956203, guid: 1f9f0a315550e0443b8e7b9e3b56e0b9, type: 3}
+    prefabEnemigo: {fileID: 8836689616950853202, guid: 9a96db2a51d96c042b5a666397aec0cb, type: 3}
 --- !u!4 &347008019
 Transform:
   m_ObjectHideFlags: 0

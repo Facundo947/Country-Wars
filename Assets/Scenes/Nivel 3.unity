@@ -1871,11 +1871,11 @@ MonoBehaviour:
   - puntoSpawn: {fileID: 1985327863}
     prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - puntoSpawn: {fileID: 1455916597}
-    prefabEnemigo: {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+    prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - puntoSpawn: {fileID: 2043997362}
-    prefabEnemigo: {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+    prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - puntoSpawn: {fileID: 749611720}
-    prefabEnemigo: {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+    prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - puntoSpawn: {fileID: 749611720}
     prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
 --- !u!4 &1017098233

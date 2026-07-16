@@ -1400,7 +1400,7 @@ MonoBehaviour:
   - puntoSpawn: {fileID: 479429570}
     prefabEnemigo: {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
   - puntoSpawn: {fileID: 2100401765}
-    prefabEnemigo: {fileID: 6100448686325279208, guid: f3027ba75760c4147bdd2c9f4e7a96dc, type: 3}
+    prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
 --- !u!4 &431679559
 Transform:
   m_ObjectHideFlags: 0
