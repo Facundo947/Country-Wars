@@ -407,7 +407,7 @@ Transform:
   m_GameObject: {fileID: 293333236}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: -2.1, z: 0}
+  m_LocalPosition: {x: -6, y: -1.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -707,7 +707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6880bdfc599a4347b87d71fd4449e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BanderaArgentina
-  barraDeVida: {fileID: 0}
+  barraDeVida: {fileID: 1293114737}
   vidaMaxima: 100
   pantallaDerrota: {fileID: 633403380}
 --- !u!50 &617301401
@@ -2537,7 +2537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f1d2ab8f423614c874b1529a8d2541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BanderaBrasil
-  barraDeVida: {fileID: 0}
+  barraDeVida: {fileID: 2135161622}
   vidaMaxima: 100
   pantallaVictoria: {fileID: 1254438689}
   interfazDeJuego: {fileID: 0}
@@ -3795,9 +3795,9 @@ MonoBehaviour:
   alComprarTropa:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1723667554}
+      - m_Target: {fileID: 1723667556}
         m_TargetAssemblyTypeName: SpawnerConMouse, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: ActivarColocacionGuarani
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3844,7 +3844,7 @@ Transform:
   m_GameObject: {fileID: 1561106680}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: -2.1, z: 0}
+  m_LocalPosition: {x: -6, y: -0.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5138,7 +5138,7 @@ Transform:
   m_GameObject: {fileID: 1839704815}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: -2.1, z: 0}
+  m_LocalPosition: {x: -8.51, y: -0.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

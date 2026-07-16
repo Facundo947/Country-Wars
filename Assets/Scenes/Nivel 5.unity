@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b0c5fd7a396b3a4c9291758fcd4a574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BanderaHolandesa
-  barraDeVida: {fileID: 0}
+  barraDeVida: {fileID: 724692716}
   vidaMaxima: 100
   pantallaVictoria: {fileID: 258229776}
   interfazDeJuego: {fileID: 0}
@@ -2884,7 +2884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6880bdfc599a4347b87d71fd4449e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BanderaArgentina
-  barraDeVida: {fileID: 0}
+  barraDeVida: {fileID: 1917630278}
   vidaMaxima: 100
   pantallaDerrota: {fileID: 1326206142}
 --- !u!50 &1245982266
