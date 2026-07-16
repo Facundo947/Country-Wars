@@ -382,6 +382,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &293333236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 293333237}
+  m_Layer: 0
+  m_Name: SpawnPointBrasil 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &293333237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293333236}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6, y: -2.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1148817438}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &293581211
 GameObject:
   m_ObjectHideFlags: 0
@@ -2423,6 +2454,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 92290879292662312, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
       insertIndex: -1
       addedObject: {fileID: 28735671}
+    - targetCorrespondingSourceObject: {fileID: 92290879292662312, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 293333237}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2750068800138879403, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
       insertIndex: -1
