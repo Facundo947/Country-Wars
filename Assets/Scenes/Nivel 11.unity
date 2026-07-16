@@ -2591,7 +2591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d55383c97c14914ab3137c58eb429cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VictoriaPais
-  siguientePais: 5
+  siguientePais: 4
   escenaSelector: Selector De Niveles
 --- !u!4 &1066634850
 Transform:
