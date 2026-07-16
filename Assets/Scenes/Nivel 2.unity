@@ -779,7 +779,7 @@ Transform:
   m_GameObject: {fileID: 283183045}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3, y: -1.11, z: 0}
+  m_LocalPosition: {x: -2.4, y: -1.11, z: 0}
   m_LocalScale: {x: 1.1536381, y: 1.1536381, z: 1.1536381}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1024,6 +1024,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384555868}
   m_CullTransparentMesh: 1
+--- !u!1 &399359956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 399359957}
+  - component: {fileID: 399359958}
+  m_Layer: 0
+  m_Name: SpawnPointJapones 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &399359957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399359956}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.6, y: -1.4, z: 0}
+  m_LocalScale: {x: 1.1536381, y: 1.1536381, z: 1.1536381}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1127385145}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &399359958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399359956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
+  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
+  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
+  puntosSpawn:
+  - {fileID: 283183046}
+  - {fileID: 1518933328}
+  - {fileID: 399359957}
+  tiempoSpawn: 3
 --- !u!1 &472338047
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,6 +2419,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8668835811507197302, guid: 130e72145f77a2444946987f77ab7c22, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1599982875}
+    - targetCorrespondingSourceObject: {fileID: 8668835811507197302, guid: 130e72145f77a2444946987f77ab7c22, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1202445345}
+    - targetCorrespondingSourceObject: {fileID: 8668835811507197302, guid: 130e72145f77a2444946987f77ab7c22, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 399359957}
+    - targetCorrespondingSourceObject: {fileID: 8668835811507197302, guid: 130e72145f77a2444946987f77ab7c22, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1932044461}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7920583981590722103, guid: 130e72145f77a2444946987f77ab7c22, type: 3}
       insertIndex: -1
@@ -2580,6 +2640,57 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1202445344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1202445345}
+  - component: {fileID: 1202445346}
+  m_Layer: 0
+  m_Name: SpawnPointJapones 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1202445345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202445344}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.6, y: -3.4, z: 0}
+  m_LocalScale: {x: 1.1536381, y: 1.1536381, z: 1.1536381}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1127385145}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1202445346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202445344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
+  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
+  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
+  puntosSpawn:
+  - {fileID: 283183046}
+  - {fileID: 1518933328}
+  - {fileID: 1202445345}
+  tiempoSpawn: 3
 --- !u!1 &1284655965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3515,7 +3626,7 @@ Transform:
   m_GameObject: {fileID: 1518933327}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.07, y: 1.12, z: 0}
+  m_LocalPosition: {x: -2.7, y: 1.12, z: 0}
   m_LocalScale: {x: 1.1536381, y: 1.1536381, z: 1.1536381}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3703,7 +3814,7 @@ Transform:
   m_GameObject: {fileID: 1599982874}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.44, y: 2.71, z: 0}
+  m_LocalPosition: {x: -2.6, y: -3.4, z: 0}
   m_LocalScale: {x: 1.1536381, y: 1.1536381, z: 1.1536381}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4011,6 +4122,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897114417}
   m_CullTransparentMesh: 1
+--- !u!1 &1932044460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1932044461}
+  - component: {fileID: 1932044462}
+  m_Layer: 0
+  m_Name: SpawnPointJapones 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1932044461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932044460}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.6, y: 0.9, z: 0}
+  m_LocalScale: {x: 1.1536381, y: 1.1536381, z: 1.1536381}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1127385145}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1932044462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932044460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
+  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
+  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
+  puntosSpawn:
+  - {fileID: 283183046}
+  - {fileID: 1518933328}
+  - {fileID: 1932044461}
+  tiempoSpawn: 3
 --- !u!1 &1940888614 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6279857014079975709, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
@@ -4440,7 +4602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7276
+      value: -2.55
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.z

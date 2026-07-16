@@ -137,23 +137,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4617892
+      value: 0.69862944
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.58647144
+      value: 0.8872581
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8013
+      value: 1.2122669
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.24
+      value: 22.3604
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.64
+      value: -2.418
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -207,6 +207,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 955865976}
+    - targetCorrespondingSourceObject: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1546364999}
+    - targetCorrespondingSourceObject: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 768402633}
+    - targetCorrespondingSourceObject: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1909930800}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4448085774776634153, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       insertIndex: -1
@@ -343,7 +352,7 @@ Transform:
   m_GameObject: {fileID: 65353396}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2, y: 3.9, z: 0}
+  m_LocalPosition: {x: 0.2, y: 1.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1796,6 +1805,57 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &768402632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 768402633}
+  - component: {fileID: 768402634}
+  m_Layer: 0
+  m_Name: SpawnPointHolanda 3 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &768402633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768402632}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.7, y: -0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 54034506}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &768402634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768402632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0859a96f5ae444a4988dc6583d499bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerHolandes
+  prefabsEnemigos:
+  - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
+  - {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+  - {fileID: 6100448686325279208, guid: f3027ba75760c4147bdd2c9f4e7a96dc, type: 3}
+  puntosSpawn:
+  - {fileID: 768402633}
+  tiempoSpawn: 4
 --- !u!1 &873917417
 GameObject:
   m_ObjectHideFlags: 0
@@ -1994,7 +2054,7 @@ Transform:
   m_GameObject: {fileID: 955865975}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.9, y: -3.7, z: 0}
+  m_LocalPosition: {x: -0.9, y: -3.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2789,23 +2849,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.58572453
+      value: 0.8243487
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.58572453
+      value: 0.8243487
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.58572453
+      value: 0.8243487
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.22
+      value: -27.0816
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.16
+      value: -2.155
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2841,7 +2901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6264945508335087333, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_SortingLayer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6264945508335087333, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_SortingOrder
@@ -2849,7 +2909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6264945508335087333, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_SortingLayerID
-      value: 0
+      value: -383823405
       objectReference: {fileID: 0}
     - target: {fileID: 6279857014079975709, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_Name
@@ -3894,6 +3954,57 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 896923016342041389, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
   m_PrefabInstance: {fileID: 1544134626}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1546364998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1546364999}
+  - component: {fileID: 1546365000}
+  m_Layer: 0
+  m_Name: SpawnPointHolanda 3 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1546364999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546364998}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.7, y: -2.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 54034506}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1546365000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546364998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0859a96f5ae444a4988dc6583d499bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerHolandes
+  prefabsEnemigos:
+  - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
+  - {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+  - {fileID: 6100448686325279208, guid: f3027ba75760c4147bdd2c9f4e7a96dc, type: 3}
+  puntosSpawn:
+  - {fileID: 1546364999}
+  tiempoSpawn: 4
 --- !u!1 &1640751479
 GameObject:
   m_ObjectHideFlags: 0
@@ -4370,6 +4481,57 @@ MonoBehaviour:
   prefabGuarani: {fileID: 0}
   prefabEspadachinArgentino: {fileID: 0}
   prefabSenoraEmpanada: {fileID: 0}
+--- !u!1 &1909930799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1909930800}
+  - component: {fileID: 1909930801}
+  m_Layer: 0
+  m_Name: SpawnPointHolanda 3 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1909930800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909930799}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.7, y: 1.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 54034506}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1909930801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909930799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0859a96f5ae444a4988dc6583d499bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerHolandes
+  prefabsEnemigos:
+  - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
+  - {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+  - {fileID: 6100448686325279208, guid: f3027ba75760c4147bdd2c9f4e7a96dc, type: 3}
+  puntosSpawn:
+  - {fileID: 1909930800}
+  tiempoSpawn: 4
 --- !u!1 &1917630276
 GameObject:
   m_ObjectHideFlags: 0

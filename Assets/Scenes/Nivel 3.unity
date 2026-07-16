@@ -1187,7 +1187,7 @@ Transform:
   m_GameObject: {fileID: 749611719}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4.6, y: -1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1211,7 +1211,7 @@ MonoBehaviour:
   - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   puntosSpawn:
   - {fileID: 749611720}
-  - {fileID: 995170661}
+  - {fileID: 0}
   - {fileID: 1985327863}
   tiempoSpawn: 2
 --- !u!1 &755475433
@@ -1858,37 +1858,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &995170660
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 995170661}
-  m_Layer: 0
-  m_Name: SpawnPointHolanda 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &995170661
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 995170660}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3, y: 3.54, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6290609936598099455}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1019939045 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3278244657207411496, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
@@ -2343,6 +2312,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 924583928}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1455916596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1455916597}
+  - component: {fileID: 1455916598}
+  m_Layer: 0
+  m_Name: SpawnPointHolanda 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1455916597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455916596}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.4, y: -3.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6290609936598099455}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1455916598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455916596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0859a96f5ae444a4988dc6583d499bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerHolandes
+  prefabsEnemigos:
+  - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
+  puntosSpawn:
+  - {fileID: 1455916597}
+  tiempoSpawn: 2
 --- !u!1001 &1478308640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2673,11 +2691,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.5831
+      value: -16.09
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7276
+      value: -2.12
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2713,7 +2731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6264945508335087333, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_SortingLayer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6264945508335087333, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_SortingOrder
@@ -2721,7 +2739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6264945508335087333, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_SortingLayerID
-      value: 0
+      value: -383823405
       objectReference: {fileID: 0}
     - target: {fileID: 6279857014079975709, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_Name
@@ -3894,8 +3912,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1985327863}
+  - component: {fileID: 1985327864}
   m_Layer: 0
-  m_Name: SpawnPointHolanda 3
+  m_Name: SpawnPointHolanda 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3910,12 +3929,78 @@ Transform:
   m_GameObject: {fileID: 1985327862}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.16, y: -1.19, z: 0}
+  m_LocalPosition: {x: -4.16, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6290609936598099455}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1985327864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985327862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0859a96f5ae444a4988dc6583d499bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerHolandes
+  prefabsEnemigos:
+  - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
+  puntosSpawn:
+  - {fileID: 1985327863}
+  tiempoSpawn: 2
+--- !u!1 &2043997361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2043997362}
+  - component: {fileID: 2043997363}
+  m_Layer: 0
+  m_Name: SpawnPointHolanda 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2043997362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043997361}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.1, y: -0.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6290609936598099455}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2043997363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043997361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0859a96f5ae444a4988dc6583d499bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerHolandes
+  prefabsEnemigos:
+  - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
+  puntosSpawn:
+  - {fileID: 2043997362}
+  tiempoSpawn: 2
 --- !u!1 &2064661877
 GameObject:
   m_ObjectHideFlags: 0
@@ -4288,7 +4373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.3645
+      value: -2.1
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4338,10 +4423,13 @@ PrefabInstance:
       addedObject: {fileID: 749611720}
     - targetCorrespondingSourceObject: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 995170661}
+      addedObject: {fileID: 1985327863}
     - targetCorrespondingSourceObject: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1985327863}
+      addedObject: {fileID: 1455916597}
+    - targetCorrespondingSourceObject: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2043997362}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4448085774776634153, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       insertIndex: -1
