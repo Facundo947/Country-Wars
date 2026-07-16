@@ -181,12 +181,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Holandesa
   velocidadCamino: 2
-  rangoAtaque: 3
+  largoLineaDeteccion: 6
   vidaMaxima: 80
   prefabFlor: {fileID: 5961339403290863033, guid: 434d9524897954142bfbe5276e6e8cab, type: 3}
   capaObjetivos:
     serializedVersion: 2
     m_Bits: 64
+  tiempoEntreDisparos: 4
 --- !u!95 &-686738251731039587
 Animator:
   serializedVersion: 7

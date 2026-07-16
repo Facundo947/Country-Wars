@@ -40,6 +40,24 @@ public class ArqueroHolandes : MonoBehaviour
 
     private void Update()
     {
+        // ==========================================
+        // FASE DE PLANEACIÓN
+        // ==========================================
+        if (GameManager.Instance != null &&
+            GameManager.Instance.EnPlaneacion())
+        {
+            if (animator != null)
+            {
+                animator.SetBool("Caminando", false);
+                animator.SetBool("Atacando", false);
+            }
+
+            return;
+        }
+
+        // ==========================================
+        // FASE DE EJECUCIÓN
+        // ==========================================
         DetectarObjetivo();
 
         if (!estaAtacando)
@@ -84,7 +102,7 @@ public class ArqueroHolandes : MonoBehaviour
         {
             estaAtacando = false;
 
-            // Al encontrar un nuevo enemigo podr� disparar inmediatamente.
+            // Al encontrar un nuevo enemigo podrá disparar inmediatamente.
             cronometroAtaque = tiempoEntreAtaques;
 
             if (animator != null)

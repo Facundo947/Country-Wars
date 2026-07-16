@@ -104,6 +104,17 @@ public class Boleadora : MonoBehaviour
             return;
         }
 
+        Holandesa holandesa =
+            other.GetComponent<Holandesa>();
+
+        if (holandesa != null)
+        {
+            holandesa.RecibirDanio(danio);
+
+            Destroy(gameObject);
+            return;
+        }
+
         // ==========================================
         // ITALIA
         // ==========================================
@@ -123,7 +134,6 @@ public class Boleadora : MonoBehaviour
             return;
         }
 
-        // PIZZERO ITALIANO
         PizzeroItaliano pizzero =
             other.GetComponent<PizzeroItaliano>();
 
@@ -131,6 +141,22 @@ public class Boleadora : MonoBehaviour
         {
             pizzero.RecibirDanio(danio);
             pizzero.AplicarLentitud(
+                velocidadLenta,
+                duracionLentitud
+            );
+
+            Destroy(gameObject);
+            return;
+        }
+
+        // TANQUE ITALIANO
+        TanqueItaliano tanque =
+            other.GetComponent<TanqueItaliano>();
+
+        if (tanque != null)
+        {
+            tanque.RecibirDanio(danio);
+            tanque.AplicarLentitud(
                 velocidadLenta,
                 duracionLentitud
             );

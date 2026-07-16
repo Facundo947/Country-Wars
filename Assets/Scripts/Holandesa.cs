@@ -34,13 +34,35 @@ public class Holandesa : MonoBehaviour
 
     private void Update()
     {
+        // ==========================================
+        // FASE DE PLANEACIÓN
+        // ==========================================
+        if (GameManager.Instance != null &&
+            GameManager.Instance.EnPlaneacion())
+        {
+            miRigidbody.linearVelocity = Vector2.zero;
+
+            objetivoActual = null;
+
+            if (miAnimator != null)
+            {
+                miAnimator.SetFloat("caminando", 0f);
+                miAnimator.SetFloat("atacando", 0f);
+            }
+
+            return;
+        }
+
+        // ==========================================
+        // FASE DE EJECUCIÓN
+        // ==========================================
         DetectarObjetivo();
         ControlMovimiento();
         ControlDisparo();
     }
 
     // =========================================================
-    // DETECCIÓN CON RAYCAST (como querías)
+    // DETECCIÓN CON RAYCAST
     // =========================================================
     private void DetectarObjetivo()
     {
@@ -55,7 +77,6 @@ public class Holandesa : MonoBehaviour
 
         if (hit.collider != null)
         {
-            // Detecta cualquier enemigo válido
             if (hit.collider.GetComponent<Messi>() != null ||
                 hit.collider.GetComponent<Gaucho>() != null ||
                 hit.collider.GetComponent<BanderaArgentina>() != null)
@@ -84,7 +105,8 @@ public class Holandesa : MonoBehaviour
         {
             objetivoActual = null;
 
-            miRigidbody.linearVelocity = new Vector2(-velocidadCamino, miRigidbody.linearVelocity.y);
+            miRigidbody.linearVelocity =
+                new Vector2(-velocidadCamino, miRigidbody.linearVelocity.y);
 
             miAnimator.SetFloat("caminando", 1f);
             miAnimator.SetFloat("atacando", 0f);
@@ -92,11 +114,12 @@ public class Holandesa : MonoBehaviour
     }
 
     // =========================================================
-    // DISPARO CON COOLDOWN (LA PARTE QUE TE FALLABA)
+    // DISPARO
     // =========================================================
     private void ControlDisparo()
     {
-        if (objetivoActual == null) return;
+        if (objetivoActual == null)
+            return;
 
         cooldown -= Time.deltaTime;
 
@@ -112,11 +135,17 @@ public class Holandesa : MonoBehaviour
     // =========================================================
     private void DispararFlor()
     {
-        if (prefabFlor == null || objetivoActual == null) return;
+        if (prefabFlor == null || objetivoActual == null)
+            return;
 
-        GameObject flor = Instantiate(prefabFlor, transform.position, Quaternion.identity);
+        GameObject flor = Instantiate(
+            prefabFlor,
+            transform.position,
+            Quaternion.identity
+        );
 
-        FlorHolandesa script = flor.GetComponent<FlorHolandesa>();
+        FlorHolandesa script =
+            flor.GetComponent<FlorHolandesa>();
 
         if (script != null)
         {
@@ -143,6 +172,10 @@ public class Holandesa : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawRay(transform.position, Vector2.left * largoLineaDeteccion);
+
+        Gizmos.DrawRay(
+            transform.position,
+            Vector2.left * largoLineaDeteccion
+        );
     }
 }
