@@ -678,6 +678,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170657055}
   m_CullTransparentMesh: 1
+--- !u!1 &225632733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 225632734}
+  m_Layer: 0
+  m_Name: SpawnPointItalia 4 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &225632734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225632733}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.47, y: -1.37, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1710433444}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &311733976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,7 +1114,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 576899351}
-  - component: {fileID: 576899352}
   m_Layer: 0
   m_Name: SpawnPointItalia 3
   m_TagString: Untagged
@@ -1106,21 +1136,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1710433444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &576899352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 576899350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c0bb05df6386524fa999ba4e175048a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerItaliano
-  prefabEspadachinItaliano: {fileID: 1582810701580956203, guid: 1f9f0a315550e0443b8e7b9e3b56e0b9, type: 3}
-  tiempoEntreSpawns: 3
-  retrasoInicial: 2
 --- !u!224 &590697496 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4621997869817099738, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
@@ -1534,7 +1549,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 673994477}
-  - component: {fileID: 673994478}
   m_Layer: 0
   m_Name: SpawnPointItalia 1
   m_TagString: Untagged
@@ -1557,21 +1571,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1710433444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &673994478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 673994476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c0bb05df6386524fa999ba4e175048a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerItaliano
-  prefabEspadachinItaliano: {fileID: 1582810701580956203, guid: 1f9f0a315550e0443b8e7b9e3b56e0b9, type: 3}
-  tiempoEntreSpawns: 3
-  retrasoInicial: 2
 --- !u!1 &697236827
 GameObject:
   m_ObjectHideFlags: 0
@@ -1657,7 +1656,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 721319893}
-  - component: {fileID: 721319894}
   m_Layer: 0
   m_Name: SpawnPointItalia 2
   m_TagString: Untagged
@@ -1680,21 +1678,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1710433444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &721319894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721319892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c0bb05df6386524fa999ba4e175048a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerItaliano
-  prefabEspadachinItaliano: {fileID: 2758939537859810736, guid: 4fda17530724be749b722054eb901d07, type: 3}
-  tiempoEntreSpawns: 6
-  retrasoInicial: 4
 --- !u!1 &735352457
 GameObject:
   m_ObjectHideFlags: 0
@@ -3992,6 +3975,37 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1478458368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1478458369}
+  m_Layer: 0
+  m_Name: SpawnPointItalia 4 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1478458369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478458368}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.47, y: -1.37, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1710433444}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1492117704
 GameObject:
   m_ObjectHideFlags: 0
@@ -4310,6 +4324,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2977915937528642802, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1875776201}
+    - targetCorrespondingSourceObject: {fileID: 2977915937528642802, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1478458369}
+    - targetCorrespondingSourceObject: {fileID: 2977915937528642802, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 225632734}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6799332499863126934, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
       insertIndex: -1
@@ -4495,6 +4515,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791812512}
   m_CullTransparentMesh: 1
+--- !u!1 &1804611880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1804611882}
+  - component: {fileID: 1804611881}
+  m_Layer: 0
+  m_Name: SpawnerJapones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1804611881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804611880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
+  enemigosPorSpawn:
+  - puntoSpawn: {fileID: 673994477}
+    prefabEnemigo: {fileID: 1582810701580956203, guid: 1f9f0a315550e0443b8e7b9e3b56e0b9, type: 3}
+  - puntoSpawn: {fileID: 721319893}
+    prefabEnemigo: {fileID: 1582810701580956203, guid: 1f9f0a315550e0443b8e7b9e3b56e0b9, type: 3}
+  - puntoSpawn: {fileID: 576899351}
+    prefabEnemigo: {fileID: 2758939537859810736, guid: 4fda17530724be749b722054eb901d07, type: 3}
+  - puntoSpawn: {fileID: 1875776201}
+    prefabEnemigo: {fileID: 1582810701580956203, guid: 1f9f0a315550e0443b8e7b9e3b56e0b9, type: 3}
+  - puntoSpawn: {fileID: 1478458369}
+    prefabEnemigo: {fileID: 2758939537859810736, guid: 4fda17530724be749b722054eb901d07, type: 3}
+  - puntoSpawn: {fileID: 225632734}
+    prefabEnemigo: {fileID: 1582810701580956203, guid: 1f9f0a315550e0443b8e7b9e3b56e0b9, type: 3}
+--- !u!4 &1804611882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804611880}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 988.6809, y: 1074.4172, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1851578398
 GameObject:
   m_ObjectHideFlags: 0
@@ -4625,7 +4702,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1875776201}
-  - component: {fileID: 1875776202}
   m_Layer: 0
   m_Name: SpawnPointItalia 4
   m_TagString: Untagged
@@ -4648,21 +4724,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1710433444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1875776202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1875776200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c0bb05df6386524fa999ba4e175048a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerItaliano
-  prefabEspadachinItaliano: {fileID: 2758939537859810736, guid: 4fda17530724be749b722054eb901d07, type: 3}
-  tiempoEntreSpawns: 3
-  retrasoInicial: 2
 --- !u!1 &2032042319
 GameObject:
   m_ObjectHideFlags: 0
@@ -5136,3 +5197,4 @@ SceneRoots:
   - {fileID: 802228200}
   - {fileID: 1851578403}
   - {fileID: 1522116545}
+  - {fileID: 1804611882}

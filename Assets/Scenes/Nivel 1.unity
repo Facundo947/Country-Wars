@@ -3935,18 +3935,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
   enemigosPorSpawn:
-  - puntoSpawn: {fileID: 0}
-    prefabEnemigo: {fileID: 0}
-  - puntoSpawn: {fileID: 0}
-    prefabEnemigo: {fileID: 0}
-  - puntoSpawn: {fileID: 0}
-    prefabEnemigo: {fileID: 0}
-  - puntoSpawn: {fileID: 0}
-    prefabEnemigo: {fileID: 0}
-  - puntoSpawn: {fileID: 0}
-    prefabEnemigo: {fileID: 0}
-  - puntoSpawn: {fileID: 0}
-    prefabEnemigo: {fileID: 0}
+  - puntoSpawn: {fileID: 2017569107}
+    prefabEnemigo: {fileID: 4058597934032911456, guid: 45a0e1c2c65c4024bb9de49e48ea6e05, type: 3}
+  - puntoSpawn: {fileID: 893251175}
+    prefabEnemigo: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
+  - puntoSpawn: {fileID: 733068355}
+    prefabEnemigo: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
+  - puntoSpawn: {fileID: 999162799}
+    prefabEnemigo: {fileID: 4058597934032911456, guid: 45a0e1c2c65c4024bb9de49e48ea6e05, type: 3}
+  - puntoSpawn: {fileID: 2053140708}
+    prefabEnemigo: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
+  - puntoSpawn: {fileID: 16720567}
+    prefabEnemigo: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
 --- !u!4 &1853779926
 Transform:
   m_ObjectHideFlags: 0

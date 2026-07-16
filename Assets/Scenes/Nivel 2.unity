@@ -797,13 +797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
-  puntosSpawn:
-  - {fileID: 283183046}
-  - {fileID: 1518933328}
-  - {fileID: 1599982875}
-  tiempoSpawn: 3
+  enemigosPorSpawn: []
 --- !u!1 &293418924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,13 +1062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
-  puntosSpawn:
-  - {fileID: 283183046}
-  - {fileID: 1518933328}
-  - {fileID: 399359957}
-  tiempoSpawn: 3
+  enemigosPorSpawn: []
 --- !u!1 &472338047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1836,6 +1824,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -132.99997}
   m_SizeDelta: {x: 518.3146, y: 97.184}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &730888182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 730888184}
+  - component: {fileID: 730888183}
+  m_Layer: 0
+  m_Name: SpawnerJapones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &730888183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730888182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
+  enemigosPorSpawn:
+  - puntoSpawn: {fileID: 283183046}
+    prefabEnemigo: {fileID: 4058597934032911456, guid: 45a0e1c2c65c4024bb9de49e48ea6e05, type: 3}
+  - puntoSpawn: {fileID: 1518933328}
+    prefabEnemigo: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
+  - puntoSpawn: {fileID: 1599982875}
+    prefabEnemigo: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
+  - puntoSpawn: {fileID: 1202445345}
+    prefabEnemigo: {fileID: 4058597934032911456, guid: 45a0e1c2c65c4024bb9de49e48ea6e05, type: 3}
+  - puntoSpawn: {fileID: 399359957}
+    prefabEnemigo: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
+  - puntoSpawn: {fileID: 1932044461}
+    prefabEnemigo: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
+--- !u!4 &730888184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730888182}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 988.6809, y: 1074.4172, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &752447166
 GameObject:
   m_ObjectHideFlags: 0
@@ -2684,13 +2729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
-  puntosSpawn:
-  - {fileID: 283183046}
-  - {fileID: 1518933328}
-  - {fileID: 1202445345}
-  tiempoSpawn: 3
+  enemigosPorSpawn: []
 --- !u!1 &1284655965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3644,13 +3683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
-  puntosSpawn:
-  - {fileID: 283183046}
-  - {fileID: 1518933328}
-  - {fileID: 1599982875}
-  tiempoSpawn: 3
+  enemigosPorSpawn: []
 --- !u!1 &1577973845
 GameObject:
   m_ObjectHideFlags: 0
@@ -3832,13 +3865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
-  puntosSpawn:
-  - {fileID: 283183046}
-  - {fileID: 1518933328}
-  - {fileID: 1599982875}
-  tiempoSpawn: 3
+  enemigosPorSpawn: []
 --- !u!1 &1606702589
 GameObject:
   m_ObjectHideFlags: 0
@@ -4166,13 +4193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
-  puntosSpawn:
-  - {fileID: 283183046}
-  - {fileID: 1518933328}
-  - {fileID: 1932044461}
-  tiempoSpawn: 3
+  enemigosPorSpawn: []
 --- !u!1 &1940888614 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6279857014079975709, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
@@ -4697,3 +4718,4 @@ SceneRoots:
   - {fileID: 57777412}
   - {fileID: 2053909129}
   - {fileID: 2045355547}
+  - {fileID: 730888184}

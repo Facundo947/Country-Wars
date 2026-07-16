@@ -159,7 +159,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 81820600}
-  - component: {fileID: 81820601}
   m_Layer: 0
   m_Name: SpawnPointBrasil 4
   m_TagString: Untagged
@@ -182,21 +181,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144550938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &81820601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 81820599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d40b3a9b153266747bd7ce8c3f1927a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
-  prefabTropaBrasil: {fileID: 0}
-  tiempoEntreSpawns: 5
-  retrasoInicial: 2
 --- !u!1 &125758501
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,7 +941,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 219314095}
-  - component: {fileID: 219314096}
   m_Layer: 0
   m_Name: SpawnPointBrasil 1
   m_TagString: Untagged
@@ -980,21 +963,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144550938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &219314096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 219314094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d40b3a9b153266747bd7ce8c3f1927a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
-  prefabTropaBrasil: {fileID: 0}
-  tiempoEntreSpawns: 5
-  retrasoInicial: 2
 --- !u!1 &236277677
 GameObject:
   m_ObjectHideFlags: 0
@@ -2333,7 +2301,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 585326096}
-  - component: {fileID: 585326097}
   m_Layer: 0
   m_Name: SpawnPointBrasil 5
   m_TagString: Untagged
@@ -2356,21 +2323,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144550938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &585326097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 585326095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d40b3a9b153266747bd7ce8c3f1927a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
-  prefabTropaBrasil: {fileID: 0}
-  tiempoEntreSpawns: 5
-  retrasoInicial: 2
 --- !u!1 &592403729
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,7 +2332,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 592403730}
-  - component: {fileID: 592403731}
   m_Layer: 0
   m_Name: SpawnPointBrasil 3
   m_TagString: Untagged
@@ -2403,21 +2354,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144550938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &592403731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 592403729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d40b3a9b153266747bd7ce8c3f1927a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
-  prefabTropaBrasil: {fileID: 0}
-  tiempoEntreSpawns: 5
-  retrasoInicial: 2
 --- !u!1 &610669458
 GameObject:
   m_ObjectHideFlags: 0
@@ -3595,7 +3531,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1043270040}
-  - component: {fileID: 1043270041}
   m_Layer: 0
   m_Name: SpawnPointBrasil 2
   m_TagString: Untagged
@@ -3618,21 +3553,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144550938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1043270041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043270039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d40b3a9b153266747bd7ce8c3f1927a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
-  prefabTropaBrasil: {fileID: 0}
-  tiempoEntreSpawns: 5
-  retrasoInicial: 2
 --- !u!1 &1046649794
 GameObject:
   m_ObjectHideFlags: 0
@@ -4053,6 +3973,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 92290879292662312, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
       insertIndex: -1
       addedObject: {fileID: 585326096}
+    - targetCorrespondingSourceObject: {fileID: 92290879292662312, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1363500964}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2750068800138879403, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
       insertIndex: -1
@@ -4308,6 +4231,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176146837}
   m_CullTransparentMesh: 1
+--- !u!1 &1202906294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1202906296}
+  - component: {fileID: 1202906295}
+  m_Layer: 0
+  m_Name: SpawnerJapones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1202906295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202906294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
+  enemigosPorSpawn:
+  - puntoSpawn: {fileID: 219314095}
+    prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
+  - puntoSpawn: {fileID: 1043270040}
+    prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
+  - puntoSpawn: {fileID: 592403730}
+    prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
+  - puntoSpawn: {fileID: 81820600}
+    prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
+  - puntoSpawn: {fileID: 585326096}
+    prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
+  - puntoSpawn: {fileID: 1363500964}
+    prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
+--- !u!4 &1202906296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202906294}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 988.6809, y: 1074.4172, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1266175767 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4621997869817099738, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
@@ -4360,6 +4340,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!1 &1363500963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363500964}
+  m_Layer: 0
+  m_Name: SpawnPointBrasil 5 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1363500964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363500963}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.22, y: -0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1144550938}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1549071396
 GameObject:
   m_ObjectHideFlags: 0
@@ -5634,3 +5645,4 @@ SceneRoots:
   - {fileID: 708440709}
   - {fileID: 752057658}
   - {fileID: 1627264563}
+  - {fileID: 1202906296}
