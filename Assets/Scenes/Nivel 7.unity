@@ -1085,7 +1085,7 @@ GameObject:
   - component: {fileID: 576899351}
   - component: {fileID: 576899352}
   m_Layer: 0
-  m_Name: SpawnPointItalia3
+  m_Name: SpawnPointItalia 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1100,7 +1100,7 @@ Transform:
   m_GameObject: {fileID: 576899350}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.67, y: -1.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1674,7 +1674,7 @@ Transform:
   m_GameObject: {fileID: 721319892}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4307,6 +4307,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2977915937528642802, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 576899351}
+    - targetCorrespondingSourceObject: {fileID: 2977915937528642802, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1875776201}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6799332499863126934, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
       insertIndex: -1
@@ -4613,6 +4616,53 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1875776200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1875776201}
+  - component: {fileID: 1875776202}
+  m_Layer: 0
+  m_Name: SpawnPointItalia 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1875776201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875776200}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.47, y: -1.37, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1710433444}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1875776202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875776200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0bb05df6386524fa999ba4e175048a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerItaliano
+  prefabEspadachinItaliano: {fileID: 2758939537859810736, guid: 4fda17530724be749b722054eb901d07, type: 3}
+  tiempoEntreSpawns: 3
+  retrasoInicial: 2
 --- !u!1 &2032042319
 GameObject:
   m_ObjectHideFlags: 0
