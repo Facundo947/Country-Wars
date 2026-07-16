@@ -195,6 +195,53 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &82685812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 82685813}
+  - component: {fileID: 82685814}
+  m_Layer: 0
+  m_Name: SpawnPointBrasil 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &82685813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82685812}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.78, y: -0.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1813123658042889647}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &82685814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82685812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d40b3a9b153266747bd7ce8c3f1927a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
+  prefabTropaBrasil: {fileID: 0}
+  tiempoEntreSpawns: 5
+  retrasoInicial: 2
 --- !u!1 &216115260
 GameObject:
   m_ObjectHideFlags: 0
@@ -2007,7 +2054,7 @@ Transform:
   m_GameObject: {fileID: 705686230}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.7, y: 0, z: 0}
+  m_LocalPosition: {x: -2.62, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3818,6 +3865,53 @@ MonoBehaviour:
   prefabGuarani: {fileID: 0}
   prefabEspadachinArgentino: {fileID: 5139951888898898538, guid: 2e457db7bd39d8c4b8ddda1102ba34d7, type: 3}
   prefabSenoraEmpanada: {fileID: 0}
+--- !u!1 &1421848446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1421848447}
+  - component: {fileID: 1421848448}
+  m_Layer: 0
+  m_Name: SpawnPointBrasil 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1421848447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421848446}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.78, y: -2.58, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1813123658042889647}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1421848448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421848446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d40b3a9b153266747bd7ce8c3f1927a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
+  prefabTropaBrasil: {fileID: 0}
+  tiempoEntreSpawns: 5
+  retrasoInicial: 2
 --- !u!1 &1452302646
 GameObject:
   m_ObjectHideFlags: 0
@@ -5453,6 +5547,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 92290879292662312, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1363923301}
+    - targetCorrespondingSourceObject: {fileID: 92290879292662312, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1421848447}
+    - targetCorrespondingSourceObject: {fileID: 92290879292662312, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 82685813}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2750068800138879403, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
       insertIndex: -1
