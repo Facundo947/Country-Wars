@@ -128,7 +128,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 16720567}
-  - component: {fileID: 16720568}
   m_Layer: 0
   m_Name: SpawnPointJapones 6
   m_TagString: Untagged
@@ -151,25 +150,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1605606916}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &16720568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 16720566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
-  puntosSpawn:
-  - {fileID: 2017569107}
-  - {fileID: 893251175}
-  - {fileID: 16720567}
-  tiempoSpawn: 3
 --- !u!1 &123528819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,7 +1648,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 733068355}
-  - component: {fileID: 733068356}
   m_Layer: 0
   m_Name: SpawnPointJapones 3
   m_TagString: Untagged
@@ -1691,25 +1670,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1605606916}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &733068356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733068354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
-  puntosSpawn:
-  - {fileID: 2017569107}
-  - {fileID: 893251175}
-  - {fileID: 733068355}
-  tiempoSpawn: 3
 --- !u!1001 &783431973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2124,7 +2084,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 893251175}
-  - component: {fileID: 893251176}
   m_Layer: 0
   m_Name: SpawnPointJapones 2
   m_TagString: Untagged
@@ -2147,25 +2106,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1605606916}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &893251176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893251174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
-  puntosSpawn:
-  - {fileID: 2017569107}
-  - {fileID: 893251175}
-  - {fileID: 733068355}
-  tiempoSpawn: 3
 --- !u!1 &999162798
 GameObject:
   m_ObjectHideFlags: 0
@@ -2175,7 +2115,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 999162799}
-  - component: {fileID: 999162800}
   m_Layer: 0
   m_Name: SpawnPointJapones 4
   m_TagString: Untagged
@@ -2198,25 +2137,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1605606916}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &999162800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 999162798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
-  puntosSpawn:
-  - {fileID: 999162799}
-  - {fileID: 893251175}
-  - {fileID: 999162799}
-  tiempoSpawn: 3
 --- !u!224 &1124404861 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3278244657207411496, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
@@ -3985,6 +3905,63 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1853779924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1853779926}
+  - component: {fileID: 1853779925}
+  m_Layer: 0
+  m_Name: SpawnerJapones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1853779925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853779924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
+  enemigosPorSpawn:
+  - puntoSpawn: {fileID: 0}
+    prefabEnemigo: {fileID: 0}
+  - puntoSpawn: {fileID: 0}
+    prefabEnemigo: {fileID: 0}
+  - puntoSpawn: {fileID: 0}
+    prefabEnemigo: {fileID: 0}
+  - puntoSpawn: {fileID: 0}
+    prefabEnemigo: {fileID: 0}
+  - puntoSpawn: {fileID: 0}
+    prefabEnemigo: {fileID: 0}
+  - puntoSpawn: {fileID: 0}
+    prefabEnemigo: {fileID: 0}
+--- !u!4 &1853779926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853779924}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 988.6809, y: 1074.4172, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1898392708
 GameObject:
   m_ObjectHideFlags: 0
@@ -4214,7 +4191,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2017569107}
-  - component: {fileID: 2017569108}
   m_Layer: 0
   m_Name: SpawnPointJapones 1
   m_TagString: Untagged
@@ -4237,25 +4213,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1605606916}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2017569108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2017569106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
-  puntosSpawn:
-  - {fileID: 2017569107}
-  - {fileID: 893251175}
-  - {fileID: 733068355}
-  tiempoSpawn: 3
 --- !u!1 &2053140707
 GameObject:
   m_ObjectHideFlags: 0
@@ -4265,7 +4222,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2053140708}
-  - component: {fileID: 2053140709}
   m_Layer: 0
   m_Name: 'SpawnPointJapones 5 '
   m_TagString: Untagged
@@ -4288,25 +4244,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1605606916}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2053140709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053140707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb395378095ebea4cb6b2bfdb7161fcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
-  prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
-  puntosSpawn:
-  - {fileID: 2017569107}
-  - {fileID: 893251175}
-  - {fileID: 2053140708}
-  tiempoSpawn: 3
 --- !u!1 &2063005939
 GameObject:
   m_ObjectHideFlags: 0
@@ -4654,3 +4591,4 @@ SceneRoots:
   - {fileID: 1347022284}
   - {fileID: 823518641}
   - {fileID: 1129242057}
+  - {fileID: 1853779926}
