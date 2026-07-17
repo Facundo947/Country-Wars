@@ -179,6 +179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5606c6fb2073fab4d83689ba8c12f738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlorHolandesa
-  velocidad: 5
+  velocidad: 10
   danio: 15
   tiempoVida: 3
