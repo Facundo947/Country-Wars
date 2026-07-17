@@ -688,7 +688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 225632734}
   m_Layer: 0
-  m_Name: SpawnPointItalia 4 (2)
+  m_Name: SpawnPointItalia 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1362,23 +1362,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.58572453
+      value: 0.70468515
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.58572453
+      value: 0.70468515
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.58572453
+      value: 0.70468515
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.22
+      value: -27.0797
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.16
+      value: -3.3818
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1721,6 +1721,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 664958903}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &770435190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 770435191}
+  m_Layer: 0
+  m_Name: SpawnPointItalia 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &770435191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770435190}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3, y: -1.13, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1710433444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &802228196
 GameObject:
@@ -4011,7 +4042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1478458369}
   m_Layer: 0
-  m_Name: SpawnPointItalia 4 (1)
+  m_Name: SpawnPointItalia 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4356,6 +4387,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2977915937528642802, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 225632734}
+    - targetCorrespondingSourceObject: {fileID: 2977915937528642802, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 770435191}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6799332499863126934, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
       insertIndex: -1
@@ -4583,6 +4617,8 @@ MonoBehaviour:
     prefabEnemigo: {fileID: 2758939537859810736, guid: 4fda17530724be749b722054eb901d07, type: 3}
   - puntoSpawn: {fileID: 225632734}
     prefabEnemigo: {fileID: 1582810701580956203, guid: 1f9f0a315550e0443b8e7b9e3b56e0b9, type: 3}
+  - puntoSpawn: {fileID: 770435191}
+    prefabEnemigo: {fileID: 2758939537859810736, guid: 4fda17530724be749b722054eb901d07, type: 3}
 --- !u!4 &1804611882
 Transform:
   m_ObjectHideFlags: 0

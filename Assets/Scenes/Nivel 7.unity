@@ -688,7 +688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 225632734}
   m_Layer: 0
-  m_Name: SpawnPointItalia 4 (2)
+  m_Name: SpawnPointItalia 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1362,23 +1362,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.58572453
+      value: 0.7042166
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.58572453
+      value: 0.7042166
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.58572453
+      value: 0.7042166
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.22
+      value: -27.0802
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.16
+      value: -3.381
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4011,7 +4011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1478458369}
   m_Layer: 0
-  m_Name: SpawnPointItalia 4 (1)
+  m_Name: SpawnPointItalia 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
