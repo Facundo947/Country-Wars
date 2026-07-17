@@ -109,7 +109,7 @@ MonoBehaviour:
   avanzarHaciaLaDerecha: 1
   vidaMaxima: 100
   prefabLanza: {fileID: 7740578823212565810, guid: 09294e11579087144a1762e065801b4e, type: 3}
-  puntoDisparo: {fileID: 0}
+  puntoDisparo: {fileID: 8602903238449021016}
   danioLanza: 30
   rangoAtaque: 6
   tiempoEntreAtaques: 1.8
