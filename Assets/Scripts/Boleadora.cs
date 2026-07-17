@@ -15,10 +15,12 @@ public class Boleadora : MonoBehaviour
     [Header("Tiempo de vida")]
     [SerializeField] private float tiempoDeVida = 5f;
 
+
     private void Start()
     {
         Destroy(gameObject, tiempoDeVida);
     }
+
 
     private void Update()
     {
@@ -26,6 +28,7 @@ public class Boleadora : MonoBehaviour
             Vector2.right * velocidad * Time.deltaTime
         );
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -48,6 +51,7 @@ public class Boleadora : MonoBehaviour
             return;
         }
 
+
         Geisha geisha =
             other.GetComponent<Geisha>();
 
@@ -59,6 +63,7 @@ public class Boleadora : MonoBehaviour
             return;
         }
 
+
         BanderaJaponesa banderaJapon =
             other.GetComponent<BanderaJaponesa>();
 
@@ -69,6 +74,8 @@ public class Boleadora : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
+
 
         // ==========================================
         // HOLANDA
@@ -89,6 +96,7 @@ public class Boleadora : MonoBehaviour
             return;
         }
 
+
         ArqueroHolandes arquero =
             other.GetComponent<ArqueroHolandes>();
 
@@ -104,6 +112,7 @@ public class Boleadora : MonoBehaviour
             return;
         }
 
+
         BanderaHolandesa holandesa =
             other.GetComponent<BanderaHolandesa>();
 
@@ -114,6 +123,8 @@ public class Boleadora : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
+
 
         // ==========================================
         // ITALIA
@@ -134,6 +145,7 @@ public class Boleadora : MonoBehaviour
             return;
         }
 
+
         PizzeroItaliano pizzero =
             other.GetComponent<PizzeroItaliano>();
 
@@ -149,7 +161,7 @@ public class Boleadora : MonoBehaviour
             return;
         }
 
-        // TANQUE ITALIANO
+
         TanqueItaliano tanque =
             other.GetComponent<TanqueItaliano>();
 
@@ -165,12 +177,78 @@ public class Boleadora : MonoBehaviour
             return;
         }
 
+
         BanderaItalia banderaItaliana =
             other.GetComponent<BanderaItalia>();
 
         if (banderaItaliana != null)
         {
             banderaItaliana.RecibirDanio(danio);
+
+            Destroy(gameObject);
+            return;
+        }
+
+
+
+        // ==========================================
+        // BRASIL
+        // ==========================================
+
+        CapoeiraBrasil CapoeiraBrasil =
+            other.GetComponent<CapoeiraBrasil>();
+
+        if (CapoeiraBrasil != null)
+        {
+            CapoeiraBrasil.RecibirDanio(danio);
+            CapoeiraBrasil.AplicarLentitud(
+                velocidadLenta,
+                duracionLentitud
+            );
+
+            Destroy(gameObject);
+            return;
+        }
+
+
+        SerpienteBrasil serpiente =
+            other.GetComponent<SerpienteBrasil>();
+
+        if (serpiente != null)
+        {
+            serpiente.RecibirDanio(danio);
+            serpiente.AplicarLentitud(
+                velocidadLenta,
+                duracionLentitud
+            );
+
+            Destroy(gameObject);
+            return;
+        }
+
+
+        TanqueBrasil tanqueBrasil =
+            other.GetComponent<TanqueBrasil>();
+
+        if (tanqueBrasil != null)
+        {
+            tanqueBrasil.RecibirDanio(danio);
+            tanqueBrasil.AplicarLentitud(
+                velocidadLenta,
+                duracionLentitud
+            );
+
+            Destroy(gameObject);
+            return;
+        }
+
+
+        BanderaBrasil banderaBrasil =
+            other.GetComponent<BanderaBrasil>();
+
+        if (banderaBrasil != null)
+        {
+            banderaBrasil.RecibirDanio(danio);
 
             Destroy(gameObject);
             return;
