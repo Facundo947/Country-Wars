@@ -1650,6 +1650,7 @@ GameObject:
   - component: {fileID: 629555402}
   - component: {fileID: 629555404}
   - component: {fileID: 629555403}
+  - component: {fileID: 629555405}
   m_Layer: 5
   m_Name: Pantalla de derrota
   m_TagString: Untagged
@@ -1715,6 +1716,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629555401}
   m_CullTransparentMesh: 1
+--- !u!114 &629555405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629555401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1985410489378741ba3b6373d0848d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoDerrota
 --- !u!1 &655819510
 GameObject:
   m_ObjectHideFlags: 0
@@ -3745,6 +3758,7 @@ GameObject:
   - component: {fileID: 1397436232}
   - component: {fileID: 1397436234}
   - component: {fileID: 1397436233}
+  - component: {fileID: 1397436235}
   m_Layer: 5
   m_Name: Pantalla de Victoria
   m_TagString: Untagged
@@ -3810,6 +3824,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397436231}
   m_CullTransparentMesh: 1
+--- !u!114 &1397436235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397436231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83693f71466d4349b8db4fee8ab4e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoVictoria
 --- !u!1 &1402144370
 GameObject:
   m_ObjectHideFlags: 0
@@ -4829,7 +4855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854098640}
   m_Layer: 0
-  m_Name: SpawnPointBrasil 5 (1)
+  m_Name: SpawnPointBrasil 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4844,7 +4870,7 @@ Transform:
   m_GameObject: {fileID: 1854098639}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.78, y: -0.66, z: 0}
+  m_LocalPosition: {x: -10, y: -1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

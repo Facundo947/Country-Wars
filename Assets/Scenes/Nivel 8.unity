@@ -623,7 +623,7 @@ GameObject:
   m_Component:
   - component: {fileID: 219353408}
   m_Layer: 0
-  m_Name: SpawnPointItalia 4 (1)
+  m_Name: SpawnPointItalia 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3456,7 +3456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1314341718}
   m_Layer: 0
-  m_Name: SpawnPointItalia 4 (2)
+  m_Name: SpawnPointItalia 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3802,23 +3802,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.58572453
+      value: 0.71546257
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.58572453
+      value: 0.71546257
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.58572453
+      value: 0.71546257
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.22
+      value: -27.0669
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.16
+      value: -3.4019
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4181,6 +4181,7 @@ GameObject:
   - component: {fileID: 1515134778}
   - component: {fileID: 1515134777}
   - component: {fileID: 1515134776}
+  - component: {fileID: 1515134779}
   m_Layer: 5
   m_Name: Pantalla de derrota
   m_TagString: Untagged
@@ -4246,6 +4247,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1515134779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515134775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1985410489378741ba3b6373d0848d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoDerrota
 --- !u!1 &1544040148
 GameObject:
   m_ObjectHideFlags: 0
@@ -4433,6 +4446,7 @@ GameObject:
   - component: {fileID: 1586602245}
   - component: {fileID: 1586602244}
   - component: {fileID: 1586602243}
+  - component: {fileID: 1586602246}
   m_Layer: 5
   m_Name: Pantalla de Victoria
   m_TagString: Untagged
@@ -4498,6 +4512,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1586602246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586602242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83693f71466d4349b8db4fee8ab4e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoVictoria
 --- !u!1 &1588748474
 GameObject:
   m_ObjectHideFlags: 0

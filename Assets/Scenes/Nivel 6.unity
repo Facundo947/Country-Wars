@@ -178,6 +178,7 @@ GameObject:
   - component: {fileID: 32511284}
   - component: {fileID: 32511286}
   - component: {fileID: 32511285}
+  - component: {fileID: 32511287}
   m_Layer: 5
   m_Name: Pantalla de Victoria
   m_TagString: Untagged
@@ -243,6 +244,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 32511283}
   m_CullTransparentMesh: 1
+--- !u!114 &32511287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32511283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83693f71466d4349b8db4fee8ab4e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoVictoria
 --- !u!1001 &73876028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5115,6 +5128,7 @@ GameObject:
   - component: {fileID: 2099265444}
   - component: {fileID: 2099265443}
   - component: {fileID: 2099265442}
+  - component: {fileID: 2099265445}
   m_Layer: 5
   m_Name: Pantalla de derrota
   m_TagString: Untagged
@@ -5180,6 +5194,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2099265445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099265441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1985410489378741ba3b6373d0848d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoDerrota
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

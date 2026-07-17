@@ -592,23 +592,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.58572453
+      value: 0.7462131
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.58572453
+      value: 0.7462131
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.58572453
+      value: 0.7462131
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -25.79
+      value: -25.6006
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.82
+      value: -3.1193
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -794,6 +794,7 @@ GameObject:
   - component: {fileID: 633403381}
   - component: {fileID: 633403383}
   - component: {fileID: 633403382}
+  - component: {fileID: 633403384}
   m_Layer: 5
   m_Name: Pantalla de derrota
   m_TagString: Untagged
@@ -859,6 +860,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633403380}
   m_CullTransparentMesh: 1
+--- !u!114 &633403384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633403380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1985410489378741ba3b6373d0848d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoDerrota
 --- !u!1 &646369098
 GameObject:
   m_ObjectHideFlags: 0
@@ -2728,6 +2741,7 @@ GameObject:
   - component: {fileID: 1254438690}
   - component: {fileID: 1254438692}
   - component: {fileID: 1254438691}
+  - component: {fileID: 1254438693}
   m_Layer: 5
   m_Name: Pantalla de Victoria
   m_TagString: Untagged
@@ -2793,6 +2807,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1254438689}
   m_CullTransparentMesh: 1
+--- !u!114 &1254438693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254438689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83693f71466d4349b8db4fee8ab4e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoVictoria
 --- !u!1 &1293114735
 GameObject:
   m_ObjectHideFlags: 0
@@ -3875,7 +3901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1561106681}
   m_Layer: 0
-  m_Name: SpawnPointBrasil 4 (1)
+  m_Name: SpawnPointBrasil 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5169,7 +5195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1839704816}
   m_Layer: 0
-  m_Name: SpawnPointBrasil 4 (2)
+  m_Name: SpawnPointBrasil 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

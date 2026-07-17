@@ -150,6 +150,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1148817438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &127804352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 127804353}
+  m_Layer: 0
+  m_Name: SpawnPointBrasil 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &127804353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127804352}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.5, y: -0.81, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1148817438}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &179288294
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,23 +623,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.58572453
+      value: 0.77614355
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.58572453
+      value: 0.77614355
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.58572453
+      value: 0.77614355
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -25.79
+      value: -25.5653
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.82
+      value: -3.1751
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -794,6 +825,7 @@ GameObject:
   - component: {fileID: 633403381}
   - component: {fileID: 633403383}
   - component: {fileID: 633403382}
+  - component: {fileID: 633403384}
   m_Layer: 5
   m_Name: Pantalla de derrota
   m_TagString: Untagged
@@ -859,6 +891,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633403380}
   m_CullTransparentMesh: 1
+--- !u!114 &633403384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633403380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1985410489378741ba3b6373d0848d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoDerrota
 --- !u!1 &646369098
 GameObject:
   m_ObjectHideFlags: 0
@@ -2431,6 +2475,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 92290879292662312, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1839704816}
+    - targetCorrespondingSourceObject: {fileID: 92290879292662312, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 127804353}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2750068800138879403, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
       insertIndex: -1
@@ -2728,6 +2775,7 @@ GameObject:
   - component: {fileID: 1254438690}
   - component: {fileID: 1254438692}
   - component: {fileID: 1254438691}
+  - component: {fileID: 1254438693}
   m_Layer: 5
   m_Name: Pantalla de Victoria
   m_TagString: Untagged
@@ -2793,6 +2841,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1254438689}
   m_CullTransparentMesh: 1
+--- !u!114 &1254438693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254438689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83693f71466d4349b8db4fee8ab4e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoVictoria
 --- !u!1 &1293114735
 GameObject:
   m_ObjectHideFlags: 0
@@ -3875,7 +3935,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1561106681}
   m_Layer: 0
-  m_Name: SpawnPointBrasil 4 (1)
+  m_Name: SpawnPointBrasil 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3890,7 +3950,7 @@ Transform:
   m_GameObject: {fileID: 1561106680}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: -0.81, z: 0}
+  m_LocalPosition: {x: -8.2, y: -0.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4075,6 +4135,8 @@ MonoBehaviour:
     prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
   - puntoSpawn: {fileID: 1839704816}
     prefabEnemigo: {fileID: 1882188596925994022, guid: f2bbf385779f5bf408d6a7a47b5cebc4, type: 3}
+  - puntoSpawn: {fileID: 127804353}
+    prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
 --- !u!4 &1587756496
 Transform:
   m_ObjectHideFlags: 0
@@ -5169,7 +5231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1839704816}
   m_Layer: 0
-  m_Name: SpawnPointBrasil 4 (2)
+  m_Name: SpawnPointBrasil 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
