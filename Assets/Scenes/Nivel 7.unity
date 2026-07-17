@@ -4386,7 +4386,7 @@ MonoBehaviour:
   barraDeVida: {fileID: 1136672261}
   vidaMaxima: 100
   pantallaVictoria: {fileID: 839293336}
-  interfazDeJuego: {fileID: 0}
+  interfazDeJuego: {fileID: 1851578398}
 --- !u!1 &1729867975
 GameObject:
   m_ObjectHideFlags: 0

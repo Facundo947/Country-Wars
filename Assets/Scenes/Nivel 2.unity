@@ -2595,7 +2595,7 @@ MonoBehaviour:
   barraDeVida: {fileID: 1149005323}
   vidaMaxima: 100
   pantallaVictoria: {fileID: 135727581}
-  interfazDeJuego: {fileID: 0}
+  interfazDeJuego: {fileID: 2053909124}
 --- !u!1 &1149005321
 GameObject:
   m_ObjectHideFlags: 0
@@ -3197,6 +3197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VictoriaPais
   siguientePais: 2
   escenaSelector: Selector De Niveles
+  canvasJuego: {fileID: 0}
 --- !u!4 &1333477615
 Transform:
   m_ObjectHideFlags: 0

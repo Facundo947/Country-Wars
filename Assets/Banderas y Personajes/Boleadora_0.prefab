@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Boleadora
   velocidad: 2.5
-  danio: 10
+  danio: 20
   velocidadLenta: 0.5
   duracionLentitud: 1
   tiempoDeVida: 1

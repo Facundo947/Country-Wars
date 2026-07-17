@@ -289,7 +289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43816485}
   m_Layer: 0
-  m_Name: SpawnPointHolanda 3 (1)
+  m_Name: SpawnPointHolanda 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1054,6 +1054,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!1 &368129737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 368129738}
+  m_Layer: 0
+  m_Name: SpawnPointHolanda 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &368129738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368129737}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.1, y: -1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1023724045}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &377002070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1412,7 +1443,7 @@ MonoBehaviour:
     prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - puntoSpawn: {fileID: 479429570}
     prefabEnemigo: {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
-  - puntoSpawn: {fileID: 2100401765}
+  - puntoSpawn: {fileID: 368129738}
     prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
 --- !u!4 &431679559
 Transform:
@@ -1777,7 +1808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 479429570}
   m_Layer: 0
-  m_Name: SpawnPointHolanda 3 (2)
+  m_Name: SpawnPointHolanda 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2389,6 +2420,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 479429570}
+    - targetCorrespondingSourceObject: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 368129738}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4448085774776634153, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       insertIndex: -1
@@ -2425,7 +2459,7 @@ MonoBehaviour:
   barraDeVida: {fileID: 1911346808}
   vidaMaxima: 100
   pantallaVictoria: {fileID: 1424680680}
-  interfazDeJuego: {fileID: 0}
+  interfazDeJuego: {fileID: 665504435}
 --- !u!50 &1023724047
 Rigidbody2D:
   serializedVersion: 5

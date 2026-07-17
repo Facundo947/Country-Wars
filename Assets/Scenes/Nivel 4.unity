@@ -289,7 +289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43816485}
   m_Layer: 0
-  m_Name: SpawnPointHolanda 3 (1)
+  m_Name: SpawnPointHolanda 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -523,23 +523,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.58572453
+      value: 0.765952
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.58572453
+      value: 0.765952
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.58572453
+      value: 0.765952
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28
+      value: -27.7874
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.1
+      value: -2.4361
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1399,7 +1399,7 @@ MonoBehaviour:
     prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - puntoSpawn: {fileID: 479429570}
     prefabEnemigo: {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
-  - puntoSpawn: {fileID: 2100401765}
+  - puntoSpawn: {fileID: 1678730227}
     prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
 --- !u!4 &431679559
 Transform:
@@ -1764,7 +1764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 479429570}
   m_Layer: 0
-  m_Name: SpawnPointHolanda 3 (2)
+  m_Name: SpawnPointHolanda 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2300,23 +2300,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4617892
+      value: 0.57996106
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.58647144
+      value: 0.7365495
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8013
+      value: 1.0063527
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.24
+      value: 22.3795
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.64
+      value: -2.9199
       objectReference: {fileID: 0}
     - target: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2376,6 +2376,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 479429570}
+    - targetCorrespondingSourceObject: {fileID: 5375828722174231582, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1678730227}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4448085774776634153, guid: 29ede48bd19d82e469d30c26603e8a4a, type: 3}
       insertIndex: -1
@@ -2412,7 +2415,7 @@ MonoBehaviour:
   barraDeVida: {fileID: 1911346808}
   vidaMaxima: 100
   pantallaVictoria: {fileID: 1424680680}
-  interfazDeJuego: {fileID: 0}
+  interfazDeJuego: {fileID: 665504435}
 --- !u!50 &1023724047
 Rigidbody2D:
   serializedVersion: 5
@@ -3997,6 +4000,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630333966}
   m_CullTransparentMesh: 1
+--- !u!1 &1678730226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1678730227}
+  m_Layer: 0
+  m_Name: SpawnPointHolanda 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1678730227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678730226}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.5, y: -1.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1023724045}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1696167397
 GameObject:
   m_ObjectHideFlags: 0

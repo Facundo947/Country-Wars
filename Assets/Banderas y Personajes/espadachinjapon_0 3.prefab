@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TropaJaponesa
   velocidad: 2
-  vidaMaxima: 200
+  vidaMaxima: 170
   danio: 15
   rangoAtaque: 0.6
   tiempoEntreAtaques: 2
