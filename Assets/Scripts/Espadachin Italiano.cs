@@ -13,25 +13,40 @@ public class EspadachinItaliano : MonoBehaviour
 
     [Header("Combate")]
     [SerializeField] private int danio = 20;
-    [SerializeField] private float rangoAtaque = 1.2f;         // Distancia real del espadazo
-    [SerializeField] private float largoLineaDeteccion = 1.2f; // Rango ultra corto para que se pegue por completo
+    [SerializeField] private float rangoAtaque = 1.2f;
+    [SerializeField] private float largoLineaDeteccion = 1.2f;
     [SerializeField] private float tiempoEntreAtaques = 1.5f;
-    [SerializeField] private LayerMask capaAliada;             // Capa de los argentinos/base
+    [SerializeField] private LayerMask capaAliada;
 
     private float cronometroAtaque;
     private Animator animator;
     private bool estaAtacando = false;
-    private bool estaLento = false; // Controla que no se acumulen las ralentizaciones
+    private bool estaLento = false;
 
     private void Start()
     {
         vidaActual = vidaMaxima;
         animator = GetComponent<Animator>();
-        velocidadOriginal = velocidad; // Guardamos la velocidad base (2f)
+        velocidadOriginal = velocidad;
     }
 
     private void Update()
     {
+        // ==========================================================
+        // FASE DE PLANEACIÓN
+        // ==========================================================
+        if (GameManager.Instance != null && GameManager.Instance.EnPlaneacion())
+        {
+            if (animator != null)
+            {
+                animator.SetBool("Caminando", false);
+                animator.SetBool("Atacando", false);
+            }
+
+            return;
+        }
+        // ==========================================================
+
         DetectarEnemigo();
 
         if (!estaAtacando)
@@ -42,10 +57,12 @@ public class EspadachinItaliano : MonoBehaviour
 
     private void DetectarEnemigo()
     {
-        // Dibujamos la línea de debug en tiempo real para ver el nuevo alcance corto
-        Debug.DrawRay(transform.position, Vector2.left * largoLineaDeteccion, Color.red);
+        Debug.DrawRay(
+            transform.position,
+            Vector2.left * largoLineaDeteccion,
+            Color.red
+        );
 
-        // El Raycast busca objetivos solo en esa distancia ultra pegada
         RaycastHit2D hit = Physics2D.Raycast(
             transform.position,
             Vector2.left,
@@ -55,36 +72,62 @@ public class EspadachinItaliano : MonoBehaviour
 
         if (hit.collider != null)
         {
-            // Freno inmediato al hacer contacto
             estaAtacando = true;
             cronometroAtaque += Time.deltaTime;
 
             if (cronometroAtaque >= tiempoEntreAtaques)
             {
-                // 1. DAÑO A MESSI
-                Messi messi = hit.collider.GetComponent<Messi>();
+                // MESSI
+                Messi messi =
+                    hit.collider.GetComponent<Messi>();
+
                 if (messi != null)
                 {
                     messi.RecibirDanio(danio);
                 }
 
-                // 2. DAÑO AL GAUCHO
-                Gaucho gaucho = hit.collider.GetComponent<Gaucho>();
+                // GAUCHO
+                Gaucho gaucho =
+                    hit.collider.GetComponent<Gaucho>();
+
                 if (gaucho != null)
                 {
                     gaucho.RecibirDanio(danio);
                 }
 
-                // 3. DAÑO A LA BANDERA 
-                BanderaArgentina bandera = hit.collider.GetComponent<BanderaArgentina>();
+                // GUARANÍ
+                ArqueroGuarani guarani =
+                    hit.collider.GetComponent<ArqueroGuarani>();
+
+                if (guarani != null)
+                {
+                    guarani.RecibirDanio(danio);
+                }
+
+                // ESPADACHÍN ARGENTINO
+                EspadachinArgentino espadachinArgentino =
+                    hit.collider.GetComponent<EspadachinArgentino>();
+
+                if (espadachinArgentino != null)
+                {
+                    espadachinArgentino.RecibirDanio(danio);
+                }
+
+                // BANDERA ARGENTINA
+                BanderaArgentina bandera =
+                    hit.collider.GetComponent<BanderaArgentina>();
+
                 if (bandera != null)
                 {
                     bandera.RecibirDanio(danio);
                 }
                 else
                 {
-                    // Respaldo por mensaje si el script varía
-                    hit.collider.gameObject.SendMessage("RecibirDanio", danio, SendMessageOptions.DontRequireReceiver);
+                    hit.collider.gameObject.SendMessage(
+                        "RecibirDanio",
+                        danio,
+                        SendMessageOptions.DontRequireReceiver
+                    );
                 }
 
                 cronometroAtaque = 0f;
@@ -118,6 +161,7 @@ public class EspadachinItaliano : MonoBehaviour
         if (animator != null)
         {
             animator.SetBool("Caminando", true);
+            animator.SetBool("Atacando", false);
         }
     }
 
@@ -131,29 +175,43 @@ public class EspadachinItaliano : MonoBehaviour
         }
     }
 
-    // NUEVA FUNCIÓN: Llamada automáticamente por la Boleadora al impactar
-    public void AplicarLentitud(float factorVelocidadLenta, float duracion)
+    public void AplicarLentitud(
+        float factorVelocidadLenta,
+        float duracion
+    )
     {
         if (!estaLento)
         {
-            StartCoroutine(RutinaLentitud(factorVelocidadLenta, duracion));
+            StartCoroutine(
+                RutinaLentitud(
+                    factorVelocidadLenta,
+                    duracion
+                )
+            );
         }
     }
 
-    private IEnumerator RutinaLentitud(float factorVelocidadLenta, float duracion)
+    private IEnumerator RutinaLentitud(
+        float factorVelocidadLenta,
+        float duracion
+    )
     {
         estaLento = true;
-        velocidad = factorVelocidadLenta; // Baja la velocidad (ej: a 0.5f)
+        velocidad = factorVelocidadLenta;
 
-        yield return new WaitForSeconds(duracion); // Espera los 2 segundos de la boleadora
+        yield return new WaitForSeconds(duracion);
 
-        velocidad = velocidadOriginal; // Restaura la velocidad original (2f)
+        velocidad = velocidadOriginal;
         estaLento = false;
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawRay(transform.position, Vector2.left * largoLineaDeteccion);
+
+        Gizmos.DrawRay(
+            transform.position,
+            Vector2.left * largoLineaDeteccion
+        );
     }
 }

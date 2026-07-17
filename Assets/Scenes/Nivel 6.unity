@@ -1146,7 +1146,7 @@ MonoBehaviour:
   - puntoSpawn: {fileID: 385287587}
     prefabEnemigo: {fileID: 1582810701580956203, guid: 1f9f0a315550e0443b8e7b9e3b56e0b9, type: 3}
   - puntoSpawn: {fileID: 1334465727}
-    prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
+    prefabEnemigo: {fileID: 1582810701580956203, guid: 1f9f0a315550e0443b8e7b9e3b56e0b9, type: 3}
   - puntoSpawn: {fileID: 242864790}
     prefabEnemigo: {fileID: 1582810701580956203, guid: 1f9f0a315550e0443b8e7b9e3b56e0b9, type: 3}
   - puntoSpawn: {fileID: 1166113528}
@@ -3199,7 +3199,7 @@ MonoBehaviour:
   alComprarTropa:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1362151585}
+      - m_Target: {fileID: 8947792}
         m_TargetAssemblyTypeName: SpawnerConMouse, Assembly-CSharp
         m_MethodName: ActivarColocacionEspadachinArgentino
         m_Mode: 1

@@ -4020,15 +4020,15 @@ MonoBehaviour:
   - puntoSpawn: {fileID: 646369099}
     prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
   - puntoSpawn: {fileID: 407228671}
-    prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
+    prefabEnemigo: {fileID: 1882188596925994022, guid: f2bbf385779f5bf408d6a7a47b5cebc4, type: 3}
   - puntoSpawn: {fileID: 28735671}
     prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
   - puntoSpawn: {fileID: 293333237}
-    prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
+    prefabEnemigo: {fileID: 1882188596925994022, guid: f2bbf385779f5bf408d6a7a47b5cebc4, type: 3}
   - puntoSpawn: {fileID: 1561106681}
     prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
   - puntoSpawn: {fileID: 1839704816}
-    prefabEnemigo: {fileID: 7625692966295719080, guid: a2e1ff74ce2e7894a8ebedd1c5484da4, type: 3}
+    prefabEnemigo: {fileID: 1882188596925994022, guid: f2bbf385779f5bf408d6a7a47b5cebc4, type: 3}
 --- !u!4 &1587756496
 Transform:
   m_ObjectHideFlags: 0

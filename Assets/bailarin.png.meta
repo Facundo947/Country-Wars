@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: e439581d0691dee438ffefd02b42a1cf
+guid: ea984b9c13456d040bc86b385f11f65c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7995672918181406692
-    second: bailarin ataque 3_0
-  - first:
-      213: -904853511391012678
-    second: bailarin ataque 3_1
+      213: -3277560470982633714
+    second: bailarin_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,45 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bailarin ataque 3_0
+      name: bailarin_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 285
-        height: 221
+        x: 6
+        y: 10
+        width: 202
+        height: 304
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e7e96cf72656fe60800000000000000
-      internalID: 7995672918181406692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bailarin ataque 3_1
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 5
-        width: 270
-        height: 208
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab816c786805173f0800000000000000
-      internalID: -904853511391012678
+      spriteID: e07d73ded14c382d0800000000000000
+      internalID: -3277560470982633714
       vertices: []
       indices: 
       edges: []
@@ -163,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 78770edef5be74e4abd2655c26ca12aa
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bailarin ataque 3_0: 7995672918181406692
-      bailarin ataque 3_1: -904853511391012678
+      bailarin_0: -3277560470982633714
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

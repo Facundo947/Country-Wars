@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -3771861135530265028}
   - component: {fileID: 3207828024952781058}
   - component: {fileID: -3565159497312479442}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: support argentina_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,4 +188,4 @@ MonoBehaviour:
   tiempoEntreAtaques: 1.5
   capaEnemiga:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128

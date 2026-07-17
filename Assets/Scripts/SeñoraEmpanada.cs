@@ -40,6 +40,21 @@ public class SeñoraEmpanadas : MonoBehaviour
 
     private void Update()
     {
+        // ===============================
+        // FASE DE PLANEACIÓN
+        // ===============================
+        if (GameManager.Instance != null &&
+            GameManager.Instance.EnPlaneacion())
+        {
+            if (animator != null)
+            {
+                animator.SetBool("Caminando", false);
+                animator.SetBool("Atacando", false);
+            }
+
+            return;
+        }
+
         DetectarObjetivo();
 
         if (!estaAtacando)

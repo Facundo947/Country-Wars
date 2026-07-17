@@ -32,11 +32,27 @@ public class SerpienteBrasil : MonoBehaviour
 
         animator = GetComponent<Animator>();
 
+        // Permite atacar inmediatamente al encontrar un enemigo.
         cronometroAtaque = tiempoEntreMordidas;
     }
 
     private void Update()
     {
+        // ===============================
+        // FASE DE PLANEACIÓN
+        // ===============================
+        if (GameManager.Instance != null &&
+            GameManager.Instance.EnPlaneacion())
+        {
+            if (animator != null)
+            {
+                animator.SetBool("Moviendose", false);
+                animator.SetBool("Atacando", false);
+            }
+
+            return;
+        }
+
         DetectarObjetivo();
 
         if (!estaAtacando)
@@ -80,6 +96,8 @@ public class SerpienteBrasil : MonoBehaviour
         else
         {
             estaAtacando = false;
+
+            // Al encontrar un nuevo enemigo podrá atacar inmediatamente.
             cronometroAtaque = tiempoEntreMordidas;
 
             if (animator != null)
@@ -127,7 +145,9 @@ public class SerpienteBrasil : MonoBehaviour
         }
     }
 
-    public void AplicarLentitud(float velocidadLenta, float duracion)
+    public void AplicarLentitud(
+        float velocidadLenta,
+        float duracion)
     {
         if (!estaLenta)
         {

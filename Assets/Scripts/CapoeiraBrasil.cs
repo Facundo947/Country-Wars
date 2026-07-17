@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+
 public class CapoeiraBrasil : MonoBehaviour
 {
     [Header("Movimiento")]
@@ -34,10 +35,28 @@ public class CapoeiraBrasil : MonoBehaviour
         velocidadOriginal = velocidad;
 
         animator = GetComponent<Animator>();
+
+        // Puede atacar inmediatamente al encontrar un enemigo.
+        cronometroAtaque = tiempoEntreAtaques;
     }
 
     private void Update()
     {
+        // ===============================
+        // FASE DE PLANEACIÃ“N
+        // ===============================
+        if (GameManager.Instance != null &&
+            GameManager.Instance.EnPlaneacion())
+        {
+            if (animator != null)
+            {
+                animator.SetBool("Caminando", false);
+                animator.SetBool("Atacando", false);
+            }
+
+            return;
+        }
+
         DetectarObjetivo();
 
         if (!estaAtacando)
@@ -77,7 +96,9 @@ public class CapoeiraBrasil : MonoBehaviour
         else
         {
             estaAtacando = false;
-            cronometroAtaque = 0f;
+
+            // Al encontrar un nuevo enemigo podrÃ¡ atacar inmediatamente.
+            cronometroAtaque = tiempoEntreAtaques;
 
             ActualizarAnimacionMovimiento(true);
         }
@@ -106,14 +127,12 @@ public class CapoeiraBrasil : MonoBehaviour
             }
         }
 
-        // Busca un método llamado RecibirDanio en la tropa o bandera.
         objetivo.SendMessage(
             "RecibirDanio",
             danioAtaque,
             SendMessageOptions.DontRequireReceiver
         );
 
-        // El siguiente golpe será el otro ataque.
         siguienteAtaqueEsManos = !siguienteAtaqueEsManos;
     }
 

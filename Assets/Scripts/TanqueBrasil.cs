@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+
 public class TanqueBrasil : MonoBehaviour
 {
     [Header("Movimiento")]
@@ -10,7 +11,7 @@ public class TanqueBrasil : MonoBehaviour
     [SerializeField] private int vidaMaxima = 300;
     private int vidaActual;
 
-    [Header("Ataque con pu�os")]
+    [Header("Ataque con puños")]
     [SerializeField] private int danioPunio = 40;
     [SerializeField] private float rangoDeteccion = 1.5f;
     [SerializeField] private float tiempoEntreGolpes = 1.8f;
@@ -37,6 +38,21 @@ public class TanqueBrasil : MonoBehaviour
 
     private void Update()
     {
+        // ===============================
+        // FASE DE PLANEACIÓN
+        // ===============================
+        if (GameManager.Instance != null &&
+            GameManager.Instance.EnPlaneacion())
+        {
+            if (animator != null)
+            {
+                animator.SetBool("Caminando", false);
+                animator.SetBool("Atacando", false);
+            }
+
+            return;
+        }
+
         DetectarObjetivo();
 
         if (!estaAtacando)
@@ -80,6 +96,8 @@ public class TanqueBrasil : MonoBehaviour
         else
         {
             estaAtacando = false;
+
+            // Al encontrar un nuevo enemigo podrá atacar inmediatamente.
             cronometroAtaque = tiempoEntreGolpes;
 
             if (animator != null)
@@ -132,7 +150,10 @@ public class TanqueBrasil : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void AplicarLentitud(float velocidadLenta, float duracion)
+    public void AplicarLentitud(
+        float velocidadLenta,
+        float duracion
+    )
     {
         if (!estaLento)
         {
