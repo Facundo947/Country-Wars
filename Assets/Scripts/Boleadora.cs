@@ -104,8 +104,8 @@ public class Boleadora : MonoBehaviour
             return;
         }
 
-        Holandesa holandesa =
-            other.GetComponent<Holandesa>();
+        BanderaHolandesa holandesa =
+            other.GetComponent<BanderaHolandesa>();
 
         if (holandesa != null)
         {

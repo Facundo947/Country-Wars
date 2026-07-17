@@ -180,11 +180,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fb63e581923db14797a1d80387c6bae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gaucho
-  velocidad: 1.8
-  vidaMaxima: 120
-  danio: 25
-  rangoAtaque: 8
-  tiempoEntreAtaques: 2
+  velocidad: 1.4
+  vidaMaxima: 60
+  rangoAtaque: 4
+  tiempoEntreAtaques: 5
   capaEnemiga:
     serializedVersion: 2
     m_Bits: 128

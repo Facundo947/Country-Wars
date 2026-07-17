@@ -179,6 +179,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3220804f1a56b884585d192bf3a73f1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Boleadora
-  velocidad: 10
+  velocidad: 5
   danio: 25
-  tiempoDeVida: 3
+  velocidadLenta: 0.5
+  duracionLentitud: 2
+  tiempoDeVida: 1.5
