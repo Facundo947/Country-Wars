@@ -718,6 +718,7 @@ GameObject:
   - component: {fileID: 766084199}
   - component: {fileID: 766084198}
   - component: {fileID: 766084197}
+  - component: {fileID: 766084201}
   m_Layer: 5
   m_Name: 'Salir '
   m_TagString: Untagged
@@ -850,6 +851,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766084195}
   m_CullTransparentMesh: 1
+--- !u!114 &766084201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766084195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
+  audioSource: {fileID: 1196824809}
+  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
 --- !u!1 &839748092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,6 +1132,7 @@ GameObject:
   - component: {fileID: 1124729083}
   - component: {fileID: 1124729082}
   - component: {fileID: 1124729085}
+  - component: {fileID: 1124729086}
   m_Layer: 5
   m_Name: Volver
   m_TagString: Untagged
@@ -1261,6 +1277,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &1124729086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124729080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
+  audioSource: {fileID: 1196824809}
+  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
 --- !u!82 &1196824809 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 8164364745843218318, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
@@ -1936,6 +1966,7 @@ GameObject:
   - component: {fileID: 1706914826}
   - component: {fileID: 1706914828}
   - component: {fileID: 1706914825}
+  - component: {fileID: 1706914829}
   m_Layer: 5
   m_Name: Nueva Partida
   m_TagString: Untagged
@@ -2068,6 +2099,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &1706914829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706914823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
+  audioSource: {fileID: 1196824809}
+  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
 --- !u!1 &1735992063
 GameObject:
   m_ObjectHideFlags: 0
@@ -2294,6 +2339,7 @@ GameObject:
   - component: {fileID: 1990440331}
   - component: {fileID: 1990440333}
   - component: {fileID: 1990440330}
+  - component: {fileID: 1990440334}
   m_Layer: 5
   m_Name: Opciones
   m_TagString: Untagged
@@ -2438,6 +2484,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &1990440334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990440328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
+  audioSource: {fileID: 1196824809}
+  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
 --- !u!1 &2011076713
 GameObject:
   m_ObjectHideFlags: 0
@@ -2451,6 +2511,7 @@ GameObject:
   - component: {fileID: 2011076715}
   - component: {fileID: 2011076716}
   - component: {fileID: 2011076714}
+  - component: {fileID: 2011076719}
   m_Layer: 5
   m_Name: Continuar
   m_TagString: Untagged
@@ -2583,6 +2644,20 @@ RectTransform:
   m_AnchoredPosition: {x: 158.84, y: -283}
   m_SizeDelta: {x: 445.11, y: 84.251}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2011076719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011076713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
+  audioSource: {fileID: 1196824809}
+  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
 --- !u!1 &2125565912
 GameObject:
   m_ObjectHideFlags: 0
