@@ -2116,9 +2116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SistemaMonedas
   monedasIniciales: 100
-  monedasMaximas: 200
-  monedasPorIntervalo: 5
-  segundosPorIntervalo: 1
+  monedasMaximas: 100
   textoMonedas: {fileID: 1792432431}
 --- !u!114 &1057254143
 MonoBehaviour:
@@ -3410,7 +3408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 200
+  m_text: 100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
   m_sharedMaterial: {fileID: 1767906708764720730, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}

@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 2b0ba5880a6808b45ab96b9ba38ab4d9
+guid: a79c9a8df7c3ca048a7c82723f5c6485
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6870039424052452105
-    second: Tanque italiano caminar 1_0
+      213: 2849268504683622020
+    second: ChatGPT_Image_18_jul_2026__11_02_34_a.m.-removebg-preview_0
+  - first:
+      213: 1683088285645736121
+    second: ChatGPT_Image_18_jul_2026__11_02_34_a.m.-removebg-preview_1
+  - first:
+      213: -5479450948343243869
+    second: ChatGPT_Image_18_jul_2026__11_02_34_a.m.-removebg-preview_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +103,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tanque italiano caminar 1_0
+      name: ChatGPT_Image_18_jul_2026__11_02_34_a.m.-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 6
-        width: 263
-        height: 350
+        x: 53
+        y: 15
+        width: 245
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f4ac68fa87b8a0a0800000000000000
-      internalID: -6870039424052452105
+      spriteID: 48e2063eb92aa8720800000000000000
+      internalID: 2849268504683622020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT_Image_18_jul_2026__11_02_34_a.m.-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 30
+        width: 234
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8098fd0e78b5710800000000000000
+      internalID: 1683088285645736121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT_Image_18_jul_2026__11_02_34_a.m.-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 17
+        width: 259
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abd2d3d46415f3b0800000000000000
+      internalID: -5479450948343243869
       vertices: []
       indices: 
       edges: []
@@ -161,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tanque italiano caminar 1_0: -6870039424052452105
+      ChatGPT_Image_18_jul_2026__11_02_34_a.m.-removebg-preview_0: 2849268504683622020
+      ChatGPT_Image_18_jul_2026__11_02_34_a.m.-removebg-preview_1: 1683088285645736121
+      ChatGPT_Image_18_jul_2026__11_02_34_a.m.-removebg-preview_2: -5479450948343243869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

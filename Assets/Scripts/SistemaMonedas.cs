@@ -7,8 +7,6 @@ public class SistemaMonedas : MonoBehaviour
     [Header("Configuración")]
     [SerializeField] private int monedasIniciales = 100;
     [SerializeField] private int monedasMaximas = 200;
-    [SerializeField] private int monedasPorIntervalo = 5;
-    [SerializeField] private float segundosPorIntervalo = 1f;
 
     [Header("Interfaz")]
     [SerializeField] private TMP_Text textoMonedas;
@@ -16,8 +14,6 @@ public class SistemaMonedas : MonoBehaviour
     public int MonedasActuales { get; private set; }
 
     public event Action<int> MonedasCambiadas;
-
-    private float tiempoAcumulado;
 
     private void Start()
     {
@@ -28,24 +24,6 @@ public class SistemaMonedas : MonoBehaviour
         );
 
         ActualizarInterfaz();
-    }
-
-    private void Update()
-    {
-        if (segundosPorIntervalo <= 0f ||
-            monedasPorIntervalo <= 0)
-        {
-            return;
-        }
-
-        tiempoAcumulado += Time.deltaTime;
-
-        while (tiempoAcumulado >= segundosPorIntervalo)
-        {
-            tiempoAcumulado -= segundosPorIntervalo;
-
-            AgregarMonedas(monedasPorIntervalo);
-        }
     }
 
     public bool PuedePagar(int costo)
@@ -61,6 +39,7 @@ public class SistemaMonedas : MonoBehaviour
 
         if (!PuedePagar(costo))
         {
+            Debug.Log("No hay monedas suficientes.");
             return false;
         }
 
