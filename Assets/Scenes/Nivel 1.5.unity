@@ -163,6 +163,7 @@ GameObject:
   - component: {fileID: 123528824}
   - component: {fileID: 123528822}
   - component: {fileID: 123528821}
+  - component: {fileID: 123528825}
   m_Layer: 5
   m_Name: GuardarPartida
   m_TagString: Untagged
@@ -284,6 +285,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 123528819}
   m_CullTransparentMesh: 1
 --- !u!114 &123528824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123528819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &123528825
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -647,6 +660,7 @@ GameObject:
   - component: {fileID: 394765358}
   - component: {fileID: 394765356}
   - component: {fileID: 394765355}
+  - component: {fileID: 394765359}
   m_Layer: 5
   m_Name: Opciones
   m_TagString: Untagged
@@ -768,6 +782,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 394765353}
   m_CullTransparentMesh: 1
 --- !u!114 &394765358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394765353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &394765359
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2906,6 +2932,7 @@ GameObject:
   - component: {fileID: 1402137062}
   - component: {fileID: 1402137060}
   - component: {fileID: 1402137059}
+  - component: {fileID: 1402137063}
   m_Layer: 5
   m_Name: Reanudar
   m_TagString: Untagged
@@ -3038,6 +3065,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &1402137063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402137057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1 &1567366411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3126,6 +3165,7 @@ GameObject:
   - component: {fileID: 1595401159}
   - component: {fileID: 1595401157}
   - component: {fileID: 1595401156}
+  - component: {fileID: 1595401160}
   m_Layer: 5
   m_Name: Reintentar
   m_TagString: Untagged
@@ -3247,6 +3287,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 1595401154}
   m_CullTransparentMesh: 1
 --- !u!114 &1595401159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595401154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &1595401160
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3973,6 +4025,7 @@ GameObject:
   - component: {fileID: 1898392713}
   - component: {fileID: 1898392711}
   - component: {fileID: 1898392710}
+  - component: {fileID: 1898392714}
   m_Layer: 5
   m_Name: Menu principal
   m_TagString: Untagged
@@ -4094,6 +4147,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 1898392708}
   m_CullTransparentMesh: 1
 --- !u!114 &1898392713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898392708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &1898392714
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

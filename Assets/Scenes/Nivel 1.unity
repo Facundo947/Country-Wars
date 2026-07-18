@@ -163,6 +163,7 @@ GameObject:
   - component: {fileID: 123528824}
   - component: {fileID: 123528822}
   - component: {fileID: 123528821}
+  - component: {fileID: 123528825}
   m_Layer: 5
   m_Name: GuardarPartida
   m_TagString: Untagged
@@ -284,6 +285,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 123528819}
   m_CullTransparentMesh: 1
 --- !u!114 &123528824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123528819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &123528825
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -647,6 +660,7 @@ GameObject:
   - component: {fileID: 394765358}
   - component: {fileID: 394765356}
   - component: {fileID: 394765355}
+  - component: {fileID: 394765359}
   m_Layer: 5
   m_Name: Opciones
   m_TagString: Untagged
@@ -768,6 +782,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 394765353}
   m_CullTransparentMesh: 1
 --- !u!114 &394765358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394765353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &394765359
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2906,6 +2932,7 @@ GameObject:
   - component: {fileID: 1402137062}
   - component: {fileID: 1402137060}
   - component: {fileID: 1402137059}
+  - component: {fileID: 1402137063}
   m_Layer: 5
   m_Name: Reanudar
   m_TagString: Untagged
@@ -3038,6 +3065,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &1402137063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402137057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1 &1567366411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3126,6 +3165,7 @@ GameObject:
   - component: {fileID: 1595401159}
   - component: {fileID: 1595401157}
   - component: {fileID: 1595401156}
+  - component: {fileID: 1595401160}
   m_Layer: 5
   m_Name: Reintentar
   m_TagString: Untagged
@@ -3247,6 +3287,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 1595401154}
   m_CullTransparentMesh: 1
 --- !u!114 &1595401159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595401154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &1595401160
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3973,6 +4025,7 @@ GameObject:
   - component: {fileID: 1898392713}
   - component: {fileID: 1898392711}
   - component: {fileID: 1898392710}
+  - component: {fileID: 1898392714}
   m_Layer: 5
   m_Name: Menu principal
   m_TagString: Untagged
@@ -4094,6 +4147,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 1898392708}
   m_CullTransparentMesh: 1
 --- !u!114 &1898392713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898392708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &1898392714
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4414,6 +4479,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 345465051}
     m_Modifications:
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_fontSize
+      value: 51.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 51.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1767906708764720730, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 736263285622293307, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 736263285622293307, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 834514508401982587, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.001606
+      objectReference: {fileID: 0}
+    - target: {fileID: 834514508401982587, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 896923016342041389, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148789917926532191, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148789917926532191, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148789917926532191, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2716497995014620705, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
+    - target: {fileID: 2716497995014620705, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1767906708764720730, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
+    - target: {fileID: 2716497995014620705, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3513122482005814917, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_Name
       value: SistemaPausaCompleto
@@ -4421,6 +4550,18 @@ PrefabInstance:
     - target: {fileID: 3890896887742041065, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648900858792901550, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648900858792901550, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648900858792901550, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5928318034660425156, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4460,6 +4601,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5928318034660425156, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382889602902805035, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 383.4366
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382889602902805035, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382889602902805035, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916174574780219317, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916174574780219317, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7038621261555844778, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
