@@ -2006,6 +2006,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2003078502}
     m_Modifications:
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2716497995014620705, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
+    - target: {fileID: 2716497995014620705, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3513122482005814917, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_Name
       value: SistemaPausaCompleto
