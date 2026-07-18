@@ -863,6 +863,7 @@ GameObject:
   - component: {fileID: 839748095}
   - component: {fileID: 839748097}
   - component: {fileID: 839748094}
+  - component: {fileID: 839748098}
   m_Layer: 5
   m_Name: Jugar
   m_TagString: Untagged
@@ -995,6 +996,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &839748098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839748092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
+  audioSource: {fileID: 1196824809}
+  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
 --- !u!1 &1110500590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,6 +1261,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!82 &1196824809 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8164364745843218318, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+  m_PrefabInstance: {fileID: 90082726513546888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1308560192
 GameObject:
   m_ObjectHideFlags: 0
