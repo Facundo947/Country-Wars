@@ -8,49 +8,71 @@ public class SpawnerConMouse : MonoBehaviour
     [SerializeField] private GameObject prefabEspadachinArgentino;
     [SerializeField] private GameObject prefabSenoraEmpanada;
 
-    [Header("Límite de aliados")]
+    [Header("Tropas iniciales")]
     [SerializeField] private int limiteAliados = 6;
 
     private GameObject tropaSeleccionada;
-    private bool colocandoTropa = false;
-    private int aliadosColocados = 0;
+    private bool colocandoTropa;
+    private int aliadosColocados;
 
-    // BOTÓN GAUCHO
     public void ActivarColocacionGaucho()
     {
         SeleccionarTropa(prefabGaucho);
     }
 
-    // BOTÓN GUARANÍ
     public void ActivarColocacionGuarani()
     {
         SeleccionarTropa(prefabGuarani);
     }
 
-    // BOTÓN ESPADACHÍN ARGENTINO
     public void ActivarColocacionEspadachinArgentino()
     {
-        SeleccionarTropa(prefabEspadachinArgentino);
+        SeleccionarTropa(
+            prefabEspadachinArgentino
+        );
     }
 
-    // BOTÓN SEÑORA EMPANADA
     public void ActivarColocacionSenoraEmpanada()
     {
-        SeleccionarTropa(prefabSenoraEmpanada);
+        SeleccionarTropa(
+            prefabSenoraEmpanada
+        );
+    }
+
+    public bool PuedeColocarMasAliados()
+    {
+        // Después de comenzar la batalla,
+        // permite comprar más tropas.
+        if (GameManager.Instance != null &&
+            GameManager.Instance.EnEjecucion())
+        {
+            return true;
+        }
+
+        // Antes de comenzar, solo permite 6.
+        return aliadosColocados < limiteAliados;
     }
 
     private void SeleccionarTropa(GameObject prefab)
     {
-        if (aliadosColocados >= limiteAliados)
+        if (!PuedeColocarMasAliados())
         {
-            Debug.Log("Ya alcanzaste el límite de 6 aliados.");
+            Debug.Log(
+                "Ya colocaste las 6 tropas iniciales. " +
+                "Presioná COMENZAR."
+            );
+
             colocandoTropa = false;
+            tropaSeleccionada = null;
             return;
         }
 
         if (prefab == null)
         {
-            Debug.LogWarning("Falta asignar el prefab de la tropa.");
+            Debug.LogWarning(
+                "Falta asignar el prefab de la tropa."
+            );
+
             return;
         }
 
@@ -65,52 +87,53 @@ public class SpawnerConMouse : MonoBehaviour
             return;
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (!PuedeColocarMasAliados())
         {
-            if (aliadosColocados >= limiteAliados)
-            {
-                Debug.Log("No podés colocar más aliados.");
-                colocandoTropa = false;
-                return;
-            }
-
-            if (Camera.main == null)
-            {
-                Debug.LogWarning("No se encontró la cámara principal.");
-                colocandoTropa = false;
-                return;
-            }
-
-            Vector3 posicionMouse =
-                Camera.main.ScreenToWorldPoint(
-                    Input.mousePosition
-                );
-
-            posicionMouse.z = 0f;
-
-            Instantiate(
-                tropaSeleccionada,
-                posicionMouse,
-                Quaternion.identity
-            );
-
-            aliadosColocados++;
-
-            Debug.Log(
-                "Aliados colocados: " +
-                aliadosColocados +
-                " / " +
-                limiteAliados
-            );
-
-            // Le avisa al GameManager que se colocó una tropa.
-            if (GameManager.Instance != null)
-            {
-                GameManager.Instance.RegistrarTropaColocada();
-            }
-
-            tropaSeleccionada = null;
             colocandoTropa = false;
+            tropaSeleccionada = null;
+            return;
         }
+
+        if (!Input.GetMouseButtonDown(0))
+        {
+            return;
+        }
+
+        if (Camera.main == null)
+        {
+            Debug.LogWarning(
+                "No se encontró la cámara principal."
+            );
+
+            colocandoTropa = false;
+            return;
+        }
+
+        Vector3 posicionMouse =
+            Camera.main.ScreenToWorldPoint(
+                Input.mousePosition
+            );
+
+        posicionMouse.z = 0f;
+
+        Instantiate(
+            tropaSeleccionada,
+            posicionMouse,
+            Quaternion.identity
+        );
+
+        aliadosColocados++;
+
+        // Solo registra las primeras tropas
+        // durante la planeación.
+        if (GameManager.Instance != null &&
+            GameManager.Instance.EnPlaneacion())
+        {
+            GameManager.Instance
+                .RegistrarTropaColocada();
+        }
+
+        tropaSeleccionada = null;
+        colocandoTropa = false;
     }
 }

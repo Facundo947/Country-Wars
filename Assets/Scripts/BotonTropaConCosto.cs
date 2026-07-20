@@ -10,6 +10,10 @@ public class BotonTropaConCosto : MonoBehaviour
     [SerializeField]
     private SistemaMonedas sistemaMonedas;
 
+    [Header("Spawner")]
+    [SerializeField]
+    private SpawnerConMouse spawnerConMouse;
+
     [Header("Costo")]
     [SerializeField]
     private int costo = 50;
@@ -30,14 +34,11 @@ public class BotonTropaConCosto : MonoBehaviour
 
     private void OnEnable()
     {
-        boton.onClick.AddListener(
-            IntentarComprar
-        );
+        boton.onClick.AddListener(IntentarComprar);
 
         if (sistemaMonedas != null)
         {
-            sistemaMonedas.MonedasCambiadas +=
-                ActualizarEstado;
+            sistemaMonedas.MonedasCambiadas += ActualizarEstado;
         }
     }
 
@@ -45,8 +46,7 @@ public class BotonTropaConCosto : MonoBehaviour
     {
         if (textoCosto != null)
         {
-            textoCosto.text =
-                costo.ToString();
+            textoCosto.text = costo.ToString();
         }
 
         ActualizarEstado(0);
@@ -56,20 +56,42 @@ public class BotonTropaConCosto : MonoBehaviour
     {
         if (boton != null)
         {
-            boton.onClick.RemoveListener(
-                IntentarComprar
-            );
+            boton.onClick.RemoveListener(IntentarComprar);
         }
 
         if (sistemaMonedas != null)
         {
-            sistemaMonedas.MonedasCambiadas -=
-                ActualizarEstado;
+            sistemaMonedas.MonedasCambiadas -= ActualizarEstado;
         }
     }
-
+    private void Update()
+    {
+        ActualizarEstado(
+            sistemaMonedas != null
+                ? sistemaMonedas.MonedasActuales
+                : 0
+        );
+    }
     private void IntentarComprar()
     {
+        if (spawnerConMouse == null)
+        {
+            Debug.LogWarning(
+                "Falta asignar SpawnerConMouse en " +
+                gameObject.name
+            );
+
+            return;
+        }
+
+        // Primero comprueba si todavía hay lugar.
+        if (!spawnerConMouse.PuedeColocarMasAliados())
+        {
+            Debug.Log("Ya alcanzaste el límite de 6 aliados.");
+            ActualizarEstado(0);
+            return;
+        }
+
         if (sistemaMonedas == null)
         {
             Debug.LogWarning(
@@ -80,15 +102,14 @@ public class BotonTropaConCosto : MonoBehaviour
             return;
         }
 
+        // Recién después descuenta las monedas.
         if (sistemaMonedas.IntentarGastar(costo))
         {
             alComprarTropa?.Invoke();
         }
         else
         {
-            Debug.Log(
-                "No hay monedas suficientes."
-            );
+            Debug.Log("No hay monedas suficientes.");
         }
     }
 
@@ -99,8 +120,16 @@ public class BotonTropaConCosto : MonoBehaviour
             return;
         }
 
-        boton.interactable =
+        bool tieneMonedas =
             sistemaMonedas != null &&
             sistemaMonedas.PuedePagar(costo);
+
+        bool puedeColocar =
+            spawnerConMouse != null &&
+            spawnerConMouse.PuedeColocarMasAliados();
+
+        boton.interactable =
+            tieneMonedas &&
+            puedeColocar;
     }
 }
