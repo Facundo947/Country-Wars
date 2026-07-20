@@ -359,6 +359,7 @@ GameObject:
   - component: {fileID: 321669312}
   - component: {fileID: 321669310}
   - component: {fileID: 321669309}
+  - component: {fileID: 321669315}
   m_Layer: 5
   m_Name: BotonItalia
   m_TagString: Untagged
@@ -496,6 +497,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &321669315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321669307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
+--- !u!1001 &404891857
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 289091732780377029, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: sonidoBoton
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
+    - target: {fileID: 289091732780377029, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: sonidoHover
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
+    - target: {fileID: 3530626274171851810, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 990.71216
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530626274171851810, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 641.7691
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530626274171851810, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530626274171851810, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530626274171851810, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530626274171851810, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530626274171851810, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530626274171851810, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530626274171851810, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530626274171851810, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565715479570961423, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164364745843218318, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -2822023827813903316, guid: e9f0b25605cbeed49ab56e08efcfd8df, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
 --- !u!1001 &433901504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -613,10 +695,11 @@ GameObject:
   m_Component:
   - component: {fileID: 626270139}
   - component: {fileID: 626270142}
-  - component: {fileID: 626270144}
   - component: {fileID: 626270143}
   - component: {fileID: 626270141}
   - component: {fileID: 626270140}
+  - component: {fileID: 626270146}
+  - component: {fileID: 626270145}
   m_Layer: 5
   m_Name: BotonBrasil
   m_TagString: Untagged
@@ -742,7 +825,19 @@ MonoBehaviour:
   nombreEscena: Nivel 9
   numeroPais: 4
   candado: {fileID: 1913562879}
---- !u!114 &626270144
+--- !u!114 &626270145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626270138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
+--- !u!114 &626270146
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -946,10 +1041,11 @@ GameObject:
   m_Component:
   - component: {fileID: 890196778}
   - component: {fileID: 890196781}
-  - component: {fileID: 890196783}
   - component: {fileID: 890196782}
   - component: {fileID: 890196780}
   - component: {fileID: 890196779}
+  - component: {fileID: 890196785}
+  - component: {fileID: 890196784}
   m_Layer: 5
   m_Name: BotonHolanda
   m_TagString: Untagged
@@ -1075,7 +1171,19 @@ MonoBehaviour:
   nombreEscena: Nivel 3
   numeroPais: 2
   candado: {fileID: 433901506}
---- !u!114 &890196783
+--- !u!114 &890196784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890196777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
+--- !u!114 &890196785
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1482,6 +1590,7 @@ GameObject:
   - component: {fileID: 1252661297}
   - component: {fileID: 1252661295}
   - component: {fileID: 1252661294}
+  - component: {fileID: 1252661299}
   m_Layer: 5
   m_Name: BotonJapon
   m_TagString: Untagged
@@ -1619,6 +1728,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+--- !u!114 &1252661299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252661292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &1457219842
 GameObject:
   m_ObjectHideFlags: 0
@@ -2273,3 +2394,4 @@ SceneRoots:
   - {fileID: 973275604}
   - {fileID: 1200241668}
   - {fileID: 118585510}
+  - {fileID: 404891857}

@@ -478,9 +478,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 140156853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &205600547
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,9 +636,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 205600547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &219353407
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,9 +980,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 330848458}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &340854787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,17 +1215,57 @@ PrefabInstance:
     m_TransformParent: {fileID: 933119385}
     m_Modifications:
     - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_fontSize
+      value: 45.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
     - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1767906708764720730, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_hasFontAssetChanged
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 736263285622293307, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 736263285622293307, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896923016342041389, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148789917926532191, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148789917926532191, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148789917926532191, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2716497995014620705, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
+    - target: {fileID: 2716497995014620705, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1767906708764720730, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
     - target: {fileID: 2716497995014620705, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 1
@@ -1233,6 +1273,18 @@ PrefabInstance:
     - target: {fileID: 3513122482005814917, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_Name
       value: SistemaPausaCompleto
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648900858792901550, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648900858792901550, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648900858792901550, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5928318034660425156, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1272,6 +1324,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5928318034660425156, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382889602902805035, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 377.5362
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382889602902805035, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 48.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382889602902805035, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -30.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916174574780219317, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916174574780219317, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7038621261555844778, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
@@ -1316,6 +1388,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4614748959270818936, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       insertIndex: -1
       addedObject: {fileID: 962481235}
+    - targetCorrespondingSourceObject: {fileID: 3890896887742041065, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1242421155}
   m_SourcePrefab: {fileID: 100100000, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
 --- !u!114 &474780476 stripped
 MonoBehaviour:
@@ -2183,9 +2258,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 691048927}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &740218496
 GameObject:
   m_ObjectHideFlags: 0
@@ -3448,9 +3523,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1132195392}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &1166377179
 GameObject:
   m_ObjectHideFlags: 0
@@ -3530,6 +3605,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1242421154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3890896887742041065, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+  m_PrefabInstance: {fileID: 474780475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1242421155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242421154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &1314341717
 GameObject:
   m_ObjectHideFlags: 0

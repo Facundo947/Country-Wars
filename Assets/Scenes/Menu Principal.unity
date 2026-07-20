@@ -863,8 +863,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
-  audioSource: {fileID: 1196824809}
-  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
 --- !u!1 &839748092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,8 +1021,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
-  audioSource: {fileID: 1196824809}
-  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
 --- !u!1 &1110500590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,13 +1285,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
-  audioSource: {fileID: 1196824809}
-  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
---- !u!82 &1196824809 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 8164364745843218318, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
-  m_PrefabInstance: {fileID: 90082726513546888}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1308560192
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,8 +2100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
-  audioSource: {fileID: 1196824809}
-  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
 --- !u!1 &1735992063
 GameObject:
   m_ObjectHideFlags: 0
@@ -2496,8 +2483,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
-  audioSource: {fileID: 1196824809}
-  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
 --- !u!1 &2011076713
 GameObject:
   m_ObjectHideFlags: 0
@@ -2656,8 +2641,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
-  audioSource: {fileID: 1196824809}
-  hoverSound: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
 --- !u!1 &2125565912
 GameObject:
   m_ObjectHideFlags: 0
@@ -2741,6 +2724,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 289091732780377029, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
+      propertyPath: sonidoHover
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d4fbb26b4fb3f34285e361864c9b995, type: 3}
     - target: {fileID: 289091732780377029, guid: 029bd5699862b34429a926e6f0dc562c, type: 3}
       propertyPath: sonidoDerrota
       value: 

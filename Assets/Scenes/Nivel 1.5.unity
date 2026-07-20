@@ -305,9 +305,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 123528819}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &336635131
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,9 +802,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 394765353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &440711305
 GameObject:
   m_ObjectHideFlags: 0
@@ -3074,9 +3074,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1402137057}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
+--- !u!1 &1460630860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3890896887742041065, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+  m_PrefabInstance: {fileID: 1242833728445447940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1460630861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460630860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &1567366411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3307,9 +3324,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1595401154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1001 &1605606914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4167,9 +4184,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1898392708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &1899959551
 GameObject:
   m_ObjectHideFlags: 0
@@ -4480,17 +4497,57 @@ PrefabInstance:
     m_TransformParent: {fileID: 345465051}
     m_Modifications:
     - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_fontSize
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
     - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1767906708764720730, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
+    - target: {fileID: 475333829241365619, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_hasFontAssetChanged
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 736263285622293307, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 736263285622293307, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 896923016342041389, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148789917926532191, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148789917926532191, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148789917926532191, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2716497995014620705, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
+    - target: {fileID: 2716497995014620705, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1767906708764720730, guid: 77a39227b63e6e44dbb459356b62d382, type: 2}
     - target: {fileID: 2716497995014620705, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 1
@@ -4502,6 +4559,18 @@ PrefabInstance:
     - target: {fileID: 3890896887742041065, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648900858792901550, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648900858792901550, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648900858792901550, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5928318034660425156, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4543,6 +4612,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6382889602902805035, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 277.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382889602902805035, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0015726
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382889602902805035, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916174574780219317, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916174574780219317, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7038621261555844778, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -4578,6 +4667,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4614748959270818936, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1242833728445447949}
+    - targetCorrespondingSourceObject: {fileID: 3890896887742041065, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1460630861}
   m_SourcePrefab: {fileID: 100100000, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
 --- !u!114 &1242833728445447941 stripped
 MonoBehaviour:

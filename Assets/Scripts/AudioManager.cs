@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
 
     [Header("Efectos")]
     [SerializeField] private AudioClip sonidoBoton;
+    [SerializeField] private AudioClip sonidoHover;
     [SerializeField] private AudioClip sonidoVictoria;
     [SerializeField] private AudioClip sonidoDerrota;
 
@@ -75,7 +76,6 @@ public class AudioManager : MonoBehaviour
 
     public void ReproducirMusicaMenu()
     {
-        // Detiene victoria o derrota si todavía están sonando.
         if (fuenteEfectos != null)
         {
             fuenteEfectos.Stop();
@@ -87,7 +87,6 @@ public class AudioManager : MonoBehaviour
 
     public void ReproducirMusicaGameplay()
     {
-        // Detiene victoria o derrota si todavía están sonando.
         if (fuenteEfectos != null)
         {
             fuenteEfectos.Stop();
@@ -108,8 +107,6 @@ public class AudioManager : MonoBehaviour
             return;
         }
 
-        // Si la misma música ya está sonando,
-        // continúa y no empieza desde cero.
         if (fuenteMusica.clip == nuevaMusica &&
             fuenteMusica.isPlaying)
         {
@@ -131,6 +128,15 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    public void ReproducirSonidoHover()
+    {
+        if (fuenteEfectos != null &&
+            sonidoHover != null)
+        {
+            fuenteEfectos.PlayOneShot(sonidoHover);
+        }
+    }
+
     public void ReproducirSonidoVictoria()
     {
         if (fuenteMusica != null)
@@ -145,7 +151,8 @@ public class AudioManager : MonoBehaviour
             fuenteEfectos.clip = null;
         }
 
-        if (fuenteEfectos != null && sonidoVictoria != null)
+        if (fuenteEfectos != null &&
+            sonidoVictoria != null)
         {
             fuenteEfectos.clip = sonidoVictoria;
             fuenteEfectos.loop = false;
@@ -167,7 +174,8 @@ public class AudioManager : MonoBehaviour
             fuenteEfectos.clip = null;
         }
 
-        if (fuenteEfectos != null && sonidoDerrota != null)
+        if (fuenteEfectos != null &&
+            sonidoDerrota != null)
         {
             fuenteEfectos.clip = sonidoDerrota;
             fuenteEfectos.loop = false;

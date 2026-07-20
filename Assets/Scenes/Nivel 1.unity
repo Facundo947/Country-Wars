@@ -305,9 +305,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 123528819}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &336635131
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,9 +802,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 394765353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &440711305
 GameObject:
   m_ObjectHideFlags: 0
@@ -3074,9 +3074,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1402137057}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
+--- !u!1 &1524582384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3890896887742041065, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+  m_PrefabInstance: {fileID: 1242833728445447940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1524582386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524582384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &1567366411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3307,9 +3324,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1595401154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1001 &1605606914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4167,9 +4184,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1898392708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Script: {fileID: 11500000, guid: 260cd5d1176de424687c292e0f6575d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverSound
 --- !u!1 &1899959551
 GameObject:
   m_ObjectHideFlags: 0
@@ -4517,7 +4534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 896923016342041389, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1148789917926532191, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4546,6 +4563,10 @@ PrefabInstance:
     - target: {fileID: 3513122482005814917, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_Name
       value: SistemaPausaCompleto
+      objectReference: {fileID: 0}
+    - target: {fileID: 3513122482005814917, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3890896887742041065, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: m_IsActive
@@ -4658,6 +4679,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4614748959270818936, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1242833728445447949}
+    - targetCorrespondingSourceObject: {fileID: 3890896887742041065, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1524582386}
   m_SourcePrefab: {fileID: 100100000, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
 --- !u!114 &1242833728445447941 stripped
 MonoBehaviour:
