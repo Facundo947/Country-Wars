@@ -3282,6 +3282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BotonTropaConCosto
   sistemaMonedas: {fileID: 947059519}
+  spawnerConMouse: {fileID: 1356791438}
   costo: 10
   textoCosto: {fileID: 1577973846}
   alComprarTropa:
@@ -3470,7 +3471,7 @@ GameObject:
   - component: {fileID: 1356791437}
   - component: {fileID: 1356791438}
   m_Layer: 0
-  m_Name: SpawnerGaucho
+  m_Name: SpawnerConMouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3504,9 +3505,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TropaSpawner
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
-  prefabGuarani: {fileID: 0}
-  prefabEspadachinArgentino: {fileID: 0}
-  prefabSenoraEmpanada: {fileID: 0}
+  prefabGuarani: {fileID: 1502619074922200842, guid: ad8ce740497622a4985c045312481fc8, type: 3}
+  prefabEspadachinArgentino: {fileID: 5139951888898898538, guid: 2e457db7bd39d8c4b8ddda1102ba34d7, type: 3}
+  prefabSenoraEmpanada: {fileID: 2109190612086212204, guid: cf7578b2817b1ee4dbca326b1b2adb7f, type: 3}
+  limiteAliados: 6
 --- !u!1 &1487520161
 GameObject:
   m_ObjectHideFlags: 0

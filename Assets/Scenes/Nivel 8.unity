@@ -1887,54 +1887,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586194304}
   m_CullTransparentMesh: 1
---- !u!1 &590170464
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 590170466}
-  - component: {fileID: 590170465}
-  m_Layer: 0
-  m_Name: SpawnerGuarani
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &590170465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590170464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 524946f492944874e984d46322d15684, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerConMouse
-  prefabGaucho: {fileID: 0}
-  prefabGuarani: {fileID: 1502619074922200842, guid: ad8ce740497622a4985c045312481fc8, type: 3}
-  prefabEspadachinArgentino: {fileID: 0}
-  prefabSenoraEmpanada: {fileID: 0}
---- !u!4 &590170466
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590170464}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1034930915}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &637752974
 GameObject:
   m_ObjectHideFlags: 0
@@ -2969,6 +2921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BotonTropaConCosto
   sistemaMonedas: {fileID: 952711887}
+  spawnerConMouse: {fileID: 1067736005}
   costo: 10
   textoCosto: {fileID: 586194306}
   alComprarTropa:
@@ -3135,8 +3088,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1067736004}
-  - {fileID: 590170466}
-  - {fileID: 1588748476}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1049084388
@@ -3225,7 +3176,7 @@ GameObject:
   - component: {fileID: 1067736004}
   - component: {fileID: 1067736005}
   m_Layer: 0
-  m_Name: SpawnerGaucho
+  m_Name: SpawnerConMouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3259,9 +3210,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TropaSpawner
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
-  prefabGuarani: {fileID: 0}
-  prefabEspadachinArgentino: {fileID: 0}
-  prefabSenoraEmpanada: {fileID: 0}
+  prefabGuarani: {fileID: 1502619074922200842, guid: ad8ce740497622a4985c045312481fc8, type: 3}
+  prefabEspadachinArgentino: {fileID: 5139951888898898538, guid: 2e457db7bd39d8c4b8ddda1102ba34d7, type: 3}
+  prefabSenoraEmpanada: {fileID: 2109190612086212204, guid: cf7578b2817b1ee4dbca326b1b2adb7f, type: 3}
+  limiteAliados: 6
 --- !u!1 &1083996953
 GameObject:
   m_ObjectHideFlags: 0
@@ -4348,12 +4300,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BotonTropaConCosto
   sistemaMonedas: {fileID: 952711887}
+  spawnerConMouse: {fileID: 1067736005}
   costo: 20
   textoCosto: {fileID: 488659056}
   alComprarTropa:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 590170465}
+      - m_Target: {fileID: 1067736005}
         m_TargetAssemblyTypeName: SpawnerConMouse, Assembly-CSharp
         m_MethodName: ActivarColocacionGuarani
         m_Mode: 1
@@ -4731,54 +4684,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83693f71466d4349b8db4fee8ab4e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SonidoVictoria
---- !u!1 &1588748474
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1588748476}
-  - component: {fileID: 1588748475}
-  m_Layer: 0
-  m_Name: SpawnerGaucho
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1588748475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588748474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 524946f492944874e984d46322d15684, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerConMouse
-  prefabGaucho: {fileID: 0}
-  prefabGuarani: {fileID: 0}
-  prefabEspadachinArgentino: {fileID: 5139951888898898538, guid: 2e457db7bd39d8c4b8ddda1102ba34d7, type: 3}
-  prefabSenoraEmpanada: {fileID: 0}
---- !u!4 &1588748476
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588748474}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1034930915}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1628402391
 GameObject:
   m_ObjectHideFlags: 0
@@ -4880,12 +4785,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BotonTropaConCosto
   sistemaMonedas: {fileID: 952711887}
+  spawnerConMouse: {fileID: 1067736005}
   costo: 40
   textoCosto: {fileID: 1364690134}
   alComprarTropa:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1887052332}
+      - m_Target: {fileID: 1067736005}
         m_TargetAssemblyTypeName: SpawnerConMouse, Assembly-CSharp
         m_MethodName: ActivarColocacionEspadachinArgentino
         m_Mode: 1
@@ -5044,54 +4950,6 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1400.6117, y: 659.0075, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1887052331
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1887052333}
-  - component: {fileID: 1887052332}
-  m_Layer: 0
-  m_Name: SpawnerGranadero
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1887052332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887052331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 524946f492944874e984d46322d15684, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerConMouse
-  prefabGaucho: {fileID: 0}
-  prefabGuarani: {fileID: 0}
-  prefabEspadachinArgentino: {fileID: 5139951888898898538, guid: 2e457db7bd39d8c4b8ddda1102ba34d7, type: 3}
-  prefabSenoraEmpanada: {fileID: 0}
---- !u!4 &1887052333
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887052331}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.19, y: -3.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5525,5 +5383,4 @@ SceneRoots:
   - {fileID: 48566520}
   - {fileID: 933119385}
   - {fileID: 1628402393}
-  - {fileID: 1887052333}
   - {fileID: 347008019}

@@ -467,6 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BotonTropaConCosto
   sistemaMonedas: {fileID: 439844810}
+  spawnerConMouse: {fileID: 1893020625}
   costo: 10
   textoCosto: {fileID: 482291485}
   alComprarTropa:
@@ -543,7 +544,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1893020624}
-  - {fileID: 1051766320}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &221080363
@@ -2162,54 +2162,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020299427}
   m_CullTransparentMesh: 1
---- !u!1 &1051766318
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1051766320}
-  - component: {fileID: 1051766319}
-  m_Layer: 0
-  m_Name: SpawnerGuarani
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1051766319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051766318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 524946f492944874e984d46322d15684, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnerConMouse
-  prefabGaucho: {fileID: 0}
-  prefabGuarani: {fileID: 1502619074922200842, guid: ad8ce740497622a4985c045312481fc8, type: 3}
-  prefabEspadachinArgentino: {fileID: 0}
-  prefabSenoraEmpanada: {fileID: 0}
---- !u!4 &1051766320
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051766318}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 214427551}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1052266703
 GameObject:
   m_ObjectHideFlags: 0
@@ -3535,12 +3487,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BotonTropaConCosto
   sistemaMonedas: {fileID: 439844810}
+  spawnerConMouse: {fileID: 1893020625}
   costo: 20
   textoCosto: {fileID: 1065260987}
   alComprarTropa:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1051766319}
+      - m_Target: {fileID: 1893020625}
         m_TargetAssemblyTypeName: SpawnerConMouse, Assembly-CSharp
         m_MethodName: ActivarColocacionGuarani
         m_Mode: 1
@@ -4621,7 +4574,7 @@ GameObject:
   - component: {fileID: 1893020624}
   - component: {fileID: 1893020625}
   m_Layer: 0
-  m_Name: SpawnerGaucho
+  m_Name: SpawnerConMouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4655,9 +4608,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TropaSpawner
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
-  prefabGuarani: {fileID: 0}
-  prefabEspadachinArgentino: {fileID: 0}
-  prefabSenoraEmpanada: {fileID: 0}
+  prefabGuarani: {fileID: 1502619074922200842, guid: ad8ce740497622a4985c045312481fc8, type: 3}
+  prefabEspadachinArgentino: {fileID: 5139951888898898538, guid: 2e457db7bd39d8c4b8ddda1102ba34d7, type: 3}
+  prefabSenoraEmpanada: {fileID: 2109190612086212204, guid: cf7578b2817b1ee4dbca326b1b2adb7f, type: 3}
+  limiteAliados: 6
 --- !u!1 &1909930799
 GameObject:
   m_ObjectHideFlags: 0
