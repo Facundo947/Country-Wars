@@ -11,6 +11,12 @@ public class SpawnerConMouse : MonoBehaviour
     [Header("Tropas iniciales")]
     [SerializeField] private int limiteAliados = 6;
 
+    [Header("Zona permitida para colocar tropas")]
+    [SerializeField] private float limiteIzquierdo = -8f;
+    [SerializeField] private float limiteDerecho = 1f;
+    [SerializeField] private float alturaMinima = -4f;
+    [SerializeField] private float alturaMaxima = -1f;
+
     private GameObject tropaSeleccionada;
     private bool colocandoTropa;
     private int aliadosColocados;
@@ -27,29 +33,24 @@ public class SpawnerConMouse : MonoBehaviour
 
     public void ActivarColocacionEspadachinArgentino()
     {
-        SeleccionarTropa(
-            prefabEspadachinArgentino
-        );
+        SeleccionarTropa(prefabEspadachinArgentino);
     }
 
     public void ActivarColocacionSenoraEmpanada()
     {
-        SeleccionarTropa(
-            prefabSenoraEmpanada
-        );
+        SeleccionarTropa(prefabSenoraEmpanada);
     }
 
     public bool PuedeColocarMasAliados()
     {
-        // Después de comenzar la batalla,
-        // permite comprar más tropas.
+        // Durante la ejecución permite comprar más tropas.
         if (GameManager.Instance != null &&
             GameManager.Instance.EnEjecucion())
         {
             return true;
         }
 
-        // Antes de comenzar, solo permite 6.
+        // Durante la planeación solamente permite 6.
         return aliadosColocados < limiteAliados;
     }
 
@@ -106,6 +107,7 @@ public class SpawnerConMouse : MonoBehaviour
             );
 
             colocandoTropa = false;
+            tropaSeleccionada = null;
             return;
         }
 
@@ -115,6 +117,23 @@ public class SpawnerConMouse : MonoBehaviour
             );
 
         posicionMouse.z = 0f;
+
+        bool dentroDeZona =
+            posicionMouse.x >= limiteIzquierdo &&
+            posicionMouse.x <= limiteDerecho &&
+            posicionMouse.y >= alturaMinima &&
+            posicionMouse.y <= alturaMaxima;
+
+        if (!dentroDeZona)
+        {
+            Debug.Log(
+                "No podés colocar tropas en esa zona."
+            );
+
+            // No cancela la compra.
+            // Podés volver a hacer clic en una zona válida.
+            return;
+        }
 
         Instantiate(
             tropaSeleccionada,
@@ -135,5 +154,23 @@ public class SpawnerConMouse : MonoBehaviour
 
         tropaSeleccionada = null;
         colocandoTropa = false;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Vector3 centro = new Vector3(
+            (limiteIzquierdo + limiteDerecho) / 2f,
+            (alturaMinima + alturaMaxima) / 2f,
+            0f
+        );
+
+        Vector3 tamanio = new Vector3(
+            limiteDerecho - limiteIzquierdo,
+            alturaMaxima - alturaMinima,
+            0f
+        );
+
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireCube(centro, tamanio);
     }
 }
