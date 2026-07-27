@@ -1009,6 +1009,7 @@ GameObject:
   - component: {fileID: 659145253}
   - component: {fileID: 659145252}
   - component: {fileID: 659145251}
+  - component: {fileID: 659145254}
   m_Layer: 5
   m_Name: Comenzar
   m_TagString: Untagged
@@ -1129,6 +1130,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659145249}
   m_CullTransparentMesh: 1
+--- !u!114 &659145254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659145249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ff1f9da88f59948bc7eb2432d9545a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SonidoBoton
 --- !u!1 &665605374
 GameObject:
   m_ObjectHideFlags: 0
