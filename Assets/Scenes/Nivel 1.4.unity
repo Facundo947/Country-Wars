@@ -3869,10 +3869,10 @@ MonoBehaviour:
   prefabEspadachinArgentino: {fileID: 5139951888898898538, guid: 2e457db7bd39d8c4b8ddda1102ba34d7, type: 3}
   prefabSenoraEmpanada: {fileID: 2109190612086212204, guid: cf7578b2817b1ee4dbca326b1b2adb7f, type: 3}
   limiteAliados: 6
-  limiteIzquierdo: -14
-  limiteDerecho: -5
-  alturaMinima: -2
-  alturaMaxima: -5
+  limiteIzquierdo: -14.6
+  limiteDerecho: -5.29
+  alturaMinima: -4.6
+  alturaMaxima: -1.54
 --- !u!4 &1840557448
 Transform:
   m_ObjectHideFlags: 0

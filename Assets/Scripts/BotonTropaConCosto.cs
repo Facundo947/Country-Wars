@@ -38,7 +38,8 @@ public class BotonTropaConCosto : MonoBehaviour
 
         if (sistemaMonedas != null)
         {
-            sistemaMonedas.MonedasCambiadas += ActualizarEstado;
+            sistemaMonedas.MonedasCambiadas +=
+                ActualizarEstado;
         }
     }
 
@@ -52,18 +53,6 @@ public class BotonTropaConCosto : MonoBehaviour
         ActualizarEstado(0);
     }
 
-    private void OnDisable()
-    {
-        if (boton != null)
-        {
-            boton.onClick.RemoveListener(IntentarComprar);
-        }
-
-        if (sistemaMonedas != null)
-        {
-            sistemaMonedas.MonedasCambiadas -= ActualizarEstado;
-        }
-    }
     private void Update()
     {
         ActualizarEstado(
@@ -72,6 +61,23 @@ public class BotonTropaConCosto : MonoBehaviour
                 : 0
         );
     }
+
+    private void OnDisable()
+    {
+        if (boton != null)
+        {
+            boton.onClick.RemoveListener(
+                IntentarComprar
+            );
+        }
+
+        if (sistemaMonedas != null)
+        {
+            sistemaMonedas.MonedasCambiadas -=
+                ActualizarEstado;
+        }
+    }
+
     private void IntentarComprar()
     {
         if (spawnerConMouse == null)
@@ -84,11 +90,12 @@ public class BotonTropaConCosto : MonoBehaviour
             return;
         }
 
-        // Primero comprueba si todavía hay lugar.
         if (!spawnerConMouse.PuedeColocarMasAliados())
         {
-            Debug.Log("Ya alcanzaste el límite de 6 aliados.");
-            ActualizarEstado(0);
+            Debug.Log(
+                "Ya alcanzaste el límite de tropas iniciales."
+            );
+
             return;
         }
 
@@ -102,14 +109,20 @@ public class BotonTropaConCosto : MonoBehaviour
             return;
         }
 
-        // Recién después descuenta las monedas.
         if (sistemaMonedas.IntentarGastar(costo))
         {
+            spawnerConMouse.RegistrarCompraPendiente(
+                sistemaMonedas,
+                costo
+            );
+
             alComprarTropa?.Invoke();
         }
         else
         {
-            Debug.Log("No hay monedas suficientes.");
+            Debug.Log(
+                "No hay monedas suficientes."
+            );
         }
     }
 

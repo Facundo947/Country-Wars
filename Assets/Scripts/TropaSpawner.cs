@@ -21,6 +21,10 @@ public class SpawnerConMouse : MonoBehaviour
     private bool colocandoTropa;
     private int aliadosColocados;
 
+    // Datos de la compra que todavía no fue colocada.
+    private SistemaMonedas sistemaMonedasCompra;
+    private int costoPendiente;
+
     public void ActivarColocacionGaucho()
     {
         SeleccionarTropa(prefabGaucho);
@@ -43,15 +47,24 @@ public class SpawnerConMouse : MonoBehaviour
 
     public bool PuedeColocarMasAliados()
     {
-        // Durante la ejecución permite comprar más tropas.
+        // Durante la batalla puede seguir comprando tropas.
         if (GameManager.Instance != null &&
             GameManager.Instance.EnEjecucion())
         {
             return true;
         }
 
-        // Durante la planeación solamente permite 6.
+        // Durante la planeación solo permite 6.
         return aliadosColocados < limiteAliados;
+    }
+
+    public void RegistrarCompraPendiente(
+        SistemaMonedas sistemaMonedas,
+        int costo
+    )
+    {
+        sistemaMonedasCompra = sistemaMonedas;
+        costoPendiente = Mathf.Max(0, costo);
     }
 
     private void SeleccionarTropa(GameObject prefab)
@@ -63,8 +76,8 @@ public class SpawnerConMouse : MonoBehaviour
                 "Presioná COMENZAR."
             );
 
-            colocandoTropa = false;
-            tropaSeleccionada = null;
+            ReembolsarCompra();
+            CancelarColocacion();
             return;
         }
 
@@ -74,6 +87,8 @@ public class SpawnerConMouse : MonoBehaviour
                 "Falta asignar el prefab de la tropa."
             );
 
+            ReembolsarCompra();
+            CancelarColocacion();
             return;
         }
 
@@ -90,8 +105,8 @@ public class SpawnerConMouse : MonoBehaviour
 
         if (!PuedeColocarMasAliados())
         {
-            colocandoTropa = false;
-            tropaSeleccionada = null;
+            ReembolsarCompra();
+            CancelarColocacion();
             return;
         }
 
@@ -106,8 +121,8 @@ public class SpawnerConMouse : MonoBehaviour
                 "No se encontró la cámara principal."
             );
 
-            colocandoTropa = false;
-            tropaSeleccionada = null;
+            ReembolsarCompra();
+            CancelarColocacion();
             return;
         }
 
@@ -127,11 +142,12 @@ public class SpawnerConMouse : MonoBehaviour
         if (!dentroDeZona)
         {
             Debug.Log(
-                "No podés colocar tropas en esa zona."
+                "No podés colocar tropas en esa zona. " +
+                "Se devolvieron las monedas."
             );
 
-            // No cancela la compra.
-            // Podés volver a hacer clic en una zona válida.
+            ReembolsarCompra();
+            CancelarColocacion();
             return;
         }
 
@@ -141,10 +157,11 @@ public class SpawnerConMouse : MonoBehaviour
             Quaternion.identity
         );
 
+        FinalizarCompra();
+
         aliadosColocados++;
 
-        // Solo registra las primeras tropas
-        // durante la planeación.
+        // Solo registra las tropas iniciales.
         if (GameManager.Instance != null &&
             GameManager.Instance.EnPlaneacion())
         {
@@ -152,6 +169,30 @@ public class SpawnerConMouse : MonoBehaviour
                 .RegistrarTropaColocada();
         }
 
+        CancelarColocacion();
+    }
+
+    private void ReembolsarCompra()
+    {
+        if (sistemaMonedasCompra != null &&
+            costoPendiente > 0)
+        {
+            sistemaMonedasCompra.AgregarMonedas(
+                costoPendiente
+            );
+        }
+
+        FinalizarCompra();
+    }
+
+    private void FinalizarCompra()
+    {
+        sistemaMonedasCompra = null;
+        costoPendiente = 0;
+    }
+
+    private void CancelarColocacion()
+    {
         tropaSeleccionada = null;
         colocandoTropa = false;
     }
