@@ -180,10 +180,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 627f1ac2fd639004f8942b5d2df3d1ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TropaJaponesa
+  nivelActual: 1
+  aumentoVelocidadPorNivel: 0.1
+  aumentoVidaPorNivel: 1
+  aumentoDanioPorNivel: 1
+  reduccionTiempoAtaquePorNivel: 0.1
   velocidad: 2
-  vidaMaxima: 170
-  danio: 15
-  rangoAtaque: 0.6
+  vidaMaxima: 171
+  danio: 16
+  rangoAtaque: 0.5
   tiempoEntreAtaques: 2
   capaAliada:
     serializedVersion: 2

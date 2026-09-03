@@ -372,7 +372,7 @@ Transform:
   m_GameObject: {fileID: 13565773}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.3, y: -2.2, z: 0}
+  m_LocalPosition: {x: -7.74, y: -0.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -434,7 +434,7 @@ Transform:
   m_GameObject: {fileID: 100068347}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.8, y: 0.1, z: 0}
+  m_LocalPosition: {x: -3.55, y: -0.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1531,7 +1531,7 @@ MonoBehaviour:
   - puntoSpawn: {fileID: 100068348}
     prefabEnemigo: {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
   - puntoSpawn: {fileID: 13565774}
-    prefabEnemigo: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
+    prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - puntoSpawn: {fileID: 43816485}
     prefabEnemigo: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - puntoSpawn: {fileID: 479429570}
@@ -5089,7 +5089,7 @@ Transform:
   m_GameObject: {fileID: 2100401764}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.26, y: 1.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
