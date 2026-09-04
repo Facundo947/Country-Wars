@@ -1405,7 +1405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.77
+      value: -3.52
       objectReference: {fileID: 0}
     - target: {fileID: 801610349822411591, guid: 4def9738eea432f4d84f8544607bbba4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4497,6 +4497,10 @@ PrefabInstance:
     - target: {fileID: 6799332499863126934, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
       propertyPath: m_Name
       value: Bandera Italiana_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6799332499863126934, guid: 5189e36bff9ab70489cba7d253c771e1, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
