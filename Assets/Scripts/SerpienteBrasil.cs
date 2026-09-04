@@ -3,6 +3,12 @@ using System.Collections;
 
 public class SerpienteBrasil : MonoBehaviour
 {
+    [Header("Mejora por nivel")]
+    [SerializeField] private float aumentoVelocidadPorNivel = 0.1f;
+    [SerializeField] private int aumentoVidaPorNivel = 1;
+    [SerializeField] private int aumentoDanioPorNivel = 1;
+    [SerializeField] private float reduccionTiempoAtaquePorNivel = 0.1f;
+
     [Header("Movimiento")]
     [SerializeField] private float velocidad = 2.5f;
     private float velocidadOriginal;
@@ -27,13 +33,57 @@ public class SerpienteBrasil : MonoBehaviour
 
     private void Start()
     {
+        int nivelActual = 1;
+
+        if (GameManager.Instance != null)
+        {
+            nivelActual = GameManager.Instance.ObtenerNivel();
+        }
+
+        int nivelesExtra = nivelActual - 1;
+
+        if (nivelesExtra < 0)
+        {
+            nivelesExtra = 0;
+        }
+
+        // Mejoras por nivel
+        velocidad +=
+            aumentoVelocidadPorNivel * nivelesExtra;
+
+        vidaMaxima +=
+            aumentoVidaPorNivel * nivelesExtra;
+
+        danioMordida +=
+            aumentoDanioPorNivel * nivelesExtra;
+
+        tiempoEntreMordidas -=
+            reduccionTiempoAtaquePorNivel * nivelesExtra;
+
+        if (tiempoEntreMordidas < 0.1f)
+        {
+            tiempoEntreMordidas = 0.1f;
+        }
+
         vidaActual = vidaMaxima;
+
         velocidadOriginal = velocidad;
 
         animator = GetComponent<Animator>();
 
         // Permite atacar inmediatamente al encontrar un enemigo.
         cronometroAtaque = tiempoEntreMordidas;
+
+        // DEBUG
+        Debug.Log("==============================");
+        Debug.Log("SERPIENTE BRASIL - ESTADISTICAS");
+        Debug.Log("Nivel detectado: " + nivelActual);
+        Debug.Log("Niveles extra: " + nivelesExtra);
+        Debug.Log("Vida: " + vidaMaxima);
+        Debug.Log("Daño mordida: " + danioMordida);
+        Debug.Log("Velocidad: " + velocidad);
+        Debug.Log("Tiempo entre mordidas: " + tiempoEntreMordidas);
+        Debug.Log("==============================");
     }
 
     private void Update()

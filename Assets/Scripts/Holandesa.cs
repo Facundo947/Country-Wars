@@ -2,6 +2,11 @@ using UnityEngine;
 
 public class Holandesa : MonoBehaviour
 {
+    [Header("Mejora por nivel")]
+    [SerializeField] private float aumentoVelocidadPorNivel = 0.1f;
+    [SerializeField] private int aumentoVidaPorNivel = 1;
+    [SerializeField] private float reduccionTiempoDisparoPorNivel = 0.1f;
+
     [Header("Movimiento y Rango")]
     [SerializeField] private float velocidadCamino = 2f;
     [SerializeField] private float largoLineaDeteccion = 6f;
@@ -27,9 +32,49 @@ public class Holandesa : MonoBehaviour
 
     private void Start()
     {
+        int nivelActual = 1;
+
+        if (GameManager.Instance != null)
+        {
+            nivelActual = GameManager.Instance.ObtenerNivel();
+        }
+
+        int nivelesExtra = nivelActual - 1;
+
+        if (nivelesExtra < 0)
+        {
+            nivelesExtra = 0;
+        }
+
+        // Mejoras por nivel
+        velocidadCamino +=
+            aumentoVelocidadPorNivel * nivelesExtra;
+
+        vidaMaxima +=
+            aumentoVidaPorNivel * nivelesExtra;
+
+        tiempoEntreDisparos -=
+            reduccionTiempoDisparoPorNivel * nivelesExtra;
+
+        if (tiempoEntreDisparos < 0.1f)
+        {
+            tiempoEntreDisparos = 0.1f;
+        }
+
         vidaActual = vidaMaxima;
+
         miAnimator = GetComponent<Animator>();
         miRigidbody = GetComponent<Rigidbody2D>();
+
+        // DEBUG
+        Debug.Log("==============================");
+        Debug.Log("HOLANDESA - ESTADISTICAS");
+        Debug.Log("Nivel detectado: " + nivelActual);
+        Debug.Log("Niveles extra: " + nivelesExtra);
+        Debug.Log("Vida: " + vidaMaxima);
+        Debug.Log("Velocidad: " + velocidadCamino);
+        Debug.Log("Tiempo entre disparos: " + tiempoEntreDisparos);
+        Debug.Log("==============================");
     }
 
     private void Update()
@@ -66,7 +111,11 @@ public class Holandesa : MonoBehaviour
     // =========================================================
     private void DetectarObjetivo()
     {
-        Debug.DrawRay(transform.position, Vector2.left * largoLineaDeteccion, Color.red);
+        Debug.DrawRay(
+            transform.position,
+            Vector2.left * largoLineaDeteccion,
+            Color.red
+        );
 
         RaycastHit2D hit = Physics2D.Raycast(
             transform.position,
@@ -98,18 +147,27 @@ public class Holandesa : MonoBehaviour
         {
             miRigidbody.linearVelocity = Vector2.zero;
 
-            miAnimator.SetFloat("caminando", 0f);
-            miAnimator.SetFloat("atacando", 1f);
+            if (miAnimator != null)
+            {
+                miAnimator.SetFloat("caminando", 0f);
+                miAnimator.SetFloat("atacando", 1f);
+            }
         }
         else
         {
             objetivoActual = null;
 
             miRigidbody.linearVelocity =
-                new Vector2(-velocidadCamino, miRigidbody.linearVelocity.y);
+                new Vector2(
+                    -velocidadCamino,
+                    miRigidbody.linearVelocity.y
+                );
 
-            miAnimator.SetFloat("caminando", 1f);
-            miAnimator.SetFloat("atacando", 0f);
+            if (miAnimator != null)
+            {
+                miAnimator.SetFloat("caminando", 1f);
+                miAnimator.SetFloat("atacando", 0f);
+            }
         }
     }
 
@@ -119,7 +177,9 @@ public class Holandesa : MonoBehaviour
     private void ControlDisparo()
     {
         if (objetivoActual == null)
+        {
             return;
+        }
 
         cooldown -= Time.deltaTime;
 
@@ -136,7 +196,9 @@ public class Holandesa : MonoBehaviour
     private void DispararFlor()
     {
         if (prefabFlor == null || objetivoActual == null)
+        {
             return;
+        }
 
         GameObject flor = Instantiate(
             prefabFlor,

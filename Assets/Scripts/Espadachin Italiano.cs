@@ -3,6 +3,12 @@ using System.Collections;
 
 public class EspadachinItaliano : MonoBehaviour
 {
+    [Header("Mejora por nivel")]
+    [SerializeField] private float aumentoVelocidadPorNivel = 0.1f;
+    [SerializeField] private int aumentoVidaPorNivel = 1;
+    [SerializeField] private int aumentoDanioPorNivel = 1;
+    [SerializeField] private float reduccionTiempoAtaquePorNivel = 0.1f;
+
     [Header("Movimiento")]
     [SerializeField] private float velocidad = 2f;
     private float velocidadOriginal;
@@ -25,9 +31,54 @@ public class EspadachinItaliano : MonoBehaviour
 
     private void Start()
     {
+        int nivelActual = 1;
+
+        if (GameManager.Instance != null)
+        {
+            nivelActual = GameManager.Instance.ObtenerNivel();
+        }
+
+        int nivelesExtra = nivelActual - 1;
+
+        if (nivelesExtra < 0)
+        {
+            nivelesExtra = 0;
+        }
+
+        // Mejoras por nivel
+        velocidad +=
+            aumentoVelocidadPorNivel * nivelesExtra;
+
+        vidaMaxima +=
+            aumentoVidaPorNivel * nivelesExtra;
+
+        danio +=
+            aumentoDanioPorNivel * nivelesExtra;
+
+        tiempoEntreAtaques -=
+            reduccionTiempoAtaquePorNivel * nivelesExtra;
+
+        if (tiempoEntreAtaques < 0.1f)
+        {
+            tiempoEntreAtaques = 0.1f;
+        }
+
         vidaActual = vidaMaxima;
+
         animator = GetComponent<Animator>();
+
         velocidadOriginal = velocidad;
+
+        // DEBUG
+        Debug.Log("==============================");
+        Debug.Log("ESPADACHÍN ITALIANO - ESTADISTICAS");
+        Debug.Log("Nivel detectado: " + nivelActual);
+        Debug.Log("Niveles extra: " + nivelesExtra);
+        Debug.Log("Vida: " + vidaMaxima);
+        Debug.Log("Daño: " + danio);
+        Debug.Log("Velocidad: " + velocidad);
+        Debug.Log("Tiempo entre ataques: " + tiempoEntreAtaques);
+        Debug.Log("==============================");
     }
 
     private void Update()
@@ -35,7 +86,8 @@ public class EspadachinItaliano : MonoBehaviour
         // ==========================================================
         // FASE DE PLANEACIÓN
         // ==========================================================
-        if (GameManager.Instance != null && GameManager.Instance.EnPlaneacion())
+        if (GameManager.Instance != null &&
+            GameManager.Instance.EnPlaneacion())
         {
             if (animator != null)
             {
@@ -45,6 +97,9 @@ public class EspadachinItaliano : MonoBehaviour
 
             return;
         }
+
+        // ==========================================================
+        // FASE DE EJECUCIÓN
         // ==========================================================
 
         DetectarEnemigo();
@@ -120,14 +175,6 @@ public class EspadachinItaliano : MonoBehaviour
                 if (bandera != null)
                 {
                     bandera.RecibirDanio(danio);
-                }
-                else
-                {
-                    hit.collider.gameObject.SendMessage(
-                        "RecibirDanio",
-                        danio,
-                        SendMessageOptions.DontRequireReceiver
-                    );
                 }
 
                 cronometroAtaque = 0f;

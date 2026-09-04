@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     [Header("Estado del juego")]
     public EstadoJuego estadoActual = EstadoJuego.Planeacion;
 
+    [Header("Nivel")]
+    [SerializeField] private int nivelActual = 1;
+
     [Header("UI")]
     [SerializeField] private GameObject botonComenzar;
 
@@ -41,6 +44,13 @@ public class GameManager : MonoBehaviour
         {
             botonComenzar.SetActive(false);
         }
+    }
+
+
+    // Devuelve el nivel actual
+    public int ObtenerNivel()
+    {
+        return nivelActual;
     }
 
 

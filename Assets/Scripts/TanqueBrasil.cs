@@ -3,6 +3,12 @@ using System.Collections;
 
 public class TanqueBrasil : MonoBehaviour
 {
+    [Header("Mejora por nivel")]
+    [SerializeField] private float aumentoVelocidadPorNivel = 0.1f;
+    [SerializeField] private int aumentoVidaPorNivel = 1;
+    [SerializeField] private int aumentoDanioPorNivel = 1;
+    [SerializeField] private float reduccionTiempoAtaquePorNivel = 0.1f;
+
     [Header("Movimiento")]
     [SerializeField] private float velocidad = 1.2f;
     private float velocidadOriginal;
@@ -27,13 +33,57 @@ public class TanqueBrasil : MonoBehaviour
 
     private void Start()
     {
+        int nivelActual = 1;
+
+        if (GameManager.Instance != null)
+        {
+            nivelActual = GameManager.Instance.ObtenerNivel();
+        }
+
+        int nivelesExtra = nivelActual - 1;
+
+        if (nivelesExtra < 0)
+        {
+            nivelesExtra = 0;
+        }
+
+        // Mejoras por nivel
+        velocidad +=
+            aumentoVelocidadPorNivel * nivelesExtra;
+
+        vidaMaxima +=
+            aumentoVidaPorNivel * nivelesExtra;
+
+        danioPunio +=
+            aumentoDanioPorNivel * nivelesExtra;
+
+        tiempoEntreGolpes -=
+            reduccionTiempoAtaquePorNivel * nivelesExtra;
+
+        if (tiempoEntreGolpes < 0.1f)
+        {
+            tiempoEntreGolpes = 0.1f;
+        }
+
         vidaActual = vidaMaxima;
+
         velocidadOriginal = velocidad;
 
         animator = GetComponent<Animator>();
 
         // Permite atacar inmediatamente al encontrar un objetivo.
         cronometroAtaque = tiempoEntreGolpes;
+
+        // DEBUG
+        Debug.Log("==============================");
+        Debug.Log("TANQUE BRASIL - ESTADISTICAS");
+        Debug.Log("Nivel detectado: " + nivelActual);
+        Debug.Log("Niveles extra: " + nivelesExtra);
+        Debug.Log("Vida: " + vidaMaxima);
+        Debug.Log("Daño puño: " + danioPunio);
+        Debug.Log("Velocidad: " + velocidad);
+        Debug.Log("Tiempo entre golpes: " + tiempoEntreGolpes);
+        Debug.Log("==============================");
     }
 
     private void Update()
@@ -187,3 +237,4 @@ public class TanqueBrasil : MonoBehaviour
         );
     }
 }
+

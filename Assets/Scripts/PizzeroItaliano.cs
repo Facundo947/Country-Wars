@@ -3,6 +3,12 @@ using System.Collections;
 
 public class PizzeroItaliano : MonoBehaviour
 {
+    [Header("Mejora por nivel")]
+    [SerializeField] private float aumentoVelocidadPorNivel = 0.1f;
+    [SerializeField] private int aumentoVidaPorNivel = 1;
+    [SerializeField] private int aumentoDanioPorNivel = 1;
+    [SerializeField] private float reduccionTiempoAtaquePorNivel = 0.1f;
+
     [Header("Movimiento")]
     [SerializeField] private float velocidad = 2f;
     private float velocidadOriginal;
@@ -29,13 +35,57 @@ public class PizzeroItaliano : MonoBehaviour
 
     private void Start()
     {
+        int nivelActual = 1;
+
+        if (GameManager.Instance != null)
+        {
+            nivelActual = GameManager.Instance.ObtenerNivel();
+        }
+
+        int nivelesExtra = nivelActual - 1;
+
+        if (nivelesExtra < 0)
+        {
+            nivelesExtra = 0;
+        }
+
+        // Mejoras por nivel
+        velocidad +=
+            aumentoVelocidadPorNivel * nivelesExtra;
+
+        vidaMaxima +=
+            aumentoVidaPorNivel * nivelesExtra;
+
+        danioPizza +=
+            aumentoDanioPorNivel * nivelesExtra;
+
+        tiempoEntreAtaques -=
+            reduccionTiempoAtaquePorNivel * nivelesExtra;
+
+        if (tiempoEntreAtaques < 0.1f)
+        {
+            tiempoEntreAtaques = 0.1f;
+        }
+
         vidaActual = vidaMaxima;
+
         velocidadOriginal = velocidad;
 
         animator = GetComponent<Animator>();
 
         // Permite atacar inmediatamente al encontrar un enemigo.
         cronometroAtaque = tiempoEntreAtaques;
+
+        // DEBUG
+        Debug.Log("==============================");
+        Debug.Log("PIZZERO ITALIANO - ESTADISTICAS");
+        Debug.Log("Nivel detectado: " + nivelActual);
+        Debug.Log("Niveles extra: " + nivelesExtra);
+        Debug.Log("Vida: " + vidaMaxima);
+        Debug.Log("Daño pizza: " + danioPizza);
+        Debug.Log("Velocidad: " + velocidad);
+        Debug.Log("Tiempo entre ataques: " + tiempoEntreAtaques);
+        Debug.Log("==============================");
     }
 
     private void Update()
