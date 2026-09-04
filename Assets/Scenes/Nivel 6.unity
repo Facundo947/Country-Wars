@@ -1551,8 +1551,8 @@ Transform:
   m_GameObject: {fileID: 763675860}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0952, y: 0.43, z: 0}
-  m_LocalScale: {x: 4.5362396, y: 1.1106844, z: 1}
+  m_LocalPosition: {x: 1.0952, y: 3.1368, z: 0}
+  m_LocalScale: {x: 4.5362396, y: 1.5392416, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4681,10 +4681,10 @@ MonoBehaviour:
   prefabEspadachinArgentino: {fileID: 5139951888898898538, guid: 2e457db7bd39d8c4b8ddda1102ba34d7, type: 3}
   prefabSenoraEmpanada: {fileID: 2109190612086212204, guid: cf7578b2817b1ee4dbca326b1b2adb7f, type: 3}
   limiteAliados: 6
-  limiteIzquierdo: -23
-  limiteDerecho: -14
-  alturaMinima: -6
-  alturaMaxima: -3
+  limiteIzquierdo: -23.4
+  limiteDerecho: -15.6
+  alturaMinima: -4.9
+  alturaMaxima: -3.27
 --- !u!1 &1883810946
 GameObject:
   m_ObjectHideFlags: 0
